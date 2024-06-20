@@ -1,25 +1,4 @@
 # Welcome to positivepsychologys.com
-
-[English|en](README.md)
-[![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
-[![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
-[![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
-[![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
-[![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
-[![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
-[![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
-[![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
-[![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
-[![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
-[![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
-[![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
-[![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
-[![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
-
-
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
 [![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
@@ -38,6 +17,47 @@
 [![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
 [![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
 [![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+
+
+
+[English|en](README.md)
+[简体中文|zh](README.zh.md)
+[Español|es](README.es.md)
+[العربية|ar](README.ar.md)
+[বাংলা|bn](README.bn.md)
+[Português|pt](README.pt.md)
+[Русский|ru](README.ru.md)
+[日本語|ja](README.ja.md)
+[Deutsch|de](README.de.md)
+[Tiếng Việt|vi](README.vi.md)
+[Français|fr](README.fr.md)
+[فارسی|fa](README.fa.md)
+[Türkçe|tr](README.tr.md)
+[한국어|ko](README.ko.md)
+[ไทย|th](README.th.md)
+[Italiano|it](README.it.md)
+[Bahasa Melayu|ms](README.ms.md)
+[Filipino|tl](README.tl.md)
+
+
+[English|en](README.md)
+[简体中文|zh](README.zh.md)
+[Español|es](README.es.md)
+[العربية|ar](README.ar.md)
+[বাংলা|bn](README.bn.md)
+[Português|pt](README.pt.md)
+[Русский|ru](README.ru.md)
+[日本語|ja](README.ja.md)
+[Deutsch|de](README.de.md)
+[Tiếng Việt|vi](README.vi.md)
+[Français|fr](README.fr.md)
+[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[Türkçe|tr](README.tr.md)
+[한국어|ko](README.ko.md)
+[ไทย|th](README.th.md)
+[Italiano|it](README.it.md)
+[Bahasa Melayu|ms](README.ms.md)
+[Filipino|tl](README.tl.md)
 
 
 ## Introduction
