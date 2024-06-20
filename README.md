@@ -19,7 +19,6 @@
 [![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
 
 
-
 [English|en](README.md)
 [简体中文|zh](README.zh.md)
 [Español|es](README.es.md)
@@ -32,26 +31,6 @@
 [Tiếng Việt|vi](README.vi.md)
 [Français|fr](README.fr.md)
 [فارسی|fa](README.fa.md)
-[Türkçe|tr](README.tr.md)
-[한국어|ko](README.ko.md)
-[ไทย|th](README.th.md)
-[Italiano|it](README.it.md)
-[Bahasa Melayu|ms](README.ms.md)
-[Filipino|tl](README.tl.md)
-
-
-[English|en](README.md)
-[简体中文|zh](README.zh.md)
-[Español|es](README.es.md)
-[العربية|ar](README.ar.md)
-[বাংলা|bn](README.bn.md)
-[Português|pt](README.pt.md)
-[Русский|ru](README.ru.md)
-[日本語|ja](README.ja.md)
-[Deutsch|de](README.de.md)
-[Tiếng Việt|vi](README.vi.md)
-[Français|fr](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [Türkçe|tr](README.tr.md)
 [한국어|ko](README.ko.md)
 [ไทย|th](README.th.md)
