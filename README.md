@@ -51,6 +51,8 @@ Here, we celebrate virtues, nurture growth, and champion the freedom to shape on
 
 Join us and let positivity radiate in your life.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Learn more about positive psychology:
 
 - [http://kuakua.app/](http://kuakua.app/)
