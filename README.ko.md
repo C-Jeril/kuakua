@@ -32,6 +32,8 @@ positivepsychologys.com은 긍정심리학 과학에 전념하는 플랫폼입�
 
 우리와 함께 긍정의 힘이 당신의 삶에서 빛을 발하게 하세요.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## 긍정심리학에 대해 더 알아보기:
 
 - [http://kuakua.app/](http://kuakua.app/)
