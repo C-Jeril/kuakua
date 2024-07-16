@@ -31,7 +31,7 @@ positivepsychologys.com یک پلتفرم است که به علم روانشنا
 
 به ما بپیوندید و بگذارید که مثبت بودن در زندگی شما بتابد.
 
-                                                                                                                                        [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
 ## درباره روانشناسی مثبت بیشتر بدانید:
 
