@@ -32,6 +32,8 @@ Aquí, celebramos las virtudes, fomentamos el crecimiento y defendemos la libert
 
 Únete a nosotros y deja que la positividad irradie en tu vida.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Aprende más sobre psicología positiva:
 
 - [http://kuakua.app/](http://kuakua.app/)
