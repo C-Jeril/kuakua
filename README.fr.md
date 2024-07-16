@@ -32,6 +32,8 @@ Ici, nous célébrons les vertus, nourrissons la croissance et défendons la lib
 
 Rejoignez-nous et laissez la positivité rayonner dans votre vie.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## En savoir plus sur la psychologie positive :
 
 - [http://kuakua.app/](http://kuakua.app/)
