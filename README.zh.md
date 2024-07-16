@@ -12,6 +12,12 @@ kuakua.app / positivepsychologys.com 是一个专注于积极心理学的平台�
 
 加入我们，让积极向上的力量在你的生活中闪耀。
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+了解更多关于积极心理学的信息：
+- [http://kuakua.app/](http://kuakua.app/)
+- [http://positivepsychologys.com/](http://positivepsychologys.com/)
+
 ## 积极心理学的发展历史
 
 积极心理学是一门新兴的学科，致力于提升心理健康和幸福感。其目标是帮助个体发现并利用自己的优势，从而实现更高水平的生活满意度和快乐。
@@ -30,8 +36,6 @@ Seligman 和他的同事们认为，心理学应该超越对精神疾病和问�
 
 虽然财务收入在一定程度上能提升幸福感，但超过某个阈值后，其效果可能会趋于平稳甚至下降。积极心理学强调培养个体的积极品质、成长能力和塑造自己命运的自由。
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
-
 ## 积极心理学能为我做什么？
 
 提升幸福感和最佳功能 积极心理学关注提升个体的幸福感和最佳功能，而不仅仅是缓解症状，是对传统心理学的补充而非替代。积极心理学的常见主题包括享受生活、感恩、善行、促进积极关系以及追求希望和意义。
@@ -44,7 +48,18 @@ Seligman 和他的同事们认为，心理学应该超越对精神疾病和问�
 
 积极心理学的主要好处 享受生活：享受和欣赏积极的经历。感恩：认识并感激生活中的美好事物。善行：对他人表现出同情和利他。促进积极关系：建立和维持健康和支持性的关系。追求希望和意义：为目标努力并找到生活的意义。通过关注这些方面，积极心理学帮助个体过上更充实和有韧性的生活。
 
-了解更多关于积极心理学的信息：
+了解更多关于心理学资源的信息：
+- [http://kuakua.app/explore](http://kuakua.app/explore)
+- [http://positivepsychologys.com/explore](http://positivepsychologys.com/explore)
+了解更多关于积极词汇的信息：
+- [http://kuakua.app/vote](http://kuakua.app/vote)
+- [http://positivepsychologys.com/vote](http://positivepsychologys.com/vote)
+了解更多关于心理学知识的信息：
+- [http://kuakua.app/docs](http://kuakua.app/docs)
+- [http://positivepsychologys.com/docs](http://positivepsychologys.com/docs)
 
-- [http://kuakua.app/](http://kuakua.app/)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/)
+
+
+
+
+
