@@ -32,6 +32,8 @@ positivepsychologys.com — это платформа, посвященная н
 
 Присоединяйтесь к нам, и пусть позитивность озарит вашу жизнь.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Узнайте больше о позитивной психологии:
 
 - [http://kuakua.app/](http://kuakua.app/)
