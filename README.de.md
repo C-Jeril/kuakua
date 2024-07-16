@@ -32,6 +32,9 @@ Hier feiern wir Tugenden, fördern Wachstum und verteidigen die Freiheit, das ei
 
 Schließen Sie sich uns an und lassen Sie Positivität in Ihrem Leben strahlen.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+
 ## Erfahren Sie mehr über Positive Psychologie:
 
 - [http://kuakua.app/](http://kuakua.app/)
