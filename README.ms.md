@@ -32,6 +32,8 @@ Di sini, kami meraikan kebajikan, memupuk pertumbuhan, dan mempertahankan kebeba
 
 Bergabunglah dengan kami dan biarkan sifat positif memancar dalam hidup anda.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Ketahui lebih lanjut mengenai psikologi positif:
 
 - [http://kuakua.app/](http://kuakua.app/)
