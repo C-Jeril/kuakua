@@ -32,6 +32,8 @@ positivepsychologys.com は、ポジティブ心理学の科学に専念する�
 
 私たちに参加して、ポジティブな力があなたの生活に輝きをもたらすようにしましょう。
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## ポジティブ心理学についてもっと知る:
 
 - [http://kuakua.app/](http://kuakua.app/)
