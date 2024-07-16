@@ -32,6 +32,8 @@ positivepsychologys.com là một nền tảng dành riêng cho khoa học tâm 
 
 Tham gia cùng chúng tôi và để sự tích cực lan tỏa trong cuộc sống của bạn.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Tìm hiểu thêm về tâm lý học tích cực:
 
 - [http://kuakua.app/](http://kuakua.app/)
