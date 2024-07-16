@@ -32,6 +32,8 @@ Burada erdemleri kutluyor, büyümeyi teşvik ediyor ve kendi kaderinizi şekill
 
 Bize katılın ve pozitifliğin hayatınızda parlamasına izin verin.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Pozitif psikoloji hakkında daha fazla bilgi edinin:
 
 - [http://kuakua.app/](http://kuakua.app/)
