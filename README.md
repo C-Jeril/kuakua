@@ -56,7 +56,6 @@ Join us and let positivity radiate in your life.
 ## Learn more about positive psychology:
 
 - [http://kuakua.app/](http://kuakua.app/)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/)
 
 ## History of Positive Psychology
 
@@ -93,14 +92,11 @@ Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating pos
 ## Learn more about psychology resourses:
 
 - [http://kuakua.app/explore](http://kuakua.app/explore)
-- [http://positivepsychologys.com/explore](http://positivepsychologys.com/explore)
 
 ## Learn more about positive words:
 
 - [http://kuakua.app/vote](http://kuakua.app/vote)
-- [http://positivepsychologys.com/vote](http://positivepsychologys.com/vote)
 
 ## Learn more about psychology knowledge:
 
 - [http://kuakua.app/docs](http://kuakua.app/docs)
-- [http://positivepsychologys.com/docs](http://positivepsychologys.com/docs)
