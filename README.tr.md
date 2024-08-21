@@ -1,5 +1,6 @@
-```markdown
-# positivepsychologys.com'a Hoş Geldiniz
+kuakua.app
+
+# kuakua.app'a Hoş Geldiniz
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -26,7 +27,7 @@ Hoş geldiniz! Pozitif psikolojinin adanmış bir araştırmacısı ve uygulayı
 
 Titiz psikolojik araştırmalar ve pratik uygulamalar yoluyla, herkese 'psikolojik enerji', mutluluk ve sağlık vermeyi amaçlıyoruz ve bizi 'pozitif bir hayata' yönlendiriyoruz.
 
-positivepsychologys.com, pozitif psikoloji bilimine adanmış bir platformdur.
+kuakua.app, pozitif psikoloji bilimine adanmış bir platformdur.
 
 Burada erdemleri kutluyor, büyümeyi teşvik ediyor ve kendi kaderinizi şekillendirme özgürlüğünü savunuyoruz. İlham verici kelimeler ve hikayeler paylaşarak ve etkileşimli oylamalar yoluyla, herkesin içinde yenilmez bir ruh uyandırmayı hedefliyoruz.
 
@@ -35,7 +36,7 @@ Bize katılın ve pozitifliğin hayatınızda parlamasına izin verin.
 ## Pozitif psikoloji hakkında daha fazla bilgi edinin:
 
 - [http://kuakua.app/](http://kuakua.app/)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/)
+- [http://kuakua.app/](http://positivepsychologys.com/)
 
 ## Pozitif Psikolojinin Tarihi
 
@@ -77,7 +78,6 @@ Pozitif psikolojinin temel faydaları Hayatın tadını çıkarma: pozitif deney
 ## Pozitif kelimeler hakkında daha fazla bilgi edinin:
 
 - [http://kuakua.app/](http://kuakua.app/vote)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/vote)
 
 ## Psikoloji bilgileri
 
@@ -85,4 +85,7 @@ hakkında daha fazla bilgi edinin:
 
 - [http://kuakua.app/](http://kuakua.app/docs)
 - [http://positivepsychologys.com/](http://positivepsychologys.com/docs)
+
+```
+
 ```

@@ -1,4 +1,4 @@
-# به positivepsychologys.com خوش آمدید
+# به kuakua.app خوش آمدید
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -25,7 +25,7 @@
 
 از طریق تحقیقات دقیق روانشناسی و کاربردهای عملی، ما تلاش می‌کنیم به همه "انرژی روانشناسی"، خوشبختی و سلامت منتقل کنیم و ما را به سمت "زندگی مثبت" هدایت کنیم.
 
-positivepsychologys.com یک پلتفرم است که به علم روانشناسی مثبت اختصاص داده شده است.
+kuakua.app یک پلتفرم است که به علم روانشناسی مثبت اختصاص داده شده است.
 
 در اینجا، ما فضیلت‌ها را جشن می‌گیریم، رشد را پرورش می‌دهیم و آزادی شکل دادن به سرنوشت خود را ترویج می‌کنیم. با به اشتراک گذاری کلمات و داستان‌های الهام‌بخش، و از طریق رأی‌گیری تعاملی، هدف ما شعله‌ور کردن روحیه‌ای بی‌نظیر در هر فرد است.
 
@@ -34,7 +34,7 @@ positivepsychologys.com یک پلتفرم است که به علم روانشنا
 ## درباره روانشناسی مثبت بیشتر بدانید:
 
 - [http://kuakua.app/](http://kuakua.app/)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/)
+- [http://kuakua.app/](http://positivepsychologys.com/)
 
 ## تاریخچه روانشناسی مثبت
 
@@ -76,7 +76,6 @@ positivepsychologys.com یک پلتفرم است که به علم روانشنا
 ## درباره کلمات مثبت بیشتر بدانید:
 
 - [http://kuakua.app/](http://kuakua.app/vote)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/vote)
 
 ## درباره دانش روانشناسی بیشتر بدانید:
 

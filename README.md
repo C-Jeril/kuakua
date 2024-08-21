@@ -1,4 +1,4 @@
-# Welcome to positivepsychologys.com
+# Welcome to kuakua.app
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -18,6 +18,17 @@
 [![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
 [![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
 [![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+[![Dansk|da](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
+[![Norsk|no](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
+[![Svenska|sv](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
+[![Suomi|fi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
+[![Íslenska|is](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
+[![Nederlands|nl](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
+[![Polski|pl](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
+[![Ελληνικά|el](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
+[![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
+[![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
+[![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
 
 ## Introduction
 
@@ -25,7 +36,7 @@ Greetings, as a dedicated researcher and practitioner of positive psychology, I 
 
 Through rigorous psychological research and practical applications, we strive to impart 'psychological energy,' happiness, and health to all, guiding us toward a 'positive life.'
 
-positivepsychologys.com is a platform dedicated to the science of positive psychology.
+kuakua.app is a platform dedicated to the science of positive psychology.
 
 Here, we celebrate virtues, nurture growth, and champion the freedom to shape one's destiny. By sharing uplifting words and narratives, and through interactive voting, we aim to kindle an indomitable spirit within everyone.
 
@@ -34,7 +45,6 @@ Join us and let positivity radiate in your life.
 ## Learn more about positive psychology:
 
 - [http://kuakua.app/](http://kuakua.app/)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/)
 
 ## History of Positive Psychology
 
@@ -68,17 +78,18 @@ Auxiliary Role While positive psychology does not have a significant effect on r
 
 Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating positive experiences. Gratitude: Recognizing and being thankful for the good things in life. Kindness: Practicing compassion and altruism towards others. Promoting Positive Relationships: Building and maintaining healthy and supportive relationships. Pursuing Hope and Meaning: Striving for goals and finding purpose in life. By focusing on these aspects, positive psychology helps individuals lead more fulfilling and resilient lives.
 
+## Learn more about psychology research:
+
+- [Kuakua | Psychology Theories & Insights](http://kuakua.app/theories-insights)
+
 ## Learn more about psychology resourses:
 
-- [http://kuakua.app/](http://kuakua.app/explore)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/explore)
+- [Kuakua | Discover Psychology Websites, Applications & AI Tools](http://kuakua.app/explore)
 
 ## Learn more about positive words:
 
-- [http://kuakua.app/](http://kuakua.app/vote)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/vote)
+- [Kuakua | Vote for positive words & happy language](http://kuakua.app/vote)
 
 ## Learn more about psychology knowledge:
 
-- [http://kuakua.app/](http://kuakua.app/docs)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/docs)
+- [Kuakua | Psychology Documentation: Everything About Psychology](http://kuakua.app/docs)
