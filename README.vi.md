@@ -42,6 +42,8 @@ Tại đây, chúng tôi tôn vinh các đức tính, nuôi dưỡng sự phát 
 
 Hãy tham gia cùng chúng tôi và để sự tích cực tỏa sáng trong cuộc sống của bạn.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Tìm hiểu thêm về tâm lý học tích cực:
 
 - [http://kuakua.app/](http://kuakua.app/)

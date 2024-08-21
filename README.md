@@ -3,7 +3,7 @@
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
 [![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
+[![العربية](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
 [![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
 [![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
 [![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
@@ -11,7 +11,7 @@
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
 [![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -30,6 +30,25 @@
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
 
+[English](README.md)
+[简体中文](README.zh.md)
+[Español](README.es.md)
+[العربية](README.ar.md)
+[বাংলা](README.bn.md)
+[Português](README.pt.md)
+[Русский](README.ru.md)
+[日本語](README.ja.md)
+[Deutsch](README.de.md)
+[Tiếng Việt](README.vi.md)
+[Français](README.fr.md)
+[فارسی](README.fa.md)
+[Türkçe](README.tr.md)
+[한국어](README.ko.md)
+[ไทย](README.th.md)
+[Italiano](README.it.md)
+[Bahasa Melayu](README.ms.md)
+[Filipino](README.tl.md)
+
 ## Introduction
 
 Greetings, as a dedicated researcher and practitioner of positive psychology, I firmly believe in humanity's intrinsic positivity and capacity for growth.
@@ -41,6 +60,8 @@ kuakua.app is a platform dedicated to the science of positive psychology.
 Here, we celebrate virtues, nurture growth, and champion the freedom to shape one's destiny. By sharing uplifting words and narratives, and through interactive voting, we aim to kindle an indomitable spirit within everyone.
 
 Join us and let positivity radiate in your life.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
 ## Learn more about positive psychology:
 
@@ -92,4 +113,4 @@ Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating pos
 
 ## Learn more about psychology knowledge:
 
-- [Kuakua | Psychology Documentation: Everything About Psychology](http://kuakua.app/docs)
+- # [Kuakua | Psychology Documentation: Everything About Psychology](http://kuakua.app/docs)

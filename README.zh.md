@@ -42,6 +42,8 @@ kuakua.app 是一个专注于积极心理学的科学平台。
 
 加入我们，让积极的能量在您的生活中散发光芒。
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## 了解更多关于积极心理学的信息：
 
 - [http://kuakua.app/](http://kuakua.app/)

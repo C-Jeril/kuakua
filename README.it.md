@@ -42,6 +42,8 @@ Qui, celebriamo le virtù, coltiviamo la crescita e sosteniamo la libertà di pl
 
 Unisciti a noi e lascia che la positività irradi nella tua vita.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Scopri di più sulla psicologia positiva:
 
 - [http://kuakua.app/](http://kuakua.app/)

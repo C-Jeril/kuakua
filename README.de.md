@@ -44,6 +44,10 @@ Begleiten Sie uns und lassen Sie Positivität in Ihrem Leben erstrahlen.
 
 ## Mehr über Positive Psychologie erfahren:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## Erfahren Sie mehr über Positive Psychologie:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## Geschichte der Positiven Psychologie

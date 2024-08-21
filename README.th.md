@@ -42,6 +42,8 @@ kuakua.app เป็นแพลตฟอร์มที่ทุ่มเทใ
 
 เข้าร่วมกับเราและให้พลังบวกส่องสว่างในชีวิตของคุณ
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## เรียนรู้เพิ่มเติมเกี่ยวกับจิตวิทยาเชิงบวก:
 
 - [http://kuakua.app/](http://kuakua.app/)

@@ -44,6 +44,10 @@ kuakua.app هو منصة مخصصة لعلم النفس الإيجابي.
 
 ## تعرف على المزيد حول علم النفس الإيجابي:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## بیشتر درباره روان‌شناسی مثبت بدانید:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## تاريخ علم النفس الإيجابي

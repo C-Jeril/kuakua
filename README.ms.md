@@ -42,6 +42,8 @@ Di sini, kami meraikan kebajikan, memupuk pertumbuhan, dan menyokong kebebasan u
 
 Sertai kami dan biarkan positiviti bersinar dalam hidup anda.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Ketahui lebih lanjut mengenai psikologi positif:
 
 - [http://kuakua.app/](http://kuakua.app/)

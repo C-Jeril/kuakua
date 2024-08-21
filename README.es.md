@@ -44,6 +44,10 @@ Aquí, celebramos las virtudes, fomentamos el crecimiento y defendemos la libert
 
 ## Conozca más sobre la psicología positiva:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## Aprende más sobre psicología positiva:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## Historia de la Psicología Positiva

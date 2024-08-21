@@ -44,6 +44,10 @@ Sumali sa amin at hayaang magningning ang positibismo sa iyong buhay.
 
 ## Matuto nang higit pa tungkol sa positibong sikolohiya:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## Alamin ang higit pa tungkol sa positibong sikolohiya:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## Kasaysayan ng Positibong Sikolohiya

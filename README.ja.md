@@ -44,6 +44,10 @@ kuakua.app は、積極心理学の科学に特化したプラットフォーム
 
 ## 積極心理学について詳しく知る:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## ポジティブ心理学についてもっと知る:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## 積極心理学の歴史

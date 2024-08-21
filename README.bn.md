@@ -42,6 +42,9 @@ kuakua.app হল ইতিবাচক মনোবিজ্ঞানের ব
 
 আমাদের সাথে যোগ দিন এবং আপনার জীবনে ইতিবাচকতা ছড়িয়ে দিন।
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+
 ## ইতিবাচক মনোবিজ্ঞান সম্পর্কে আরও জানুন:
 
 - [http://kuakua.app/](http://kuakua.app/)

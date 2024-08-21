@@ -44,6 +44,10 @@ kuakua.app은 긍정 심리학의 과학에 헌신하는 플랫폼입니다.
 
 ## 긍정 심리학에 대해 더 알아보세요:
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+## 긍정심리학에 대해 더 알아보기:
+
 - [http://kuakua.app/](http://kuakua.app/)
 
 ## 긍정 심리학의 역사
