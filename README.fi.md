@@ -42,6 +42,8 @@ Täällä juhlimme hyveitä, edistämme kasvua ja puolustamme vapautta muovata o
 
 Liity meihin ja anna positiivisuuden säteillä elämässäsi.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Lisätietoja positiivisesta psykologiasta:
 
 - [http://kuakua.app/](http://kuakua.app/)

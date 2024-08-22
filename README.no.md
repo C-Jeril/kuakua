@@ -42,6 +42,8 @@ Her feirer vi dyder, nærer vekst og fremmer friheten til å forme sin skjebne. 
 
 Bli med oss og la positivitet stråle i ditt liv.
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
 ## Lær mer om positiv psykologi:
 
 - [http://kuakua.app/](http://kuakua.app/)
