@@ -80,9 +80,17 @@ kuakua.app 是一个专注于积极心理学的科学平台。
 
 积极心理学的主要益处 享受生活：享受并珍惜积极的体验。感恩：认识并感激生活中的美好事物。善良：对他人实践同情和利他主义。促进积极关系：建立和维持健康和支持的关系。追求希望和意义：努力实现目标并找到生活的意义。通过关注这些方面，积极心理学帮助个人过上更充实、更有韧性的生活。
 
-## 了解更多关于心理学研究的信息：
+## 了解更多关于心理学实验研究的信息：
 
-- [Kuakua | 心理学理论与见解](http://kuakua.app/theories-insights)
+- [Kuakua | 心理学实验](http://kuakua.app/experiment)
+
+## 了解更多关于心理学问卷测验的信息：
+
+- [Kuakua | 心理学问卷测验](http://kuakua.app/test)
+
+## 了解更多关于心理学游戏的信息：
+
+- [Kuakua | 心理学游戏](http://kuakua.app/games)
 
 ## 了解更多关于心理学资源的信息：
 
@@ -95,3 +103,95 @@ kuakua.app 是一个专注于积极心理学的科学平台。
 ## 了解更多关于心理学知识的信息：
 
 - [Kuakua | 心理学文档：关于心理学的一切](http://kuakua.app/docs)
+
+ ## 了解更多关于心理学研究的信息：
+
+- [Kuakua | 心理学理论与见解](http://kuakua.app/theories-insights)
+---
+其他页面
+
+
+### 1. 反应时间测试 / Reaction Time Test
+
+  在 5 次点击中测量你的神经反射速度，并和全球用户排名比拼。反应时被公认是评估专注力与神经传导效率的黄金指标。
+  [https://kuakua.app/games/reaction-time](https://kuakua.app/games/reaction-time)
+
+### 2. 黑猩猩记忆测试 / Chimp Memory Test
+
+  挑战灵长类级别的瞬时记忆，把 1-9 的数字顺序点完再刷新记忆极限！
+  [https://kuakua.app/games/chimp-test](https://kuakua.app/games/chimp-test)
+
+### 3. 打字速度测试 / Typing Speed Test
+
+  一分钟极限打字，实时计算 WPM 与准确率，适合练手速也适合朋友 PK。
+  [https://kuakua.app/games/typing-test](https://kuakua.app/games/typing-test)
+
+### 4. 数学速算挑战 / Math Speed Test
+
+  心算 + 时间压力双重刺激，考验工作记忆与计算策略。
+  [https://kuakua.app/games/quick-mental-math](https://kuakua.app/games/quick-mental-math)
+
+### 5. 视觉记忆游戏 / Visual Memory Game
+
+  方块闪烁→记住位置→点击回忆，关卡逐渐扩张，检验短时记忆上限 (7±2)。
+  [https://kuakua.app/games/visual-memory](https://kuakua.app/games/visual-memory)
+
+### 6. 序列记忆测试 / Sequence Memory Test
+
+  挑战模式记忆与顺序回放，难度随正确率自适应。
+  [https://kuakua.app/games/sequence-memory](https://kuakua.app/games/sequence-memory)
+
+### 7. 爱的五种语言测试 / Five Love Languages Quiz
+
+  15 道题发现你的主要「爱语」，学习如何用对方的语言表达关怀。
+  [https://kuakua.app/tests/love-language-test](https://kuakua.app/test/love-language-test)
+
+### 8. 自恋人格问卷 / Narcissistic Personality Inventory
+
+  40 题 NPI 自评，区分健康自信与潜在病理自恋。
+  [https://kuakua.app/test/narcissistic-personality-inventory](https://kuakua.app/test/narcissistic-personality-inventory)
+
+### 9. 网络成瘾评估 / Internet Addiction Test
+  基于 Young 教授 IAT 量表，20 题快速了解自己是否过度依赖网络。
+  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction-assessment)
+
+### 10. 隐性联想测验 / Implicit Association Test
+  快速分类任务揭示潜在偏见，源自哈佛大学隐性联想项目 Project Implicit。
+  [https://kuakua.app/experiment/implicit-association](https://kuakua.app/experiment/implicit-association-test)
+
+### 11. N-Back 工作记忆任务
+  经典双 N-Back 训练，研究表明有助提升流体智力。
+  [https://kuakua.app/experiment/n-back-task](https://kuakua.app/experiment/n-back-task)
+
+### 12. 威斯康星卡片分类测验 / Wisconsin Card Sorting Task
+  通过颜色、形状、数量三规则的随机切换，评估认知灵活性与前额叶功能。
+  [https://kuakua.app/experiment/wcst-test](https://kuakua.app/experiment/wcst-test)
+
+### 13. 负启动实验 / Negative Priming Experiment
+  先抑制后回应的范式，体验注意抑制产生的反应迟缓。
+  [https://kuakua.app/experiment/negative-priming](https://kuakua.app/experiment/negative-priming)
+
+### 14. 视觉搜索任务 / Visual Search Task
+  在干扰项中找目标，体验“特征 VS 结合”搜索差异。
+  [https://kuakua.app/experiment/visual-search-task](https://kuakua.app/experiment/visual-search-task)
+
+### 15. 汉诺塔益智 / Tower of Hanoi
+  经典规划难题，考查执行功能与问题分解策略。
+  [https://kuakua.app/experiment/hanoi-tower](https://kuakua.app/experiment/hanoi-tower)
+
+### 16. 啤酒配送模拟 / Beer Distribution Game
+  扮演供应链四角色，对抗“牛鞭效应”，理解库存信息延迟的成本。
+  [https://kuakua.app/games/beerdistributiongame](https://kuakua.app/games/beerdistributiongame)
+
+### 17. 人生重启模拟器 / Life Restart Simulator
+
+  五分钟重活一生，从天赋抽卡到多结局收集，体味选择与随机事件交织。
+  [https://kuakua.app/games/life-restart](https://kuakua.app/games/life-restart)
+
+### 18. 正能量词汇投票 / Positive Vocabulary Vote
+  给喜欢的积极词语点赞，参与构建全球幸福词典，研究显示学习正向词汇能提升主观幸福感。
+  [https://kuakua.app/vote](https://kuakua.app/vote)
+
+### 19. 每日赞卡 / Daily Positive Cards
+  随机抽取一句肯定语或感恩提示，形成每日积极启动仪式。
+  [https://kuakua.app/drawcard](https://kuakua.app/drawcard)
