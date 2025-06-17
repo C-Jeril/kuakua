@@ -114,3 +114,86 @@ Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating pos
 ## Learn more about psychology knowledge:
 
 - # [Kuakua | Psychology Documentation: Everything About Psychology](http://kuakua.app/docs)
+
+
+---
+
+Others:
+
+### 1. Reaction Time Test
+  Click when the screen flashes and see how fast your reflexes are compared with world averages. Reaction time is widely used in cognitive-neuroscience as a core measure of processing speed.
+  [https://kuakua.app/games/reaction-time](https://kuakua.app/games/reaction-time)
+
+### 2. Chimp Memory Test
+  A fast-paced numeric span task inspired by research showing chimpanzees can sometimes out-perform humans on spatial recall.
+  [https://kuakua.app/games/chimp-test](https://kuakua.app/games/chimp-test)
+
+### 3. Typing Speed Test
+  Type for 60 s, get instant words-per-minute and accuracy, and track skill growth over time (great for keyboard warriors!).
+  [https://kuakua.app/games/typing-test](https://kuakua.app/games/typing-test)
+
+### 4. Math Speed Test
+  Rapid-fire arithmetic drills your working-memory buffer while pushing cognitive load to its limit.
+  [https://kuakua.app/games/quick-mental-math](https://kuakua.app/games/quick-mental-math)
+
+### 5. Visual Memory Game
+  Remember flashing squares in ever-growing grids; a playful way to feel Miller’s “magic number 7 ± 2” in action.
+  [https://kuakua.app/games/visual-memory](https://kuakua.app/games/visual-memory)
+
+### 6. Sequence Memory Test
+  Tap symbols in the exact order they appeared; levels adapt to your performance for a just-right difficulty curve.
+  [https://kuakua.app/games/sequence-memory](https://kuakua.app/games/sequence-memory)
+
+### 7. Five Love Languages Quiz
+  Discover which of Chapman's five languages—Words, Time, Gifts, Acts, Touch—speaks loudest to you and your partner.
+  [https://kuakua.app/tests/love-language-test](https://kuakua.app/test/love-language-test)
+
+### 8. Narcissistic Personality Inventory
+  A classic 40-item NPI screener that maps you on the spectrum from normal self-esteem to sub-clinical narcissism.
+  [https://kuakua.app/test/narcissistic-personality-inventory](https://kuakua.app/test/narcissistic-personality-inventory)
+
+### 9. Internet Addiction Test
+  The 20-item IAT flags problematic online use and offers insight into digital-wellness habits.
+  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction)
+
+### 10. Implicit Association Test
+  A keyboard-speed pairing task exposing subconscious associations that traditional surveys miss.
+  [https://kuakua.app/experiment/implicit-association](https://kuakua.app/experiment/implicit-association-test)
+
+### 11. N-Back Work Memory Task
+  Continuously match stimuli n-steps back; rigorous brain-gym favoured in cognition labs worldwide.
+  [https://kuakua.app/experiment/n-back-task](https://kuakua.app/experiment/n-back-task)
+
+### 12. Wisconsin Card Sorting Task
+  Sort cards while hidden rules keep changing—a gold-standard executive-function probe.
+  [https://kuakua.app/experiment/wcst-test](https://kuakua.app/experiment/wcst-test)
+
+### 13. Negative Priming Experiment
+  Ignore then respond—feel how latent inhibition slows you down in classic negative-priming trials.
+  [https://kuakua.app/experiment/negative-priming](https://kuakua.app/experiment/negative-priming)
+
+### 14. Visual Memory Task
+  Hunt for a target among distractors and see how feature vs. conjunction search changes your reaction times.
+  [https://kuakua.app/experiment/visual-memory](https://kuakua.app/experiment/visual-memory)
+
+### 15. Tower of Hanoi
+  Move disks with minimal steps; a timeless benchmark for planning and rule-shifting.
+  [https://kuakua.app/experiment/tower-of-hanoi](https://kuakua.app/experiment/tower-of-hanoi)
+
+### 16. Beer Distribution Game
+  Classic MIT beer-game lets you feel coordination pain and the bullwhip effect in real-time.
+  [https://kuakua.app/games/beerdistributiongame](https://kuakua.app/games/beerdistributiongame)
+
+### 17. Life Restart Simulator
+  Roll talents, make yearly choices, and speed-run an entire lifetime in 5 minutes—collect all endings!
+  [https://kuakua.app/games/life-restart](https://kuakua.app/games/life-restart)
+
+### 18.  Positive Vocabulary Vote
+  Help crowd-source a lexicon of uplifting words—linguistic savoring is linked to higher well-being.
+  [https://kuakua.app/vote](https://kuakua.app/vote)
+
+### 19. Daily Positive Cards
+  Draw a quick affirmation or gratitude prompt each morning—micro-rituals proven to boost mood and resilience.
+  [https://kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+
