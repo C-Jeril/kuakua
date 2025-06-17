@@ -107,8 +107,11 @@ kuakua.app 是一个专注于积极心理学的科学平台。
  ## 了解更多关于心理学研究的信息：
 
 - [Kuakua | 心理学理论与见解](http://kuakua.app/theories-insights)
+
+  
 ---
-其他页面
+
+## 其他页面
 
 
 ### 1. 反应时间测试 / Reaction Time Test
