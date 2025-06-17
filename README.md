@@ -154,7 +154,7 @@ Others:
 
 ### 9. Internet Addiction Test
   The 20-item IAT flags problematic online use and offers insight into digital-wellness habits.
-  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction)
+  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction-assessment)
 
 ### 10. Implicit Association Test
   A keyboard-speed pairing task exposing subconscious associations that traditional surveys miss.
@@ -172,13 +172,13 @@ Others:
   Ignore then respond—feel how latent inhibition slows you down in classic negative-priming trials.
   [https://kuakua.app/experiment/negative-priming](https://kuakua.app/experiment/negative-priming)
 
-### 14. Visual Memory Task
+### 14. Visual Search Task
   Hunt for a target among distractors and see how feature vs. conjunction search changes your reaction times.
-  [https://kuakua.app/experiment/visual-memory](https://kuakua.app/experiment/visual-memory)
+  [https://kuakua.app/experiment/visual-search-task](https://kuakua.app/experiment/visual-search-task)
 
 ### 15. Tower of Hanoi
   Move disks with minimal steps; a timeless benchmark for planning and rule-shifting.
-  [https://kuakua.app/experiment/tower-of-hanoi](https://kuakua.app/experiment/tower-of-hanoi)
+ [https://kuakua.app/experiment/hanoi-tower](https://kuakua.app/experiment/hanoi-tower)
 
 ### 16. Beer Distribution Game
   Classic MIT beer-game lets you feel coordination pain and the bullwhip effect in real-time.
