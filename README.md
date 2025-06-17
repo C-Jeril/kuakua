@@ -99,26 +99,39 @@ Auxiliary Role While positive psychology does not have a significant effect on r
 
 Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating positive experiences. Gratitude: Recognizing and being thankful for the good things in life. Kindness: Practicing compassion and altruism towards others. Promoting Positive Relationships: Building and maintaining healthy and supportive relationships. Pursuing Hope and Meaning: Striving for goals and finding purpose in life. By focusing on these aspects, positive psychology helps individuals lead more fulfilling and resilient lives.
 
-## Learn more about psychology research:
 
-- [Kuakua | Psychology Theories & Insights](http://kuakua.app/theories-insights)
+## Learn more about psychology experimental research:
 
-## Learn more about psychology resourses:
+- [Kuakua | Psychology Experiment](http://kuakua.app/experiment)
 
-- [Kuakua | Discover Psychology Websites, Applications & AI Tools](http://kuakua.app/explore)
+## Learn more about psychology questionnaire tests:
+
+- [Kuakua | Psychology Questionnaire Test](http://kuakua.app/test)
+
+## Learn more about psychology games:
+
+- [Kuakua | Psychology Games](http://kuakua.app/games)
+
+## Learn more about psychology resources:
+
+- [Kuakua | Discover psychology websites, apps, and AI tools](http://kuakua.app/explore)
 
 ## Learn more about positive words:
 
-- [Kuakua | Vote for positive words & happy language](http://kuakua.app/vote)
+- [Kuakua | Vote for positive words and happy language](http://kuakua.app/vote)
 
 ## Learn more about psychology knowledge:
 
-- # [Kuakua | Psychology Documentation: Everything About Psychology](http://kuakua.app/docs)
+- [Kuakua | Psychology Docs: Everything about Psychology](http://kuakua.app/docs)
 
+## Learn more about psychology research:
+
+- [Kuakua | Psychology Theories and Insights](http://kuakua.app/theories-insights)
+  
 
 ---
 
-Others:
+## Others:
 
 ### 1. Reaction Time Test
   Click when the screen flashes and see how fast your reflexes are compared with world averages. Reaction time is widely used in cognitive-neuroscience as a core measure of processing speed.
