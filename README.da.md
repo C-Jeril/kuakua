@@ -1,4 +1,4 @@
-# Velkommen til kuakua.app
+# Kuakua - Psykologi og Velværeplatform
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -29,69 +29,97 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Introduktion
+## Platformoversigt
 
-Velkommen, som en dedikeret forsker og praktiker inden for positiv psykologi, tror jeg stærkt på menneskehedens iboende positivitet og evne til vækst.
+| Modul | Indhold | Beskrivelse |
+|--------|-----------|-------------|
+| 🎮 **Spil** | 140+ spil | Puslespil, kognitive udfordringer, afslapningsspil og klassikere |
+| 📋 **Tests** | 150+ tests | Validerede psykologiske skalaer og selvbedømmelsesværktøjer |
+| 🧪 **Eksperimenter** | 90+ eksperimenter | Klassiske kognitive paradigmer og eksperimentelle opgaver |
+| 🛠️ **Værktøjer** | 30+ værktøjer | Fokusflow, pointtavle, ordtæller og mere |
+| 📚 **Dokumentation** | 200+ artikler | Vidensbase for psykologiteorier og forskning |
+| ✍️ **Blog** | 200+ indlæg | Artikler om mental sundhed og personlig udvikling |
 
-Gennem rigorøs psykologisk forskning og praktiske anvendelser stræber vi efter at give 'psykologisk energi', lykke og sundhed til alle, og vejleder os mod et 'positivt liv.'
+## Teknologistack
 
-kuakua.app er en platform dedikeret til videnskaben om positiv psykologi.
+| Teknologi | Version | Formål |
+|-----------|---------|---------|
+| **Next.js** | 16.1.6 | React-framework (App Router) |
+| **TypeScript** | 5.9.3 | Typesikker JavaScript |
+| **Tailwind CSS** | 4.2.1 | Utility-first styling |
+| **DaisyUI** | 5.5.18 | Komponentbibliotek |
+| **next-intl** | 4.1.0 | Internationalisering (32 sprog) |
+| **Zustand** | 5.0.11 | Tilstandsstyring |
+| **Framer Motion** | 12.35.2 | Animationsbibliotek |
+| **Supabase** | - | Database (PostgreSQL) |
+| **Vercel** | - | Implementeringsplatform |
 
-Her fejrer vi dyder, nærer vækst og fremmer friheden til at forme ens skæbne. Ved at dele opløftende ord og fortællinger, og gennem interaktive afstemninger, sigter vi mod at vække en ukuelig ånd i hver enkelt.
+## Hovedmoduler
 
-Deltag i os, og lad positivitet stråle i dit liv.
+### 🎮 Spil
+Samling af over 140 interaktive spil, herunder:
+- **Puslespil**: Snake, 2048, Tetris, Minesweeper
+- **Kognitive udfordringer**: Stroop-test, hukommelsesspil, N-back
+- **Afslapningsspil**: Afslapnings- og mindfulness-spil
+- **Klassiske spil**: Pacman, Space Invaders, Breakout
+
+### 📋 Psykologiske Tests
+Over 150 psykologiske selvbedømmelsesværktøjer:
+- **Validerede skalaer**: PHQ-9, GAD-7, Big Five, PSS
+- **Personlighedsbedømmelse**: MBTI, Enneagram, VIA Strengths
+- **Velværesmåling**: SWLS, FFMQ, RSES
+- **Specialiserede bedømmelser**: PTSD, angst, depressionsscreening
+
+### 🧪 Kognitive Eksperimenter
+Over 90 interaktive eksperimentelle opgaver:
+- **Opmærksomhed**: Stroop-effekt, Flanker-opgave
+- **Hukommelse**: N-back, ciffer-spann, visuel hukommelse
+- **Beslutningstagning**: Iowa Gambling Task, risikovurdering
+- **Reaktion**: Go/No-Go, valgreaktionstid
+
+### 🛠️ Værktøjer
+Over 30 praktiske værktøjer:
+- **Produktivitet**: Fokusflow, Pomodoro-timer
+- **Analyse**: Pointtavle, fremskridtssporing
+- **Skrivning**: Ordtæller, journalmaler
+- **Afslapning**: Åndedrætsøvelser, meditationstimer
+
+## Positiv Psykologi
+
+Positiv psykologi er et videnskabeligt felt dedikeret til at forbedre mental sundhed og lykke. Grundlagt af Martin Seligman og Mihaly Csikszentmihalyi, fokuserer det på menneskelige styrker, dyder og optimal funktion.
+
+### Nøglebegreber
+- **Eudaimonia**: Blomstring og selvrealisering
+- **PERMA-modellen**: Positive følelser, engagement, relationer, mening, præstation
+- **Subjektivt velvære**: Livstilfredshed og glæde
+- **Karakterstyrker**: 24 styrker i VIA-klassificeringen
+
+## Udvalgt Indhold
+
+| Kategori | Indhold | Beskrivelse |
+|--------|-----------|-------------|
+| 📖 **Teorier** | 50+ teorier | Psykologiteorier og forskning |
+| 🔬 **Forskning** | 100+ studier | Aktuel psykologisk forskning |
+| 🌟 **Praksis** | 80+ øvelser | Praktiske velværesøvelser |
+| 💡 **Indsigt** | 120+ artikler | Indsigt for personlig udvikling |
+
+## Hurtige Links
+
+- 🌐 **Hjemmeside**: [kuakua.app](https://kuakua.app)
+- 📚 **Dokumentation**: [kuakua.app/docs](https://kuakua.app/docs)
+- 🎮 **Spil**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Tests**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Eksperimenter**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Værktøjer**: [kuakua.app/tools](https://kuakua.app/tools)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🔍 **Udforsk**: [kuakua.app/explore](https://kuakua.app/explore)
+
+## Vores Mission
+
+Kuakua er forpligtet til at skabe psykologisk velfunderede, etisk ansvarlige og globalt tilgængelige værktøjer og indhold, der hjælper enkeltpersoner med bedre at forstå sig selv og deres velvære.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
-
-## Lær mere om positiv psykologi:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Historien om positiv psykologi
-
-Positiv psykologi, et fremvoksende felt, er dedikeret til at forbedre mental sundhed og lykke. Dens mål er at hjælpe enkeltpersoner med at opdage og udnytte deres styrker, og dermed opnå højere niveauer af livstilfredshed og glæde.
-
-Udviklingen af positiv psykologi begyndte i slutningen af det 20. århundrede og blev formelt introduceret i 1997. Dette felt fik anerkendelse gennem udgivelsen af 'Positive Psychology: An Introduction' af Martin Seligman og Mihaly Csikszentmihalyi i januar 2000.
-
-Fremmet af psykologen Martin Seligman og hans kolleger, repræsenterer positiv psykologi et revolutionerende skift inden for psykologiens felt og markerer en ny milepæl i menneskesamfundets historie. Det bygger bro mellem Østens og Vestens visdom og psykologisk forskning.
-
-Seligman og hans kolleger argumenterer for, at psykologi bør gå ud over studiet af psykiske sygdomme og problemer for at udforske måder at forbedre mental sundhed og lykke. Positiv psykologi anvender videnskabelige metoder til at studere lykke og fremmer en positiv orientering inden for feltet, med fokus på at udvikle positive psykologiske træk, velvære og harmonisk udvikling.
-
-Centralt i positiv psykologi er begrebet eudaimonia, et udtryk fra Aristotelisk filosofi, der betegner det højeste menneskelige gode, ofte oversat som 'blomstring' eller 'det gode liv.' Positive psykologer bruger ofte termerne subjektivt velvære (SWB) og lykke synonymt.
-
-Feltet prioriterer forbedring af både individuel og samfundsmæssig velvære, ved at studere 'positive subjektive oplevelser, positive individuelle træk og positive institutioner... med det formål at forbedre livskvaliteten.'
-
-De mener, at forskellige faktorer bidrager til lykke og subjektivt velvære, såsom sociale forbindelser med ægtefæller, familie, venner, kolleger og bredere netværk; medlemskab af klubber eller sociale organisationer; fysisk træning og meditationspraksis.
-
-Åndelighed anses også som en faktor, der kan forbedre velvære. Forskere fortsætter med at studere åndelige praksisser og religiøs hengivenhed som potentielle kilder til velvære og integrerede dele af positiv psykologi.
-
-Mens økonomisk indkomst kan øge lykken til en vis grad, kan dens effekt flade ud eller endda falde, når en bestemt grænse overskrides. Positiv psykologi lægger vægt på at udvikle en persons positive egenskaber, evnen til vækst og friheden til at forme sin egen skæbne.
-
-## Hvad gør positiv psykologi for mig?
-
-Forbedring af velvære og optimal funktion Positiv psykologi fokuserer på at forbedre individers velvære og optimale funktion i stedet for blot at lindre symptomer, og supplerer snarere end erstatter traditionel psykologi. Almindelige temaer i positiv psykologi inkluderer at nyde livet, taknemmelighed, venlighed, fremme af positive relationer og forfølgelse af håb og mening.
-
-Fokus på velvære Forskning viser, at velvære og psykopatologi er moderat korreleret, men alligevel uafhængige konstruktioner af mental sundhed. Selv efter vellykket behandling af psykopatologi, kan lave niveauer af velvære vedvare, hvilket udgør en betydelig risikofaktor for psykisk nød.
-
-Afhjælpning af psykiske symptomer Høje niveauer af velvære kan beskytte mod psykiske symptomer, herunder tilbagefald eller gentagelse af symptomer, og forbedre livskvaliteten og levetiden. Derfor kan kliniske prøver have stor gavn af positive psykologiske interventioner (PPIs), der eksplicit sigter mod at forbedre velvære, såsom positive følelser, kognition eller adfærd.
-
-Hjælperolle Mens positiv psykologi ikke har en betydelig effekt på at lindre stress relateret til lykke, depression eller angst, er dens evne til indirekte at afhjælpe psykisk nød ved at forbedre velvære bredt anerkendt.
-
-Nøglefordele ved positiv psykologi At nyde livet: At nyde og værdsætte positive oplevelser. Taknemmelighed: At anerkende og være taknemmelig for de gode ting i livet. Venlighed: At praktisere medfølelse og altruisme over for andre. Fremme af positive relationer: At opbygge og opretholde sunde og støttende relationer. Forfølgelse af håb og mening: At stræbe efter mål og finde mening i livet. Ved at fokusere på disse aspekter, hjælper positiv psykologi enkeltpersoner med at leve mere tilfredsstillende og robuste liv.
-
-## Lær mere om psykologisk forskning:
-
-- [Kuakua | Psykologi Teorier & Indsigt](http://kuakua.app/theories-insights)
-
-## Lær mere om psykologiske ressourcer:
-
-- [Kuakua | Oplev Psykologi Hjemmesider, Applikationer & AI Værktøjer](http://kuakua.app/explore)
-
-## Lær mere om positive ord:
-
-- [Kuakua | Stem på positive ord & lykkelig sprog](http://kuakua.app/vote)
-
-## Lær mere om psykologisk viden:
-
-- [Kuakua | Psykologi Dokumentation: Alt om Psykologi](http://kuakua.app/docs)

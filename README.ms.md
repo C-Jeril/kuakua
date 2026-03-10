@@ -1,97 +1,189 @@
-# Selamat datang ke kuakua.app
+# Kuakua - Platform Psikologi dan Kesejahteraan Komprehensif
 
-[![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
-[![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
-[![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
-[![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
-[![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
-[![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
-[![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
-[![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
-[![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
-[![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
-[![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
-[![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
-[![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
-[![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
-[![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
-[![Dansk|da](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
-[![Norsk|no](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
-[![Svenska|sv](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
-[![Suomi|fi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
-[![Íslenska|is](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
-[![Nederlands|nl](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
-[![Polski|pl](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
-[![Ελληνικά|el](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
-[![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
-[![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
-[![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![English](https://img.shields.io/badge/lang-en-green.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
+[![Español](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![日本語](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
+[![Deutsch](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
+[![Français](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![Português](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
+[![Русский](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
+[![한국어](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
+[![Italiano](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
+[![العربية](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![ไทย](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
+[![Tiếng Việt](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
+[![Türkçe](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
+[![Bahasa Melayu](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
+[![বাংলা](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
+[![Nederlands](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
+[![Polski](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
+[![Ελληνικά](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
+[![Čeština](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
+[![Magyar](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
+[![Română](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![Svenska](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
+[![Norsk](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
+[![Dansk](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
+[![Suomi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
+[![Íslenska](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
+[![Filipino](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+[![हिन्दी](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Pengenalan
+## Gambaran Platform
 
-Salam sejahtera, sebagai penyelidik dan pengamal psikologi positif yang berdedikasi, saya percaya sepenuhnya kepada positif intrinsik dan kemampuan pertumbuhan manusia.
+| Modul | Kandungan | Penerangan |
+|-------|-----------|------------|
+| 🎮 **Permainan** | 140+ permainan | Teka-teki, cabaran kognitif, permainan relaksasi, klasik Google |
+| 📋 **Ujian** | 150+ ujian | Ujian psikologi berasaskan sains, penilaian kendiri |
+| 🧪 **Eksperimen** | 90+ eksperimen | Paradigma kognitif klasik, tugasan eksperimen interaktif |
+| 🔧 **Alat** | 30+ alat | Alat praktikal untuk fokus, produktiviti dan kesejahteraan |
+| 📚 **Dokumentasi** | 200+ artikel | Pangkalan pengetahuan psikologi, teori dan wawasan |
+| 📝 **Blog** | 200+ artikel | Artikel tentang kesejahteraan, pembangunan kendiri, psikologi positif |
+| 🌍 **Bahasa** | 32 bahasa | Sokongan pengantarabangsaan penuh |
 
-Melalui penyelidikan psikologi yang ketat dan aplikasi praktikal, kami berusaha untuk menyampaikan 'tenaga psikologi', kebahagiaan, dan kesihatan kepada semua, membimbing kami ke arah 'kehidupan positif'.
+## Teknologi Digunakan
 
-kuakua.app adalah platform yang didedikasikan untuk sains psikologi positif.
+| Kategori | Teknologi | Versi |
+|----------|-----------|-------|
+| Framework | Next.js (App Router) | 16.1.6 |
+| Bahasa | TypeScript | 5.9.3 |
+| Styling | Tailwind CSS + DaisyUI | 4.2.1 / 5.5.18 |
+| i18n | next-intl | 4.1.0 |
+| State | Zustand | 5.0.11 |
+| Animasi | Framer Motion | 12.35.2 |
+| Database | Supabase | - |
+| Deployment | Vercel | - |
 
-Di sini, kami meraikan kebajikan, memupuk pertumbuhan, dan menyokong kebebasan untuk membentuk nasib seseorang. Dengan berkongsi kata-kata dan naratif yang menginspirasi, serta melalui undian interaktif, kami berhasrat untuk menyalakan semangat tak tergoyahkan dalam setiap orang.
+## Modul Utama
 
-Sertai kami dan biarkan positiviti bersinar dalam hidup anda.
+### 🎮 Permainan (`/games`)
+
+Koleksi pelbagai permainan interaktif untuk hiburan, relaksasi dan rangsangan kognitif.
+
+| Kategori | Contoh |
+|----------|--------|
+| Teka-teki | 2048, Sudoku, Puzzle, Kiub Rubik |
+| Kognitif | Memori, N-Back, Stroop, Masa Tindak Balas |
+| Relaksasi | Lukisan, Muzik, Meditasi Berpandu |
+| Klasik Google | Snake, Pacman, Tic-Tac-Toe, Solitaire |
+
+### 📋 Ujian Psikologi (`/test`)
+
+Ujian penilaian kendiri psikologi berasaskan sains.
+
+| Jenis | Penerangan |
+|-------|------------|
+| Ujian disahkan | Instrumen yang mantap dengan sokongan empirikal yang kuat (PHQ-9, GAD-7, Big Five) |
+| Ujian diadaptasi | Versi yang diubah suai atau dipendekkan yang diilhamkan oleh instrumen yang disahkan |
+| Ujian penerokaan | Alat refleksi kendiri yang diilhamkan oleh mekanisme psikologi |
+
+**Nota**: Semua ujian mengandungi penafian yang sesuai dan bertujuan untuk tujuan pendidikan dan refleksi kendiri, bukan untuk diagnosis klinikal.
+
+### 🧪 Eksperimen Kognitif (`/experiment`)
+
+Pelaksanaan interaktif paradigma kognitif klasik dan tugasan eksperimen.
+
+| Paradigma | Penerangan |
+|----------|------------|
+| Stroop | Ujian gangguan warna-perkataan |
+| N-Back | Tugasan memori kerja |
+| IGT | Iowa Gambling Task |
+| Flanker | Ujian perhatian selektif |
+| Go/No-Go | Ujian kawalan perencatan |
+
+### 🔧 Alat (`/tools`)
+
+Alat praktikal untuk kesejahteraan harian dan produktiviti.
+
+- **Focus Flow** - Teknik Pomodoro dengan penjejakan
+- **Papan Skor** - Pendaftaran skor
+- **Pengira Kata** - Alat penulisan
+- **Pemasa** - Pengurusan masa
+
+### 📚 Kandungan (`/docs`, `/blog`, `/explore`)
+
+Pangkalan pengetahuan komprehensif tentang psikologi dan kesejahteraan.
+
+| Bahagian | Kandungan |
+|----------|-----------|
+| Dokumentasi | Teori psikologi, konsep, penyelidikan |
+| Blog | Artikel tentang kesejahteraan, pembangunan kendiri |
+| Terokai | Sumber yang dikurasi, laman web, aplikasi |
+
+## Psikologi Positif
+
+Kuakua dibina berdasarkan prinsip **psikologi positif**, satu bidang sains yang didedikasikan untuk kajian tentang apa yang menjadikan kehidupan berbaloi.
+
+### Konsep Utama
+
+| Konsep | Penerangan |
+|--------|------------|
+| **Eudaimonia** | Kebajikan manusia, realisasi potensi |
+| **Kesejahteraan Subjektif** | Kepuasan hidup, emosi positif |
+| **Kekuatan Karakter** | Ciri-ciri positif seperti rasa syukur, harapan, ketahanan |
+| **Flow** | Keadaan penglibatan optimum dalam aktiviti |
+| **Ketahanan** | Keupayaan untuk menyesuaikan diri dalam menghadapi kemunduran |
+
+### Manfaat
+
+- 🌟 **Peningkatan kesejahteraan** - Fokus pada fungsi optimum
+- 💪 **Pembangunan kekuatan** - Penanaman ciri-ciri positif
+- 🤝 **Hubungan positif** - Membina hubungan yang bermakna
+- 🎯 **Tujuan dan makna** - Mencari matlamat yang berharga
+- 🧘 **Perhatian penuh** - Kesedaran dan kesedaran
+
+## Kandungan Pilihan
+
+### Ujian Popular
+
+| Ujian | Penerangan |
+|-------|------------|
+| PHQ-9 | Soal selidik kesihatan pesakit (kemurungan) |
+| GAD-7 | Skala kebimbangan umum |
+| Big Five | Model lima faktor personaliti |
+| VIA | Inventori kekuatan karakter |
+| PANAS | Skala afek positif dan negatif |
+
+### Permainan Pilihan
+
+| Permainan | Jenis |
+|-----------|-------|
+| 2048 | Teka-teki nombor |
+| Memory Match | Memori |
+| Stroop Test | Kognitif |
+| Reaction Time | Perhatian |
+| N-Back | Memori kerja |
+
+## Pautan Pantas
+
+| Sumber | Pautan |
+|--------|--------|
+| 🏠 Laman Utama | [kuakua.app](https://kuakua.app) |
+| 🎮 Permainan | [kuakua.app/games](https://kuakua.app/games) |
+| 📋 Ujian | [kuakua.app/test](https://kuakua.app/test) |
+| 🧪 Eksperimen | [kuakua.app/experiment](https://kuakua.app/experiment) |
+| 🔧 Alat | [kuakua.app/tools](https://kuakua.app/tools) |
+| 📚 Dokumentasi | [kuakua.app/docs](https://kuakua.app/docs) |
+| 📝 Blog | [kuakua.app/blog](https://kuakua.app/blog) |
+| 🌍 Terokai | [kuakua.app/explore](https://kuakua.app/explore) |
+
+## Misi Kami
+
+Kuakua bertujuan untuk membina **alat dan kandungan yang berasaskan psikologi, bertanggungjawab secara etika dan boleh diakses secara global** yang membantu orang memahami diri mereka dengan lebih baik dan meningkatkan kesejahteraan mereka.
+
+Kami percaya pada:
+- ✅ Kesahan psikologi dan pencegahan kemudaratan
+- ✅ Kejelasan konseptual dan struktur
+- ✅ Pemahaman dan kebolehcapaian pengguna
+- ✅ Keteguhan teknikal dan kebolehselenggaraan
+- ✅ Pengantarabangsaan dan kepekaan budaya
+
+---
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Ketahui lebih lanjut mengenai psikologi positif:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Sejarah Psikologi Positif
-
-Psikologi positif, satu bidang yang semakin berkembang, didedikasikan untuk meningkatkan kesihatan mental dan kebahagiaan. Tujuannya adalah untuk membantu individu mengenali dan memanfaatkan kekuatan mereka, dengan itu mencapai tahap kepuasan hidup dan kebahagiaan yang lebih tinggi.
-
-Pembangunan psikologi positif bermula pada akhir abad ke-20 dan diperkenalkan secara rasmi pada tahun 1997. Bidang ini mendapat pengiktirafan melalui penerbitan 'Positive Psychology: An Introduction' oleh Martin Seligman dan Mihaly Csikszentmihalyi pada Januari 2000.
-
-Dikemukakan oleh psikolog Martin Seligman dan rakan-rakannya, psikologi positif mewakili perubahan revolusioner dalam bidang psikologi dan menandakan satu tahap baru dalam sejarah masyarakat manusia. Ia menghubungkan kebijaksanaan budaya Timur dan Barat dengan penyelidikan psikologi.
-
-Seligman dan rakan-rakannya berpendapat bahawa psikologi harus melangkaui kajian mengenai penyakit mental dan masalah untuk meneroka cara untuk meningkatkan kesihatan mental dan kebahagiaan. Psikologi positif menggunakan kaedah saintifik untuk mengkaji kebahagiaan dan mempromosikan orientasi positif dalam bidang ini, dengan menumpukan kepada penanaman sifat psikologi positif, kesejahteraan, dan pembangunan harmoni.
-
-Konsep utama dalam psikologi positif adalah eudaimonia, istilah dari falsafah Aristotelian yang bermaksud kebaikan tertinggi manusia, sering diterjemahkan sebagai 'berkembang' atau 'kehidupan yang baik'. Psikolog positif sering menggunakan istilah kesejahteraan subjektif (SWB) dan kebahagiaan secara bergantian.
-
-Bidang ini memberi keutamaan kepada peningkatan kesejahteraan individu dan masyarakat, dengan mengkaji 'pengalaman subjektif positif, sifat individu positif, dan institusi positif... yang bertujuan untuk meningkatkan kualiti hidup.'
-
-Mereka percaya bahawa pelbagai faktor menyumbang kepada kebahagiaan dan kesejahteraan subjektif, seperti hubungan sosial dengan pasangan, keluarga, rakan, rakan sekerja, dan rangkaian yang lebih luas; keahlian dalam kelab atau organisasi sosial; senaman fizikal dan amalan meditasi.
-
-Kerohanian juga dianggap sebagai faktor yang dapat meningkatkan kesejahteraan. Penyelidik terus mengkaji amalan rohani dan keagamaan sebagai sumber potensi kesejahteraan dan bahagian penting dalam psikologi positif.
-
-Walaupun pendapatan kewangan dapat meningkatkan kebahagiaan sehingga satu tahap tertentu, melebihi ambang tertentu, kesannya mungkin menurun atau bahkan menurun. Psikologi positif menekankan penanaman sifat positif individu, kemampuan untuk berkembang, dan kebebasan untuk membentuk nasib seseorang.
-
-## Apakah yang dilakukan oleh psikologi positif untuk saya?
-
-Meningkatkan Kesejahteraan dan Fungsi Optimum Psikologi positif menumpukan kepada meningkatkan kesejahteraan individu dan fungsi optimum daripada hanya mengurangkan gejala, melengkapi dan bukannya menggantikan psikologi tradisional. Tema biasa dalam psikologi positif termasuk menikmati hidup, kesyukuran, kebaikan, mempromosikan hubungan positif, dan mengejar harapan dan makna.
-
-Fokus kepada Kesejahteraan Penyelidikan menunjukkan bahawa kesejahteraan dan psikopatologi berkorelasi secara sederhana namun tetap sebagai konstruksi bebas dari kesihatan mental. Walaupun selepas rawatan psikopatologi yang berjaya, tahap rendah kesejahteraan mungkin berterusan, membentuk faktor risiko yang ketara untuk kesusahan psikologi.
-
-Mengurangkan Gejala Psikologi Tahap tinggi kesejahteraan dapat melindungi daripada gejala psikologi, termasuk pengulangan atau berulangnya gejala, dan meningkatkan kualiti hidup dan jangka hayat. Oleh itu, sampel klinikal boleh mendapat manfaat besar daripada intervensi psikologi positif (PPI) yang secara eksplisit bertujuan untuk meningkatkan kesejahteraan, seperti perasaan, kognisi, atau tingkah laku positif.
-
-Peranan Tambahan Walaupun psikologi positif tidak mempunyai kesan yang signifikan dalam mengurangkan tekanan yang berkaitan dengan kebahagiaan, kemurungan, atau kecemasan, kemampuannya untuk meredakan kesusahan psikologi secara tidak langsung dengan meningkatkan kesejahteraan diakui secara meluas.
-
-Manfaat Utama Psikologi Positif Menikmati Hidup: Menghargai dan menikmati pengalaman positif. Kesyukuran: Mengakui dan bersyukur atas perkara baik dalam hidup. Kebaikan: Mengamalkan belas kasihan dan altruism terhadap orang lain. Mempromosikan Hubungan Positif: Membangun dan mengekalkan hubungan yang sihat dan menyokong. Mengejar Harapan dan Makna: Berusaha mencapai matlamat dan mencari tujuan dalam hidup. Dengan menumpukan pada aspek ini, psikologi positif membantu individu menjalani kehidupan yang lebih memuaskan dan berdaya tahan.
-
-## Ketahui lebih lanjut mengenai penyelidikan psikologi:
-
-- [Kuakua | Teori & Wawasan Psikologi](http://kuakua.app/theories-insights)
-
-## Ketahui lebih lanjut mengenai sumber psikologi:
-
-- [Kuakua | Temui Laman Web Psikologi, Aplikasi & Alat AI](http://kuakua.app/explore)
-
-## Ketahui lebih lanjut mengenai kata-kata positif:
-
-- [Kuakua | Undi untuk kata-kata positif & bahasa gembira](http://kuakua.app/vote)
-
-## Ketahui lebih lanjut mengenai pengetahuan psikologi:
-
-- [Kuakua | Dokumentasi Psikologi: Semua Tentang Psikologi](http://kuakua.app/docs)
+**Sertai kami dan biarkan positiviti bersinar dalam hidup anda.** 🌟

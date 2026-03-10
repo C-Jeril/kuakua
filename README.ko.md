@@ -10,8 +10,8 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -29,71 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## 소개
 
-안녕하세요, 긍정 심리학의 연구자이자 실천자로서 저는 인류의 본질적인 긍정성과 성장 가능성을 굳게 믿고 있습니다.
+**Kuakua**는 현대 웹 기술로 구축된 종합 심리학 및 웰빙 플랫폼입니다. 우리는 심리학 과학을 모두에게 접근 가능하고, 매력적이며, 유익하게 만드는 데 전념하고 있습니다.
 
-엄격한 심리학 연구와 실용적인 응용을 통해, 우리는 모두에게 '심리적 에너지', 행복, 건강을 전달하여 '긍정적인 삶'으로 인도하고자 합니다.
+긍정 심리학에 초점을 맞춘 플랫폼으로서, 우리는 인류의 내재적 성장 능력과 웰빙을 믿습니다. 증거 기반 도구, 대화형 경험 및 엄선된 콘텐츠를 통해 개인이 자신을 더 잘 이해하고 정신 건강을 개선하도록 돕습니다.
 
-kuakua.app은 긍정 심리학의 과학에 헌신하는 플랫폼입니다.
+### 플랫폼 개요
 
-여기서 우리는 미덕을 기리고, 성장을 촉진하며, 자신의 운명을 형성할 수 있는 자유를 옹호합니다. 고무적인 말과 이야기들을 공유하고, 인터랙티브한 투표를 통해, 우리는 모든 사람 안에 불굴의 정신을 불태우고자 합니다.
+| 모듈 | 수량 | 설명 |
+|--------|-------|-------------|
+| 🎮 **게임** | 140+ | 인지 게임, 퍼즐, 이완 게임 및 클래식 브라우저 게임 |
+| 📋 **테스트** | 150+ | 심리 자가 평가 도구 및 검증된 도구 |
+| 🧪 **실험** | 90+ | 고전 인지 패러다임의 대화형 구현 |
+| 🛠️ **도구** | 30+ | 집중력, 생산성 및 웰빙을 위한 실용 도구 |
+| 📚 **문서** | 200+ | 심리학 지식 기반 및 연구 문서 |
+| ✍️ **블로그** | 200+ | 심리학, 웰빙 및 개인 성장에 관한 기사 |
+| 🌍 **언어** | 32 | RTL 언어를 포함한 완전한 국제화 지원 |
 
-우리와 함께 하여 긍정의 힘이 당신의 삶을 비추게 하세요.
+### 기술 스택
 
-## 긍정 심리학에 대해 더 알아보세요:
+- **프레임워크**: Next.js 16.1.6 + App Router
+- **언어**: TypeScript 5.9.3
+- **스타일링**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **국제화**: next-intl (32개 언어)
+- **상태 관리**: Zustand 5.0.11
+- **애니메이션**: Framer Motion 12.35.2
+- **데이터베이스**: Supabase (PostgreSQL)
+- **배포**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## 긍정심리학에 대해 더 알아보기:
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## 핵심 모듈
 
-## 긍정 심리학의 역사
+### 🎮 게임 (`/games`)
 
-긍정 심리학은 정신 건강과 행복을 향상시키는 데 전념하는 새로 떠오르는 분야입니다. 그 목표는 개인이 자신의 강점을 발견하고 활용하여 더 높은 수준의 삶의 만족과 기쁨을 얻도록 돕는 것입니다.
+여러 카테고리에 걸친 140개 이상의 게임:
 
-긍정 심리학의 발전은 20세기 후반에 시작되었으며, 1997년에 공식적으로 소개되었습니다. 이 분야는 2000년 1월 마틴 셀리그만과 미하이 칙센트미하이의 '긍정 심리학: 서론'의 출판을 통해 인정을 받았습니다.
+- **인지 훈련**: 반응 시간, 기억력, 주의력 및 처리 속도 테스트
+- **클래식 퍼즐**: 스도쿠, 2048, 테트리스, 체스, 솔리테어
+- **구글 클래식**: 공룡 게임, 스네이크, 팩맨, 지뢰찾기
+- **이완 게임**: Perfect Tidy, 색칠하기, 퍼즐
+- **시뮬레이션**: 인생 재시작, 모노폴리, 맥주 유통 게임
 
-심리학자 마틴 셀리그만과 그의 동료들에 의해 촉진된 긍정 심리학은 심리학 분야에서의 혁명적인 변화로, 인류 사회 역사에서 새로운 이정표를 세웠습니다. 이는 동양과 서양 문화 및 심리학 연구의 지혜를 연결합니다.
+**인기 게임:**
+- [반응 시간 테스트](https://kuakua.app/games/reaction-time) - 신경 반사 속도 측정
+- [침팬지 기억력 테스트](https://kuakua.app/games/chimp-test) - 영장류 수준의 공간 기억력 도전
+- [시각 기억 게임](https://kuakua.app/games/visual-memory) - 단기 기억 용량 테스트
+- [타자 속도 테스트](https://kuakua.app/games/typing-test) - WPM 및 정확도 측정
+- [2048](https://kuakua.app/games/2048) - 클래식 숫자 퍼즐
+- [인생 재시작 시뮬레이터](https://kuakua.app/games/life-restart) - 다중 엔딩 인생 시뮬레이션
 
-셀리그만과 그의 동료들은 심리학이 정신 질환과 문제를 연구하는 데서 벗어나, 정신 건강과 행복을 향상시킬 방법을 탐구해야 한다고 주장합니다. 긍정 심리학은 행복을 연구하기 위해 과학적 방법을 사용하며, 긍정적 심리적 특성, 웰빙, 조화로운 발전을 육성하는 데 중점을 두고 있습니다.
+### 📋 심리 테스트 (`/test`)
 
-긍정 심리학의 중심에는 아리스토텔레스 철학의 용어인 유다이모니아(eudaimonia)라는 개념이 있으며, 이는 '번영' 또는 '좋은 삶'으로 종종 번역됩니다. 긍정 심리학자들은 주관적 웰빙(SWB)과 행복이라는 용어를 상호 교환적으로 사용합니다.
+150개 이상의 심리 자가 평가 도구 종합 컬렉션:
 
-이 분야는 개인 및 사회의 웰빙을 향상시키는 데 우선순위를 두며, "삶의 질을 개선하기 위한 긍정적 주관적 경험, 긍정적 개인적 특성, 긍정적 제도"를 연구합니다.
+**검증된 임상 도구:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - 우울증 환자 건강 설문지
+- [GAD-7](https://kuakua.app/test/gad-7) - 범불안 장애 평가
+- [DASS-21](https://kuakua.app/test/dass-21) - 우울, 불안, 스트레스 척도
+- [PSQI](https://kuakua.app/test/psqi) - 피츠버그 수면 질 지수
+- [IES-R](https://kuakua.app/test/ies-r) - 사건 영향 척도 (트라우마)
 
-그들은 배우자, 가족, 친구, 동료 및 광범위한 네트워크와의 사회적 연결, 클럽이나 사회 조직에 대한 참여, 신체 운동 및 명상 실천과 같은 다양한 요인이 행복과 주관적 웰빙에 기여한다고 믿습니다.
+**성격 평가:**
+- [빅파이브 성격 테스트](https://kuakua.app/test/bigfive-test) - 5요인 모델
+- [MBTI](https://kuakua.app/test/mbti) - 마이어스-브릭스 유형 지표
+- [에니어그램 테스트](https://kuakua.app/test/enneagram-test) - 아홉 가지 성격 유형
+- [HEXACO](https://kuakua.app/test/hexaco) - 6요인 성격 모델
+- [DISC 테스트](https://kuakua.app/test/disc-test) - 행동 평가
 
-영성도 웰빙을 향상시킬 수 있는 요소로 간주됩니다. 연구자들은 영적 실천과 종교적 헌신을 웰빙의 잠재적 원천이자 긍정 심리학의 필수 부분으로 계속 연구하고 있습니다.
+**전문 척도:**
+- [사랑의 언어 테스트](https://kuakua.app/test/love-language-test) - 채프먼의 다섯 가지 사랑의 언어
+- [자기애성 인격 목록](https://kuakua.app/test/narcissistic-personality-inventory)
+- [인터넷 중독 평가](https://kuakua.app/test/internet-addiction-assessment)
+- [RIASEC 진로 테스트](https://kuakua.app/test/riasec) - 홀랜드 직업 흥미
 
-재정적 수입이 어느 정도까지 행복을 증가시킬 수 있지만, 특정 한계점을 넘어 그 효과는 평준화되거나 감소할 수 있습니다. 긍정 심리학은 개인의 긍정적 특성, 성장 가능성, 그리고 자신의 운명을 형성할 수 있는 자유를 육성하는 데 중점을 둡니다.
+> ⚠️ **면책 조항**: 모든 테스트는 교육 및 자기 성찰 목적으로만 사용됩니다. 진단 도구가 아닙니다. 정신 건강 문제를 겪고 계신다면 자격을 갖춘 의료 전문가와 상담하십시오.
 
-## 긍정 심리학이 나에게 어떤 이점이 있습니까?
+### 🧪 인지 실험 (`/experiment`)
 
-웰빙 및 최적 기능 향상 긍정 심리학은 개인의 웰빙 및 최적 기능을 향상시키는 데 중점을 두며, 단순히 증상을 완화하는 것이 아니라, 전통적인 심리학을 보완합니다. 긍정 심리학의 일반적인 주제는 삶의 즐거움, 감사, 친절, 긍정적 관계 증진 및 희망과 의미 추구를 포함합니다.
+90개 이상의 고전 인지 패러다임 대화형 구현:
 
-웰빙에 중점 연구는 웰빙과 정신병리학이 적당히 상관관계가 있지만, 여전히 정신 건강의 독립적인 구성 요소임을 보여줍니다. 정신병리학의 성공적인 치료 후에도 낮은 수준의 웰빙이 지속될 수 있으며, 이는 심리적 고통의 상당한 위험 요인이 될 수 있습니다.
+**주의 및 실행 기능:**
+- [스트룹 테스트](https://kuakua.app/experiment/stroop-test) - 인지 간섭
+- [N-Back 과제](https://kuakua.app/experiment/n-back-task) - 작업 기억 훈련
+- [위스콘신 카드 분류 테스트](https://kuakua.app/experiment/wcst-test) - 인지 유연성
+- [Go/No-Go 과제](https://kuakua.app/experiment/go-no-go-task) - 반응 억제
+- [플랭커 과제](https://kuakua.app/experiment/flanker-task) - 선택적 주의
 
-심리적 증상 완화 높은 수준의 웰빙은 증상의 재발 또는 재현을 포함한 심리적 증상을 완화하고, 삶의 질과 장수를 향상시킬 수 있습니다. 따라서 임상 샘플은 긍정적 감정, 인지 또는 행동과 같이 웰빙을 명확히 향상시키는 긍정 심리적 개입(PPIs)의 혜택을 크게 누릴 수 있습니다.
+**의사결정:**
+- [아이오와 도박 과제](https://kuakua.app/experiment/iowa-gambling-task) - 위험 기반 의사결정
+- [최후통첩 게임](https://kuakua.app/experiment/ultimatum-game) - 공정성과 협상
+- [신뢰 게임](https://kuakua.app/experiment/trust-game) - 사회적 신뢰 행동
+- [지연 할인](https://kuakua.app/experiment/delay-discounting) - 시간 선호
 
-보조 역할 긍정 심리학은 행복, 우울증 또는 불안과 관련된 스트레스를 완화하는 데 큰 영향을 미치지 않지만, 웰빙을 향상시켜 심리적 고통을 간접적으로 줄이는 능력은 널리 인정받고 있습니다.
+**기억 및 학습:**
+- [암묵적 연합 테스트](https://kuakua.app/experiment/implicit-association-test) - 무의식적 편향
+- [계열 위치 효과](https://kuakua.app/experiment/serial-position) - 기억 인출 패턴
+- [코르시 블록 과제](https://kuakua.app/experiment/corsi-task) - 시공간 기억
 
-긍정 심리학의 주요 이점 삶의 즐거움: 긍정적인 경험을 즐기고 감사하는 것. 감사: 삶의 좋은 것들에 대해 인식하고 감사하는 것. 친절: 타인에 대한 연민과 이타심을 실천하는 것. 긍정적 관계 증진: 건강하고 지지적인 관계를 구축하고 유지하는 것. 희망과 의미 추구: 목표를 추구하고 삶의 의미를 찾는 것. 이 측면에 집중함으로써, 긍정 심리학은 개인이 더 충만하고 회복력 있는 삶을 살 수 있도록 돕습니다.
+**지각:**
+- [시각 탐색 과제](https://kuakua.app/experiment/visual-search-task) - 특징 vs 결합 탐색
+- [변화 맹시](https://kuakua.app/experiment/change-blindness) - 시각 주의 한계
+- [맥거크 효과](https://kuakua.app/experiment/mcgurk-effect) - 시청각 통합
 
-## 심리학 연구에 대해 더 알아보세요:
+### 🛠️ 도구 (`/tools`)
 
-- [Kuakua | 심리학 이론 및 통찰력](http://kuakua.app/theories-insights)
+일상 웰빙을 위한 실용 도구:
 
-## 심리학 자원에 대해 더 알아보세요:
+- [집중 플로우 시스템](https://kuakua.app/tools/focus-flow-system) - 휴식 활동이 포함된 포모도로 타이머
+- [스코어보드](https://kuakua.app/tools/scoreboard) - 게임 점수 추적기
+- [단어 계수기](https://kuakua.app/tools/word-counter) - 텍스트 분석 도구
+- [이완](https://kuakua.app/tools/relax) - 환경 소리 및 명상
+- [시간 탭](https://kuakua.app/tools/time-tab) - 세계 시계 및 타이머
+- [무작위 생성기](https://kuakua.app/tools/random-generator) - 주사위, 동전 및 무작위 선택
 
-- [Kuakua | 심리학 웹사이트, 애플리케이션 및 AI 도구 탐색](http://kuakua.app/explore)
+### 📚 지식 기반 (`/docs`)
 
-## 긍정적인 단어에 대해 더 알아보세요:
+포괄적인 심리학 문서:
 
-- [Kuakua | 긍정적인 단어와 행복한 언어에 투표하기](http://kuakua.app/vote)
+- **연구 방법**: 실험 설계, 타당성, 신뢰성, 통계
+- **사회 심리학**: 순응, 편견, 귀인, 집단 역학
+- **인지 심리학**: 기억, 주의, 지각, 의사결정
+- **긍정 심리학**: 웰빙, 회복탄력성, 감사, 의미
+- **임상 심리학**: 평가, 치료 접근법, 정신 건강
 
-## 심리학 지식에 대해 더 알아보세요:
+### ✍️ 블로그 (`/blog`)
 
-- [Kuakua | 심리학 문서: 심리학에 대한 모든 것](http://kuakua.app/docs)
+일상 생활에서의 심리학을 탐구하는 기사:
+
+- 긍정 심리학 응용
+- 인지 과학 통찰
+- 문화 심리학 관점
+- 실용적 웰빙 전략
+- 연구 요약
+
+### 🌍 탐색 (`/explore`)
+
+엄선된 심리학 리소스 컬렉션:
+
+- 외부 웹사이트 및 앱
+- 정신 건강 AI 도구
+- 연구 데이터베이스
+- 전문 리소스
+
+---
+
+## 긍정 심리학
+
+### 긍정 심리학이란?
+
+긍정 심리학은 2000년 마틴 셀리그먼과 미하이 칙센트미하이가 공식적으로 소개한 과학 분야로, 인간의 번영을 이해하고 향상시키는 데 전념합니다. 전통 심리학이 병리에 초점을 맞추는 것과 달리, 긍정 심리학은 삶을 살 가치 있게 만드는 것을 연구합니다.
+
+### 핵심 개념
+
+- **에우다이모니아**: 최고의 인간 선 - 번영과 의미 있는 삶
+- **주관적 웰빙 (SWB)**: 삶의 만족도와 정서적 균형
+- **성격 강점**: 개인이 번영할 수 있게 하는 덕목
+- **몰입**: 최적의 경험과 참여
+- **회복탄력성**: 역경에서 회복하는 능력
+
+### 주요 이점
+
+연구에 따르면 긍정 심리학 개입은 다음을 할 수 있습니다:
+
+1. **웰빙 향상**: 긍정적 감정과 삶의 만족도 증가
+2. **회복탄력성 구축**: 도전에 대처하는 전략 개발
+3. **관계 개선**: 사회적 연결과 공감 증진
+4. **성과 향상**: 집중력, 창의성, 생산성 강화
+5. **건강 증진**: 신체적, 정신적 건강 결과 지원
+
+### 실용적 응용
+
+- **향유**: 긍정적 경험을 마음챙기게 즐기기
+- **감사**: 삶의 축복을 인식하고 감사하기
+- **친절**: 연민과 이타심 실천하기
+- **의미**: 목적과 의미 추구하기
+- **성장**: 도전을 기회로 받아들이기
+
+---
+
+## 추천 콘텐츠
+
+### 인기 게임
+
+| 게임 | 설명 | 링크 |
+|------|-------------|------|
+| 반응 시간 | 세계 평균과 반사 신경 테스트 | [플레이](https://kuakua.app/games/reaction-time) |
+| 침팬지 기억력 | 공간 인출 도전 | [플레이](https://kuakua.app/games/chimp-test) |
+| 시각 기억력 | 단기 기억 평가 | [플레이](https://kuakua.app/games/visual-memory) |
+| 순서 기억력 | 적응형 난이도 패턴 인출 | [플레이](https://kuakua.app/games/sequence-memory) |
+| 타자 테스트 | WPM 및 정확도 측정 | [플레이](https://kuakua.app/games/typing-test) |
+| 2048 | 숫자 병합 퍼즐 | [플레이](https://kuakua.app/games/2048) |
+| 스도쿠 | 클래식 논리 퍼즐 | [플레이](https://kuakua.app/games/sudoku) |
+| 체스 | AI가 있는 전략 보드 게임 | [플레이](https://kuakua.app/games/chess) |
+
+### 추천 테스트
+
+| 테스트 | 목적 | 링크 |
+|------|---------|------|
+| 빅파이브 | 성격 특성 | [테스트하기](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | 우울증 스크리닝 | [테스트하기](https://kuakua.app/test/phq-9) |
+| GAD-7 | 불안 평가 | [테스트하기](https://kuakua.app/test/gad-7) |
+| 사랑의 언어 | 관계 선호 | [테스트하기](https://kuakua.app/test/love-language-test) |
+| MBTI | 성격 유형 | [테스트하기](https://kuakua.app/test/mbti) |
+| 에니어그램 | 성격 패턴 | [테스트하기](https://kuakua.app/test/enneagram-test) |
+
+### 추천 실험
+
+| 실험 | 인지 영역 | 링크 |
+|------------|-----------------|------|
+| 스트룹 테스트 | 인지 간섭 | [체험하기](https://kuakua.app/experiment/stroop-test) |
+| N-Back | 작업 기억 | [체험하기](https://kuakua.app/experiment/n-back-task) |
+| WCST | 인지 유연성 | [체험하기](https://kuakua.app/experiment/wcst-test) |
+| IAT | 암묵적 연합 | [체험하기](https://kuakua.app/experiment/implicit-association-test) |
+| 하노이 탑 | 계획 및 문제 해결 | [체험하기](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## 빠른 링크
+
+- 🏠 **홈페이지**: [kuakua.app](https://kuakua.app)
+- 🎮 **게임**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **테스트**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **실험**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **도구**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **문서**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **블로그**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **탐색**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **투표**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **매일 카드**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## 우리의 미션
+
+Kuakua는 개인이 자신을 더 잘 이해하고 웰빙을 개선할 수 있도록 **심리학적으로 근거 있고, 윤리적으로 책임 있으며, 전 세계적으로 접근 가능한 도구와 콘텐츠**를 구축하는 것을 목표로 합니다.
+
+우리는 다음을 믿습니다:
+- 심리학 지식은 모두에게 접근 가능해야 합니다
+- 자가 평가 도구는 자기 인식과 성장을 촉진할 수 있습니다
+- 대화형 경험은 학습을 매력적으로 만듭니다
+- 증거 기반 접근법은 의미 있는 결과를 가져옵니다
+- 장기적 신뢰가 단기적 지표보다 중요합니다
+
+---
+
+## 후원
+
+Kuakua가 도움이 된다면 우리의 작업을 후원해 주세요:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*최종 업데이트: 2026-03-10*
+*버전: 2.0*

@@ -1,93 +1,189 @@
-kuakua.app
+# Kuakua - Kapsamlı Psikoloji ve Refah Platformu
 
-# kuakua.app'a Hoş Geldiniz
+[![English](https://img.shields.io/badge/lang-en-green.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
+[![Español](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![日本語](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
+[![Deutsch](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
+[![Français](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![Português](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
+[![Русский](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
+[![한국어](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
+[![Italiano](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
+[![العربية](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![ไทย](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
+[![Tiếng Việt](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
+[![Türkçe](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
+[![Bahasa Melayu](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
+[![বাংলা](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
+[![Nederlands](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
+[![Polski](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
+[![Ελληνικά](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
+[![Čeština](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
+[![Magyar](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
+[![Română](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![Svenska](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
+[![Norsk](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
+[![Dansk](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
+[![Suomi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
+[![Íslenska](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
+[![Filipino](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+[![हिन्दी](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-[![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
-[![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
-[![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
-[![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
-[![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
-[![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
-[![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
-[![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
-[![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
-[![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
-[![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
-[![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
-[![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
-[![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
-[![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+## Platform Genel Bakış
 
-## Tanıtım
+| Modül | İçerik | Açıklama |
+|-------|--------|----------|
+| 🎮 **Oyunlar** | 140+ oyun | Bulmacalar, bilişsel zorluklar, rahatlama oyunları, Google klasikleri |
+| 📋 **Testler** | 150+ test | Bilimsel temelli psikolojik testler, öz değerlendirmeler |
+| 🧪 **Deneyler** | 90+ deney | Klasik bilişsel paradigmalar, interaktif deneysel görevler |
+| 🔧 **Araçlar** | 30+ araç | Odak, verimlilik ve refah için pratik araçlar |
+| 📚 **Dokümantasyon** | 200+ makale | Psikoloji bilgi bankası, teoriler ve içgörüler |
+| 📝 **Blog** | 200+ makale | Refah, kişisel gelişim, pozitif psikoloji makaleleri |
+| 🌍 **Diller** | 32 dil | Tam uluslararasılaşma desteği |
 
-Hoş geldiniz! Pozitif psikolojinin adanmış bir araştırmacısı ve uygulayıcısı olarak, insanlığın içsel pozitifliğine ve büyüme kapasitesine yürekten inanıyorum.
+## Teknoloji Yığını
 
-Titiz psikolojik araştırmalar ve pratik uygulamalar yoluyla, herkese 'psikolojik enerji', mutluluk ve sağlık vermeyi amaçlıyoruz ve bizi 'pozitif bir hayata' yönlendiriyoruz.
+| Kategori | Teknoloji | Sürüm |
+|----------|-----------|-------|
+| Framework | Next.js (App Router) | 16.1.6 |
+| Dil | TypeScript | 5.9.3 |
+| Stil | Tailwind CSS + DaisyUI | 4.2.1 / 5.5.18 |
+| i18n | next-intl | 4.1.0 |
+| State | Zustand | 5.0.11 |
+| Animasyon | Framer Motion | 12.35.2 |
+| Veritabanı | Supabase | - |
+| Deployment | Vercel | - |
 
-kuakua.app, pozitif psikoloji bilimine adanmış bir platformdur.
+## Ana Modüller
 
-Burada erdemleri kutluyor, büyümeyi teşvik ediyor ve kendi kaderinizi şekillendirme özgürlüğünü savunuyoruz. İlham verici kelimeler ve hikayeler paylaşarak ve etkileşimli oylamalar yoluyla, herkesin içinde yenilmez bir ruh uyandırmayı hedefliyoruz.
+### 🎮 Oyunlar (`/games`)
 
-Bize katılın ve pozitifliğin hayatınızda parlamasına izin verin.
+Eğlence, rahatlama ve bilişsel uyarım için çeşitli interaktif oyunlar.
+
+| Kategori | Örnekler |
+|----------|----------|
+| Bulmacalar | 2048, Sudoku, Yapboz, Rubik Küp |
+| Bilişsel | Hafıza, N-Back, Stroop, Tepki Süresi |
+| Rahatlama | Boyama, Müzik, Rehberli Meditasyon |
+| Google Klasikleri | Snake, Pacman, Tic-Tac-Toe, Solitaire |
+
+### 📋 Psikolojik Testler (`/test`)
+
+Bilimsel temelli psikolojik öz değerlendirme testleri.
+
+| Tür | Açıklama |
+|-----|----------|
+| Doğrulanmış testler | Güçlü ampirik destek ile yerleşik araçlar (PHQ-9, GAD-7, Big Five) |
+| Uyarlanmış testler | Doğrulanmış araçlardan ilham alan değiştirilmiş veya kısaltılmış versiyonlar |
+| Keşif testleri | Psikolojik mekanizmalardan ilham alan öz-düşünme araçları |
+
+**Not**: Tüm testler uygun sorumluluk reddi beyanlarını içerir ve klinik tanı için değil, eğitim ve öz-düşünme amaçlıdır.
+
+### 🧪 Bilişsel Deneyler (`/experiment`)
+
+Klasik bilişsel paradigmaların ve deneysel görevlerin interaktif uygulamaları.
+
+| Paradigma | Açıklama |
+|-----------|----------|
+| Stroop | Renk-kelime girişim testi |
+| N-Back | Çalışma belleği görevi |
+| IGT | Iowa Kumar Görevi |
+| Flanker | Seçici dikkat testi |
+| Go/No-Go | İnhibisyon kontrolü testi |
+
+### 🔧 Araçlar (`/tools`)
+
+Günlük refah ve verimlilik için pratik araçlar.
+
+- **Focus Flow** - Takipli Pomodoro tekniği
+- **Skor Tablosu** - Puan kaydı
+- **Kelime Sayacı** - Yazım aracı
+- **Zamanlayıcı** - Zaman yönetimi
+
+### 📚 İçerik (`/docs`, `/blog`, `/explore`)
+
+Psikoloji ve refah hakkında kapsamlı bilgi bankası.
+
+| Bölüm | İçerik |
+|-------|--------|
+| Dokümantasyon | Psikolojik teoriler, kavramlar, araştırmalar |
+| Blog | Refah, kişisel gelişim makaleleri |
+| Keşfet | Küratörlü kaynaklar, web siteleri, uygulamalar |
+
+## Pozitif Psikoloji
+
+Kuakua, hayatı yaşamaya değer kılan şeyin incelenmesine adanmış bilimsel bir alan olan **pozitif psikoloji** ilkelerine dayanır.
+
+### Temel Kavramlar
+
+| Kavram | Açıklama |
+|--------|----------|
+| **Eudaimonia** | İnsan gelişimi, potansiyelin gerçekleşmesi |
+| **Öznel Refah** | Yaşam doyumu, olumlu duygular |
+| **Karakter Güçleri** | Minnettarlık, umut, dayanıklılık gibi olumlu özellikler |
+| **Akış** | Etkinliklerde optimum katılım durumu |
+| **Dayanıklılık** | Zorluklar karşısında uyum yeteneği |
+
+### Faydalar
+
+- 🌟 **Refah iyileştirmesi** - Optimum işleyişe odaklanma
+- 💪 **Güçlü yönlerin gelişimi** - Olumlu özelliklerin geliştirilmesi
+- 🤝 **Olumlu ilişkiler** - Anlamlı bağlantılar kurma
+- 🎯 **Amaç ve anlam** - Değerli hedefler arama
+- 🧘 **Farkındalık** - Bilinçli farkındalık
+
+## Öne Çıkan İçerik
+
+### Popüler Testler
+
+| Test | Açıklama |
+|------|----------|
+| PHQ-9 | Hasta sağlık anketi (depresyon) |
+| GAD-7 | Yaygın anksiyete ölçeği |
+| Big Five | Beş faktör kişilik modeli |
+| VIA | Karakter güçleri envanteri |
+| PANAS | Pozitif ve negatif etki ölçeği |
+
+### Öne Çıkan Oyunlar
+
+| Oyun | Tür |
+|------|-----|
+| 2048 | Sayı bulmacası |
+| Memory Match | Hafıza |
+| Stroop Test | Bilişsel |
+| Reaction Time | Dikkat |
+| N-Back | Çalışma belleği |
+
+## Hızlı Bağlantılar
+
+| Kaynak | Link |
+|--------|------|
+| 🏠 Ana Sayfa | [kuakua.app](https://kuakua.app) |
+| 🎮 Oyunlar | [kuakua.app/games](https://kuakua.app/games) |
+| 📋 Testler | [kuakua.app/test](https://kuakua.app/test) |
+| 🧪 Deneyler | [kuakua.app/experiment](https://kuakua.app/experiment) |
+| 🔧 Araçlar | [kuakua.app/tools](https://kuakua.app/tools) |
+| 📚 Dokümantasyon | [kuakua.app/docs](https://kuakua.app/docs) |
+| 📝 Blog | [kuakua.app/blog](https://kuakua.app/blog) |
+| 🌍 Keşfet | [kuakua.app/explore](https://kuakua.app/explore) |
+
+## Misyonumuz
+
+Kuakua, insanların kendilerini daha iyi anlamalarına ve refahlarını artırmalarına yardımcı olan **psikolojik olarak temellendirilmiş, etik olarak sorumlu ve küresel olarak erişilebilir araçlar ve içerikler** oluşturmayı amaçlamaktadır.
+
+İnandığımız değerler:
+- ✅ Psikolojik geçerlilik ve zarar önleme
+- ✅ Kavramsal ve yapısal netlik
+- ✅ Kullanıcı anlayışı ve erişilebilirlik
+- ✅ Teknik sağlamlık ve bakım kolaylığı
+- ✅ Uluslararasılaşma ve kültürel duyarlılık
+
+---
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Pozitif psikoloji hakkında daha fazla bilgi edinin:
-
-- [http://kuakua.app/](http://kuakua.app/)
-- [http://kuakua.app/](http://positivepsychologys.com/)
-
-## Pozitif Psikolojinin Tarihi
-
-Pozitif psikoloji, ruh sağlığı ve mutluluğu artırmaya adanmış yükselen bir alandır. Amacı, bireylerin güçlü yönlerini keşfetmelerine ve kullanmalarına yardımcı olarak daha yüksek düzeyde yaşam memnuniyeti ve sevinç elde etmektir.
-
-Pozitif psikolojinin gelişimi 20. yüzyılın sonlarında başlamış ve 1997 yılında resmen tanıtılmıştır. Bu alan, Martin Seligman ve Mihaly Csikszentmihalyi tarafından Ocak 2000'de yayınlanan "Positive Psychology: An Introduction" kitabıyla tanınmıştır.
-
-Psikolog Martin Seligman ve meslektaşları tarafından teşvik edilen pozitif psikoloji, psikoloji alanında devrim niteliğinde bir değişimi temsil eder ve insan toplumunun tarihinde yeni bir dönüm noktasını işaret eder. Doğu ve Batı kültürlerinin bilgeliğini ve psikolojik araştırmaları birleştirir.
-
-Seligman ve meslektaşları, psikolojinin ruhsal hastalıklar ve sorunların ötesine geçerek ruh sağlığını ve mutluluğu artırma yollarını keşfetmesi gerektiğini savunurlar. Pozitif psikoloji, mutluluğu araştırmak için bilimsel yöntemler kullanır ve bu alanda pozitif bir yönelim teşvik eder, pozitif psikolojik özelliklerin, refahın ve uyumlu gelişimin yetiştirilmesine odaklanır.
-
-Pozitif psikolojinin merkezinde, Aristoteles felsefesinden gelen ve en yüksek insan iyiliğini ifade eden, genellikle "gelişme" veya "iyi yaşam" olarak çevrilen "eudaimonia" kavramı yer alır. Pozitif psikologlar, öznel refah (SWB) ve mutluluk terimlerini sık sık birbirinin yerine kullanırlar.
-
-Bu alan, bireysel ve toplumsal refahı artırmayı, "pozitif öznel deneyimler, pozitif bireysel özellikler ve pozitif kurumlar... yaşam kalitesini artırmayı amaçlayan" araştırmalar yapmayı öncelikli olarak ele alır.
-
-Onlar, eşler, aile, arkadaşlar, meslektaşlar ve daha geniş ağlarla olan sosyal bağlantılar; kulüplere veya sosyal organizasyonlara üyelik; fiziksel egzersiz ve meditasyon uygulamaları gibi çeşitli faktörlerin mutluluk ve öznel refaha katkıda bulunduğuna inanırlar.
-
-Maneviyat da refahı artıran bir faktör olarak görülür. Araştırmacılar, manevi uygulamalar ve dini bağlılığı, refahın potansiyel kaynakları ve pozitif psikolojinin ayrılmaz bir parçası olarak incelemeye devam ederler.
-
-Finansal gelir belirli bir noktaya kadar mutluluğu artırabilir, ancak belirli bir eşik aşıldığında, etkisi durabilir veya hatta azalabilir. Pozitif psikoloji, bireyin pozitif niteliklerini, büyüme kapasitesini ve kendi kaderini şekillendirme özgürlüğünü geliştirmeyi vurgular.
-
-## Pozitif psikoloji benim için ne yapar?
-
-Refahı ve optimal işlevselliği artırma Pozitif psikoloji, yalnızca semptomları hafifletmekle kalmayıp, bireylerin refahını ve optimal işlevselliğini artırmaya odaklanır, geleneksel psikolojiyi tamamlar ve yerine geçmez. Pozitif psikolojinin yaygın temaları arasında hayatın tadını çıkarma, şükran, nezaket, pozitif ilişkileri teşvik etme ve umut ve anlam arayışı yer alır.
-
-Refaha odaklanma Araştırmalar, refah ve psikopatolojinin orta düzeyde ilişkili olduğunu, ancak yine de ruh sağlığının bağımsız yapıları olduğunu göstermektedir. Psikopatolojinin başarılı bir şekilde tedavi edilmesinden sonra bile, düşük refah seviyeleri devam edebilir ve bu da psikolojik sıkıntı için önemli bir risk faktörü oluşturur.
-
-Psikolojik semptomların hafifletilmesi Yüksek refah seviyeleri, semptomların yeniden ortaya çıkmasını veya nüksetmesini içeren psikolojik semptomları hafifletebilir ve yaşam kalitesini ve uzun ömürlülüğü artırabilir. Bu nedenle, klinik örnekler, pozitif duygular, bilişler veya davranışlar gibi refahı artırmayı amaçlayan pozitif psikolojik müdahalelerden (PPI'ler) büyük ölçüde yararlanabilirler.
-
-Yardımcı rol Pozitif psikoloji, mutluluk, depresyon veya anksiyete ile ilgili stresi hafifletmede önemli bir etkiye sahip olmasa da, refahı artırarak psikolojik sıkıntıyı dolaylı olarak hafifletme yeteneği geniş çapta kabul görmüştür.
-
-Pozitif psikolojinin temel faydaları Hayatın tadını çıkarma: pozitif deneyimlerden zevk alma ve onları takdir etme. Şükran: hayattaki güzel şeyleri tanıma ve şükran duyma. Nezaket: başkalarına karşı merhamet ve özgecilik uygulama. Pozitif ilişkileri teşvik etme: sağlıklı ve destekleyici ilişkiler kurma ve sürdürme. Umut ve anlam arayışı: hedeflere ulaşmak ve hayatta bir amaç bulmak için çaba gösterme. Bu yönlere odaklanarak, pozitif psikoloji bireylerin daha dolu ve dirençli bir yaşam sürmesine yardımcı olur.
-
-## Psikoloji kaynakları hakkında daha fazla bilgi edinin:
-
-- [http://kuakua.app/](http://kuakua.app/explore)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/explore)
-
-## Pozitif kelimeler hakkında daha fazla bilgi edinin:
-
-- [http://kuakua.app/](http://kuakua.app/vote)
-
-## Psikoloji bilgileri
-
-hakkında daha fazla bilgi edinin:
-
-- [http://kuakua.app/](http://kuakua.app/docs)
-- [http://positivepsychologys.com/](http://positivepsychologys.com/docs)
-
-```
-
-```
+**Bize katılın ve pozitifliğin hayatınızda parlamasına izin verin.** 🌟

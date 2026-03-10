@@ -10,7 +10,7 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
 [![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
@@ -29,184 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
-
-[English](README.md)
-[简体中文](README.zh.md)
-[Español](README.es.md)
-[العربية](README.ar.md)
-[বাংলা](README.bn.md)
-[Português](README.pt.md)
-[Русский](README.ru.md)
-[日本語](README.ja.md)
-[Deutsch](README.de.md)
-[Tiếng Việt](README.vi.md)
-[Français](README.fr.md)
-[فارسی](README.fa.md)
-[Türkçe](README.tr.md)
-[한국어](README.ko.md)
-[ไทย](README.th.md)
-[Italiano](README.it.md)
-[Bahasa Melayu](README.ms.md)
-[Filipino](README.tl.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## Introduction
 
-Greetings, as a dedicated researcher and practitioner of positive psychology, I firmly believe in humanity's intrinsic positivity and capacity for growth.
+**Kuakua** is a comprehensive psychology and well-being platform built with modern web technologies. We are dedicated to making psychological science accessible, engaging, and beneficial for everyone.
 
-Through rigorous psychological research and practical applications, we strive to impart 'psychological energy,' happiness, and health to all, guiding us toward a 'positive life.'
+As a platform focused on positive psychology, we believe in humanity's intrinsic capacity for growth and well-being. Through evidence-based tools, interactive experiences, and curated content, we help individuals better understand themselves and improve their mental health.
 
-kuakua.app is a platform dedicated to the science of positive psychology.
+### Platform Overview
 
-Here, we celebrate virtues, nurture growth, and champion the freedom to shape one's destiny. By sharing uplifting words and narratives, and through interactive voting, we aim to kindle an indomitable spirit within everyone.
+| Module | Count | Description |
+|--------|-------|-------------|
+| 🎮 **Games** | 140+ | Cognitive games, puzzles, relaxation games, and classic browser games |
+| 📋 **Tests** | 150+ | Psychological self-assessment tools and validated instruments |
+| 🧪 **Experiments** | 90+ | Interactive cognitive paradigms and experimental tasks |
+| 🛠️ **Tools** | 30+ | Practical utilities for focus, productivity, and well-being |
+| 📚 **Docs** | 200+ | Psychology knowledge base and research documentation |
+| ✍️ **Blog** | 200+ | Articles on psychology, well-being, and personal growth |
+| 🌍 **Languages** | 32 | Full internationalization support including RTL languages |
 
-Join us and let positivity radiate in your life.
+### Technology Stack
+
+- **Framework**: Next.js 16.1.6 with App Router
+- **Language**: TypeScript 5.9.3
+- **Styling**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **Internationalization**: next-intl (32 languages)
+- **State Management**: Zustand 5.0.11
+- **Animation**: Framer Motion 12.35.2
+- **Database**: Supabase (PostgreSQL)
+- **Deployment**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Learn more about positive psychology:
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## Core Modules
 
-## History of Positive Psychology
+### 🎮 Games (`/games`)
 
-Positive psychology, an emerging field, is devoted to enhancing mental health and happiness. Its aim is to help individuals uncover and harness their strengths, thereby achieving higher levels of life satisfaction and joy.
+Over 140 games spanning multiple categories:
 
-The development of positive psychology began in the late 20th century and was formally introduced in 1997. This field gained recognition through the publication of 'Positive Psychology: An Introduction' by Martin Seligman and Mihaly Csikszentmihalyi in January 2000.
+- **Cognitive Training**: Reaction time, memory, attention, and processing speed tests
+- **Classic Puzzles**: Sudoku, 2048, Tetris, Chess, Solitaire
+- **Google Classics**: Dino game, Snake, Pac-Man, Minesweeper
+- **Relaxation Games**: Perfect Tidy, coloring, jigsaw puzzles
+- **Simulation**: Life Restart, Monopoly, Beer Distribution Game
 
-Promoted by psychologist Martin Seligman and his colleagues, positive psychology represents a revolutionary shift in the field of psychology and marks a new milestone in the history of human society. It bridges the wisdom of Eastern and Western cultures and psychological research.
+**Popular Games:**
+- [Reaction Time Test](https://kuakua.app/games/reaction-time) - Measure your neural reflex speed
+- [Chimp Memory Test](https://kuakua.app/games/chimp-test) - Challenge primate-level spatial memory
+- [Visual Memory Game](https://kuakua.app/games/visual-memory) - Test short-term memory capacity
+- [Typing Speed Test](https://kuakua.app/games/typing-test) - WPM and accuracy measurement
+- [2048](https://kuakua.app/games/2048) - Classic number puzzle
+- [Life Restart Simulator](https://kuakua.app/games/life-restart) - Life simulation with multiple endings
 
-Seligman and his colleagues argue that psychology should go beyond studying mental illnesses and problems to explore ways to enhance mental health and happiness. Positive psychology employs scientific methods to study happiness and promotes a positive orientation within the field, focusing on cultivating positive psychological traits, well-being, and harmonious development.
+### 📋 Psychological Tests (`/test`)
 
-Central to positive psychology is the concept of eudaimonia, a term from Aristotelian philosophy signifying the highest human good, often translated as 'flourishing' or 'the good life.' Positive psychologists often use the terms subjective well-being (SWB) and happiness interchangeably.
+A comprehensive collection of 150+ psychological self-assessment tools, including:
 
-The field prioritizes enhancing both individual and societal well-being, studying 'positive subjective experiences, positive individual traits, and positive institutions... aimed at improving quality of life.'
+**Validated Clinical Instruments:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - Patient Health Questionnaire for depression
+- [GAD-7](https://kuakua.app/test/gad-7) - Generalized Anxiety Disorder assessment
+- [DASS-21](https://kuakua.app/test/dass-21) - Depression, Anxiety, and Stress Scale
+- [PSQI](https://kuakua.app/test/psqi) - Pittsburgh Sleep Quality Index
+- [IES-R](https://kuakua.app/test/ies-r) - Impact of Event Scale (trauma)
 
-They believe various factors contribute to happiness and subjective well-being, such as social connections with spouses, family, friends, colleagues, and broader networks; membership in clubs or social organizations; physical exercise and meditation practices.
+**Personality Assessments:**
+- [Big Five Personality Test](https://kuakua.app/test/bigfive-test) - Five-factor model
+- [MBTI](https://kuakua.app/test/mbti) - Myers-Briggs Type Indicator
+- [Enneagram Test](https://kuakua.app/test/enneagram-test) - Nine personality types
+- [HEXACO](https://kuakua.app/test/hexaco) - Six-factor personality model
+- [DISC Test](https://kuakua.app/test/disc-test) - Behavioral assessment
 
-Spirituality is also regarded as a factor that can enhance well-being. Researchers continue to study spiritual practices and religious devotion as potential sources of well-being and integral parts of positive psychology.
+**Specialized Scales:**
+- [Love Language Test](https://kuakua.app/test/love-language-test) - Chapman's five languages
+- [Narcissistic Personality Inventory](https://kuakua.app/test/narcissistic-personality-inventory)
+- [Internet Addiction Assessment](https://kuakua.app/test/internet-addiction-assessment)
+- [RIASEC Career Test](https://kuakua.app/test/riasec) - Holland's career interests
 
-While financial income can increase happiness to a certain extent, beyond a specific threshold, its effect may level off or even decline. Positive psychology emphasizes cultivating an individual's positive qualities, the capacity for growth, and the freedom to shape one's destiny.
+> ⚠️ **Disclaimer**: All tests are for educational and self-reflection purposes only. They are not diagnostic tools. If you are experiencing mental health concerns, please consult a qualified healthcare professional.
 
-## What does positive psychology do for me?
+### 🧪 Cognitive Experiments (`/experiment`)
 
-Enhancing Well-Being and Optimal Functioning Positive psychology focuses on enhancing individuals' well-being and optimal functioning rather than merely alleviating symptoms, complementing rather than replacing traditional psychology. Common themes in positive psychology include savoring life, gratitude, kindness, promoting positive relationships, and pursuing hope and meaning.
+Over 90 interactive implementations of classic cognitive paradigms:
 
-Focus on Well-Being Research shows that well-being and psychopathology are moderately correlated yet independent constructs of mental health. Even after successful treatment of psychopathology, low levels of well-being may persist, forming a substantial risk factor for psychological distress.
+**Attention & Executive Function:**
+- [Stroop Test](https://kuakua.app/experiment/stroop-test) - Cognitive interference
+- [N-Back Task](https://kuakua.app/experiment/n-back-task) - Working memory training
+- [Wisconsin Card Sorting Test](https://kuakua.app/experiment/wcst-test) - Cognitive flexibility
+- [Go/No-Go Task](https://kuakua.app/experiment/go-no-go-task) - Response inhibition
+- [Flanker Task](https://kuakua.app/experiment/flanker-task) - Selective attention
 
-Mitigating Psychological Symptoms High levels of well-being can buffer against psychological symptoms, including the relapse or recurrence of symptoms, and enhance the quality of life and longevity. Therefore, clinical samples can greatly benefit from positive psychological interventions (PPIs) that explicitly aim to enhance well-being, such as positive feelings, cognitions, or behaviors.
+**Decision Making:**
+- [Iowa Gambling Task](https://kuakua.app/experiment/iowa-gambling-task) - Risk-based decision making
+- [Ultimatum Game](https://kuakua.app/experiment/ultimatum-game) - Fairness and negotiation
+- [Trust Game](https://kuakua.app/experiment/trust-game) - Social trust behavior
+- [Delay Discounting](https://kuakua.app/experiment/delay-discounting) - Temporal preferences
 
-Auxiliary Role While positive psychology does not have a significant effect on relieving stress related to happiness, depression, or anxiety, its ability to indirectly alleviate psychological distress by enhancing well-being is widely recognized.
+**Memory & Learning:**
+- [Implicit Association Test](https://kuakua.app/experiment/implicit-association-test) - Unconscious biases
+- [Serial Position Effect](https://kuakua.app/experiment/serial-position) - Memory recall patterns
+- [Corsi Block Task](https://kuakua.app/experiment/corsi-task) - Visuospatial memory
 
-Key Benefits of Positive Psychology Savoring Life: Enjoying and appreciating positive experiences. Gratitude: Recognizing and being thankful for the good things in life. Kindness: Practicing compassion and altruism towards others. Promoting Positive Relationships: Building and maintaining healthy and supportive relationships. Pursuing Hope and Meaning: Striving for goals and finding purpose in life. By focusing on these aspects, positive psychology helps individuals lead more fulfilling and resilient lives.
+**Perception:**
+- [Visual Search Task](https://kuakua.app/experiment/visual-search-task) - Feature vs. conjunction search
+- [Change Blindness](https://kuakua.app/experiment/change-blindness) - Visual attention limits
+- [McGurk Effect](https://kuakua.app/experiment/mcgurk-effect) - Audiovisual integration
 
+### 🛠️ Tools (`/tools`)
 
-## Learn more about psychology experimental research:
+Practical utilities for daily well-being:
 
-- [Kuakua | Psychology Experiment](http://kuakua.app/experiment)
+- [Focus Flow System](https://kuakua.app/tools/focus-flow-system) - Pomodoro timer with break activities
+- [Scoreboard](https://kuakua.app/tools/scoreboard) - Game score tracker
+- [Word Counter](https://kuakua.app/tools/word-counter) - Text analysis tool
+- [Relax](https://kuakua.app/tools/relax) - Ambient sounds and meditation
+- [Time Tab](https://kuakua.app/tools/time-tab) - World clock and timer
+- [Random Generator](https://kuakua.app/tools/random-generator) - Dice, coins, and random picks
 
-## Learn more about psychology questionnaire tests:
+### 📚 Knowledge Base (`/docs`)
 
-- [Kuakua | Psychology Questionnaire Test](http://kuakua.app/test)
+Comprehensive psychology documentation covering:
 
-## Learn more about psychology games:
+- **Research Methods**: Experimental design, validity, reliability, statistics
+- **Social Psychology**: Conformity, prejudice, attribution, group dynamics
+- **Cognitive Psychology**: Memory, attention, perception, decision-making
+- **Positive Psychology**: Well-being, resilience, gratitude, meaning
+- **Clinical Psychology**: Assessment, therapy approaches, mental health
 
-- [Kuakua | Psychology Games](http://kuakua.app/games)
+### ✍️ Blog (`/blog`)
 
-## Learn more about psychology resources:
+Articles exploring psychology in everyday life:
 
-- [Kuakua | Discover psychology websites, apps, and AI tools](http://kuakua.app/explore)
+- Positive psychology applications
+- Cognitive science insights
+- Cultural psychology perspectives
+- Practical well-being strategies
+- Research summaries
 
-## Learn more about positive words:
+### 🌍 Explore (`/explore`)
 
-- [Kuakua | Vote for positive words and happy language](http://kuakua.app/vote)
+Curated collection of psychology resources:
 
-## Learn more about psychology knowledge:
-
-- [Kuakua | Psychology Docs: Everything about Psychology](http://kuakua.app/docs)
-
-## Learn more about psychology research:
-
-- [Kuakua | Psychology Theories and Insights](http://kuakua.app/theories-insights)
-  
+- External websites and apps
+- AI tools for mental health
+- Research databases
+- Professional resources
 
 ---
 
-## Others:
+## Positive Psychology
 
-### 1. Reaction Time Test
-  Click when the screen flashes and see how fast your reflexes are compared with world averages. Reaction time is widely used in cognitive-neuroscience as a core measure of processing speed.
-  [https://kuakua.app/games/reaction-time](https://kuakua.app/games/reaction-time)
+### What is Positive Psychology?
 
-### 2. Chimp Memory Test
-  A fast-paced numeric span task inspired by research showing chimpanzees can sometimes out-perform humans on spatial recall.
-  [https://kuakua.app/games/chimp-test](https://kuakua.app/games/chimp-test)
+Positive psychology, formally introduced by Martin Seligman and Mihaly Csikszentmihalyi in 2000, is a scientific field dedicated to understanding and enhancing human flourishing. Unlike traditional psychology's focus on pathology, positive psychology studies what makes life worth living.
 
-### 3. Typing Speed Test
-  Type for 60 s, get instant words-per-minute and accuracy, and track skill growth over time (great for keyboard warriors!).
-  [https://kuakua.app/games/typing-test](https://kuakua.app/games/typing-test)
+### Core Concepts
 
-### 4. Math Speed Test
-  Rapid-fire arithmetic drills your working-memory buffer while pushing cognitive load to its limit.
-  [https://kuakua.app/games/quick-mental-math](https://kuakua.app/games/quick-mental-math)
+- **Eudaimonia**: The highest human good—flourishing and meaningful living
+- **Subjective Well-being (SWB)**: Life satisfaction and emotional balance
+- **Character Strengths**: Virtues that enable individuals to thrive
+- **Flow**: Optimal experience and engagement
+- **Resilience**: The capacity to recover from adversity
 
-### 5. Visual Memory Game
-  Remember flashing squares in ever-growing grids; a playful way to feel Miller’s “magic number 7 ± 2” in action.
-  [https://kuakua.app/games/visual-memory](https://kuakua.app/games/visual-memory)
+### Key Benefits
 
-### 6. Sequence Memory Test
-  Tap symbols in the exact order they appeared; levels adapt to your performance for a just-right difficulty curve.
-  [https://kuakua.app/games/sequence-memory](https://kuakua.app/games/sequence-memory)
+Research shows that positive psychology interventions can:
 
-### 7. Five Love Languages Quiz
-  Discover which of Chapman's five languages—Words, Time, Gifts, Acts, Touch—speaks loudest to you and your partner.
-  [https://kuakua.app/tests/love-language-test](https://kuakua.app/test/love-language-test)
+1. **Enhance Well-being**: Increase positive emotions and life satisfaction
+2. **Build Resilience**: Develop coping strategies for challenges
+3. **Improve Relationships**: Foster social connections and empathy
+4. **Boost Performance**: Enhance focus, creativity, and productivity
+5. **Promote Health**: Support physical and mental health outcomes
 
-### 8. Narcissistic Personality Inventory
-  A classic 40-item NPI screener that maps you on the spectrum from normal self-esteem to sub-clinical narcissism.
-  [https://kuakua.app/test/narcissistic-personality-inventory](https://kuakua.app/test/narcissistic-personality-inventory)
+### Practical Applications
 
-### 9. Internet Addiction Test
-  The 20-item IAT flags problematic online use and offers insight into digital-wellness habits.
-  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction-assessment)
+- **Savoring**: Mindfully enjoying positive experiences
+- **Gratitude**: Recognizing and appreciating life's blessings
+- **Kindness**: Practicing compassion and altruism
+- **Meaning**: Pursuing purpose and significance
+- **Growth**: Embracing challenges as opportunities
 
-### 10. Implicit Association Test
-  A keyboard-speed pairing task exposing subconscious associations that traditional surveys miss.
-  [https://kuakua.app/experiment/implicit-association](https://kuakua.app/experiment/implicit-association-test)
+---
 
-### 11. N-Back Work Memory Task
-  Continuously match stimuli n-steps back; rigorous brain-gym favoured in cognition labs worldwide.
-  [https://kuakua.app/experiment/n-back-task](https://kuakua.app/experiment/n-back-task)
+## Featured Content
 
-### 12. Wisconsin Card Sorting Task
-  Sort cards while hidden rules keep changing—a gold-standard executive-function probe.
-  [https://kuakua.app/experiment/wcst-test](https://kuakua.app/experiment/wcst-test)
+### Popular Games
 
-### 13. Negative Priming Experiment
-  Ignore then respond—feel how latent inhibition slows you down in classic negative-priming trials.
-  [https://kuakua.app/experiment/negative-priming](https://kuakua.app/experiment/negative-priming)
+| Game | Description | Link |
+|------|-------------|------|
+| Reaction Time | Test your reflexes against global averages | [Play](https://kuakua.app/games/reaction-time) |
+| Chimp Memory | Spatial recall challenge | [Play](https://kuakua.app/games/chimp-test) |
+| Visual Memory | Short-term memory assessment | [Play](https://kuakua.app/games/visual-memory) |
+| Sequence Memory | Pattern recall with adaptive difficulty | [Play](https://kuakua.app/games/sequence-memory) |
+| Typing Test | WPM and accuracy measurement | [Play](https://kuakua.app/games/typing-test) |
+| 2048 | Number merging puzzle | [Play](https://kuakua.app/games/2048) |
+| Sudoku | Classic logic puzzle | [Play](https://kuakua.app/games/sudoku) |
+| Chess | Strategic board game with AI | [Play](https://kuakua.app/games/chess) |
 
-### 14. Visual Search Task
-  Hunt for a target among distractors and see how feature vs. conjunction search changes your reaction times.
-  [https://kuakua.app/experiment/visual-search-task](https://kuakua.app/experiment/visual-search-task)
+### Featured Tests
 
-### 15. Tower of Hanoi
-  Move disks with minimal steps; a timeless benchmark for planning and rule-shifting.
- [https://kuakua.app/experiment/hanoi-tower](https://kuakua.app/experiment/hanoi-tower)
+| Test | Purpose | Link |
+|------|---------|------|
+| Big Five | Personality traits | [Take Test](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | Depression screening | [Take Test](https://kuakua.app/test/phq-9) |
+| GAD-7 | Anxiety assessment | [Take Test](https://kuakua.app/test/gad-7) |
+| Love Languages | Relationship preferences | [Take Test](https://kuakua.app/test/love-language-test) |
+| MBTI | Personality type | [Take Test](https://kuakua.app/test/mbti) |
+| Enneagram | Personality patterns | [Take Test](https://kuakua.app/test/enneagram-test) |
 
-### 16. Beer Distribution Game
-  Classic MIT beer-game lets you feel coordination pain and the bullwhip effect in real-time.
-  [https://kuakua.app/games/beerdistributiongame](https://kuakua.app/games/beerdistributiongame)
+### Featured Experiments
 
-### 17. Life Restart Simulator
-  Roll talents, make yearly choices, and speed-run an entire lifetime in 5 minutes—collect all endings!
-  [https://kuakua.app/games/life-restart](https://kuakua.app/games/life-restart)
+| Experiment | Cognitive Domain | Link |
+|------------|-----------------|------|
+| Stroop Test | Cognitive interference | [Try](https://kuakua.app/experiment/stroop-test) |
+| N-Back | Working memory | [Try](https://kuakua.app/experiment/n-back-task) |
+| WCST | Cognitive flexibility | [Try](https://kuakua.app/experiment/wcst-test) |
+| IAT | Implicit associations | [Try](https://kuakua.app/experiment/implicit-association-test) |
+| Tower of Hanoi | Planning & problem-solving | [Try](https://kuakua.app/experiment/hanoi-tower) |
 
-### 18.  Positive Vocabulary Vote
-  Help crowd-source a lexicon of uplifting words—linguistic savoring is linked to higher well-being.
-  [https://kuakua.app/vote](https://kuakua.app/vote)
+---
 
-### 19. Daily Positive Cards
-  Draw a quick affirmation or gratitude prompt each morning—micro-rituals proven to boost mood and resilience.
-  [https://kuakua.app/drawcard](https://kuakua.app/drawcard)
+## Quick Links
 
+- 🏠 **Homepage**: [kuakua.app](https://kuakua.app)
+- 🎮 **Games**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Tests**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Experiments**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Tools**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **Docs**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **Explore**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **Vote**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **Daily Cards**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
 
+---
+
+## Our Mission
+
+Kuakua aims to build **psychologically grounded, ethically responsible, and globally accessible tools and content** that help individuals better understand themselves and improve their well-being.
+
+We believe that:
+- Psychological knowledge should be accessible to everyone
+- Self-assessment tools can promote self-awareness and growth
+- Interactive experiences make learning engaging
+- Evidence-based approaches yield meaningful results
+- Long-term trust matters more than short-term metrics
+
+---
+
+## Support
+
+If you find Kuakua helpful, consider supporting our work:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*Last updated: 2026-03-10*
+*Version: 2.0*

@@ -1,4 +1,4 @@
-# Tervetuloa kuakua.app-sivustolle
+# Kuakua - Psykologia ja Hyvinvointialusta
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -29,69 +29,97 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Esittely
+## Alustan Yleiskatsaus
 
-Tervehdys! Positiivisen psykologian omistautuneena tutkijana ja käytännön harjoittajana uskon vahvasti ihmiskunnan sisäiseen positiivisuuteen ja kasvuun.
+| Moduuli | Sisältö | Kuvaus |
+|--------|-----------|-------------|
+| 🎮 **Pelit** | 140+ peliä | Pulmat, kognitiiviset haasteet, rentoutumispelit ja klassikot |
+| 📋 **Testit** | 150+ testiä | Validoidut psykologiset asteikot ja itsearviointityökalut |
+| 🧪 **Kokeet** | 90+ koetta | Klassiset kognitiiviset paradigmat ja kokeelliset tehtävät |
+| 🛠️ **Työkalut** | 30+ työkalua | Keskityvirta, pistetaulu, sanalaskuri ja muut |
+| 📚 **Dokumentaatio** | 200+ artikkelia | Tietopankki psykologiateorioille ja tutkimukselle |
+| ✍️ **Blogi** | 200+ julkaisua | Artikkeleita mielenterveydestä ja henkilökohtaisesta kehityksestä |
 
-Tiukan psykologisen tutkimuksen ja käytännön sovellusten avulla pyrimme välittämään 'psykologista energiaa', onnea ja terveyttä kaikille ja ohjaamaan meitä kohti 'positiivista elämää'.
+## Teknologiapino
 
-kuakua.app on positiivisen psykologian tieteelle omistettu alusta.
+| Teknologia | Versio | Tarkoitus |
+|-----------|---------|---------|
+| **Next.js** | 16.1.6 | React-kehys (App Router) |
+| **TypeScript** | 5.9.3 | Tyyppiturvallinen JavaScript |
+| **Tailwind CSS** | 4.2.1 | Utility-first -tyylittely |
+| **DaisyUI** | 5.5.18 | Komponenttikirjasto |
+| **next-intl** | 4.1.0 | Kansainvälistäminen (32 kieltä) |
+| **Zustand** | 5.0.11 | Tilanhallinta |
+| **Framer Motion** | 12.35.2 | Animaatiokirjasto |
+| **Supabase** | - | Tietokanta (PostgreSQL) |
+| **Vercel** | - | Käyttöönottoalusta |
 
-Täällä juhlimme hyveitä, edistämme kasvua ja puolustamme vapautta muovata omaa kohtaloa. Jakamalla kohottavia sanoja ja tarinoita sekä interaktiivisten äänestysten kautta pyrimme sytyttämään voittamattoman hengen jokaisessa.
+## Päämoduulit
 
-Liity meihin ja anna positiivisuuden säteillä elämässäsi.
+### 🎮 Pelit
+Yli 140 interaktiivisen pelin kokoelma, sisältäen:
+- **Pulmapelit**: Snake, 2048, Tetris, Miinaharava
+- **Kognitiiviset haasteet**: Stroop-testi, muistipelit, N-back
+- **Rentoutumispelit**: Rentoutumis- ja mindfulness-pelit
+- **Klassiset pelit**: Pacman, Space Invaders, Breakout
+
+### 📋 Psykologiset Testit
+Yli 150 psykologista itsearviointityökalua:
+- **Validoidut asteikot**: PHQ-9, GAD-7, Big Five, PSS
+- **Persoonallisuusarviointi**: MBTI, Enneagram, VIA-vahvuudet
+- **Hyvinvoinnin mittaus**: SWLS, FFMQ, RSES
+- **Erikoisarvioinnit**: PTSD, ahdistus, masennusseulonta
+
+### 🧪 Kognitiiviset Kokeet
+Yli 90 interaktiivista kokeellista tehtävää:
+- **Tarkkaavaisuus**: Stroop-efekti, Flanker-tehtävä
+- **Muisti**: N-back, numerosarja, visuaalinen muisti
+- **Päätöksenteko**: Iowa Gambling Task, riskinarviointi
+- **Reaktio**: Go/No-Go, valintareaktioaika
+
+### 🛠️ Työkalut
+Yli 30 käytännöllistä työkalua:
+- **Tuottavuus**: Keskityvirta, Pomodoro-ajastin
+- **Analyysi**: Pistetaulu, edistymisen seuranta
+- **Kirjoittaminen**: Sanalaskuri, päiväkirjamallit
+- **Rentoutuminen**: Hengitysharjoitukset, meditaatioajastin
+
+## Positiivinen Psykologia
+
+Positiivinen psykologia on tieteellinen ala, joka on omistettu mielenterveyden ja onnellisuuden parantamiseen. Martin Seligmanin ja Mihaly Csikszentmihalyin perustama, se keskittyy ihmisten vahvuuksiin, hyveisiin ja optimaaliseen toimintaan.
+
+### Keskeiset käsitteet
+- **Eudaimonia**: Kukoistus ja itsensä toteuttaminen
+- **PERMA-malli**: Positiiviset tunteet, sitoutuminen, suhteet, merkitys, saavutukset
+- **Subjektiivinen hyvinvointi**: Elämäntyytyväisyys ja ilo
+- **Luonteen vahvuudet**: 24 vahvuutta VIA-luokittelussa
+
+## Valittu Sisältö
+
+| Kategoria | Sisältö | Kuvaus |
+|--------|-----------|-------------|
+| 📖 **Teoriat** | 50+ teoriaa | Psykologiateoriat ja tutkimus |
+| 🔬 **Tutkimus** | 100+ tutkimusta | Nykyinen psykologinen tutkimus |
+| 🌟 **Harjoitukset** | 80+ harjoitusta | Käytännön hyvinvointiharjoitukset |
+| 💡 **Näkemykset** | 120+ artikkelia | Näkemyksiä henkilökohtaiseen kehitykseen |
+
+## Pikalinkit
+
+- 🌐 **Verkkosivusto**: [kuakua.app](https://kuakua.app)
+- 📚 **Dokumentaatio**: [kuakua.app/docs](https://kuakua.app/docs)
+- 🎮 **Pelit**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Testit**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Kokeet**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Työkalut**: [kuakua.app/tools](https://kuakua.app/tools)
+- ✍️ **Blogi**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🔍 **Tutki**: [kuakua.app/explore](https://kuakua.app/explore)
+
+## Tehtävämme
+
+Kuakua on sitoutunut luomaan psykologisesti perusteltuja, eettisesti vastuullisia ja globaalisti saatavilla olevia työkaluja ja sisältöä, jotka auttavat yksilöitä ymmärtämään paremmin itseään ja hyvinvointiaan.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
-
-## Lisätietoja positiivisesta psykologiasta:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Positiivisen psykologian historia
-
-Positiivinen psykologia, nouseva ala, on omistautunut mielenterveyden ja onnellisuuden parantamiseen. Sen tavoitteena on auttaa yksilöitä löytämään ja hyödyntämään vahvuuksiaan, saavuttaen näin korkeampia tyytyväisyyden ja ilon tasoja elämässä.
-
-Positiivisen psykologian kehitys alkoi 1900-luvun lopulla ja se esiteltiin virallisesti vuonna 1997. Tämä ala sai tunnustusta Martin Seligmanin ja Mihaly Csikszentmihalyin tammikuussa 2000 julkaistun 'Positive Psychology: An Introduction' kautta.
-
-Psykologi Martin Seligmanin ja hänen kollegoidensa edistämänä positiivinen psykologia edustaa vallankumouksellista muutosta psykologian alalla ja merkitsee uutta virstanpylvästä ihmiskunnan historiassa. Se yhdistää itäisen ja läntisen viisauden sekä psykologisen tutkimuksen.
-
-Seligman ja hänen kollegansa väittävät, että psykologian pitäisi mennä mielenterveysongelmien ja häiriöiden tutkimisen ulkopuolelle ja tutkia tapoja parantaa mielenterveyttä ja onnellisuutta. Positiivinen psykologia käyttää tieteellisiä menetelmiä tutkiakseen onnellisuutta ja edistää positiivista suuntautumista alalla, keskittyen positiivisten psykologisten piirteiden, hyvinvoinnin ja harmonisen kehityksen edistämiseen.
-
-Keskeinen käsite positiivisessa psykologiassa on eudaimonia, Aristoteleen filosofiasta peräisin oleva termi, joka tarkoittaa korkeinta inhimillistä hyvää, ja se käännetään usein 'kukoistamiseksi' tai 'hyväksi elämäksi'. Positiivisen psykologian tutkijat käyttävät usein subjektiivisen hyvinvoinnin (SWB) ja onnellisuuden käsitteitä vaihdellen.
-
-Ala asettaa etusijalle sekä yksilöllisen että yhteiskunnallisen hyvinvoinnin parantamisen, tutkien 'positiivisia subjektiivisia kokemuksia, positiivisia yksilöllisiä piirteitä ja positiivisia instituutioita... elämänlaadun parantamiseksi.'
-
-He uskovat, että erilaiset tekijät vaikuttavat onnellisuuteen ja subjektiiviseen hyvinvointiin, kuten yhteydet puolisoihin, perheeseen, ystäviin, kollegoihin ja laajempiin verkostoihin; jäsenyys klubeissa tai sosiaalisissa järjestöissä; liikunta ja meditaatioharjoitukset.
-
-Hengellisyys nähdään myös hyvinvointia parantavana tekijänä. Tutkijat jatkavat hengellisten käytäntöjen ja uskonnollisen omistautumisen tutkimista potentiaalisina hyvinvoinnin lähteinä ja osana positiivista psykologiaa.
-
-Vaikka taloudellinen tulotaso voi lisätä onnellisuutta tiettyyn rajaan asti, sen vaikutus voi tasoittua tai jopa vähentyä, kun tietty kynnys ylitetään. Positiivinen psykologia korostaa yksilön positiivisten ominaisuuksien kehittämistä, kasvun kapasiteettia ja vapautta muovata omaa kohtaloa.
-
-## Mitä positiivinen psykologia tekee minulle?
-
-Hyvinvoinnin ja optimaalisen toiminnan parantaminen Positiivinen psykologia keskittyy yksilöiden hyvinvoinnin ja optimaalisen toiminnan parantamiseen pelkkien oireiden lievittämisen sijaan, täydentäen perinteistä psykologiaa. Yleisiä teemoja positiivisessa psykologiassa ovat elämästä nauttiminen, kiitollisuus, ystävällisyys, positiivisten suhteiden edistäminen sekä toivon ja merkityksen tavoittelu.
-
-Keskittyminen hyvinvointiin Tutkimukset osoittavat, että hyvinvointi ja psykopatologia korreloivat kohtalaisesti mutta ovat silti riippumattomia mielenterveyden rakenteita. Vaikka psykopatologiaa hoidetaan onnistuneesti, matala hyvinvointi voi silti jatkua, muodostaen merkittävän riskitekijän psykologiselle ahdingolle.
-
-Psyykkisten oireiden lievittäminen Korkea hyvinvointi voi suojata psyykkisiltä oireilta, mukaan lukien oireiden uusiutuminen tai uusiutuminen, ja parantaa elämänlaatua ja pitkäikäisyyttä. Siksi kliiniset otokset voivat hyötyä suuresti positiivisen psykologian interventioista (PPIs), jotka nimenomaisesti pyrkivät lisäämään hyvinvointia, kuten positiivisia tunteita, kognitioita tai käyttäytymistä.
-
-Tukirooli Vaikka positiivinen psykologia ei vaikuta merkittävästi onnellisuuteen, masennukseen tai ahdistukseen liittyvän stressin lievittämiseen, sen kyky lievittää psykologista ahdistusta epäsuorasti lisäämällä hyvinvointia on laajalti tunnustettu.
-
-Positiivisen psykologian tärkeimmät hyödyt Elämästä nauttiminen: Positiivisten kokemusten arvostaminen. Kiitollisuus: Hyvien asioiden tunnistaminen ja niistä kiittäminen. Ystävällisyys: Myötätunnon ja epäitsekkyyden harjoittaminen muita kohtaan. Positiivisten suhteiden edistäminen: Terveiden ja tukevien suhteiden rakentaminen ja ylläpitäminen. Toivon ja merkityksen tavoittelu: Tavoitteiden tavoittelu ja elämän tarkoituksen löytäminen. Keskittymällä näihin asioihin positiivinen psykologia auttaa yksilöitä elämään täyteläisempää ja kestävämpää elämää.
-
-## Lisätietoja psykologisesta tutkimuksesta:
-
-- [Kuakua | Psykologian teoriat ja näkemykset](http://kuakua.app/theories-insights)
-
-## Lisätietoja psykologian resursseista:
-
-- [Kuakua | Tutustu psykologian verkkosivuihin, sovelluksiin ja AI-työkaluihin](http://kuakua.app/explore)
-
-## Lisätietoja positiivisista sanoista:
-
-- [Kuakua | Äänestä positiivisista sanoista ja onnellisesta kielestä](http://kuakua.app/vote)
-
-## Lisätietoja psykologiatiedosta:
-
-- [Kuakua | Psykologian dokumentaatio: Kaikki psykologiasta](http://kuakua.app/docs)

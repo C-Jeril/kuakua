@@ -10,8 +10,8 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -29,71 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## Einführung
 
-Herzlich willkommen! Als engagierter Forscher und Praktiker der Positiven Psychologie glaube ich fest an die inhärente Positivität und das Wachstumspotenzial der Menschheit.
+**Kuakua** ist eine umfassende Psychologie- und Wohlbefindensplattform, die mit modernen Webtechnologien erstellt wurde. Wir widmen uns der Aufgabe, psychologische Wissenschaft für jeden zugänglich, ansprechend und nützlich zu machen.
 
-Durch rigorose psychologische Forschung und praktische Anwendungen streben wir danach, allen Menschen „psychische Energie“, Glück und Gesundheit zu vermitteln und sie auf dem Weg zu einem „positiven Leben“ zu begleiten.
+Als Plattform mit Fokus auf positiver Psychologie glauben wir an die intrinsische Wachstumsfähigkeit und das Wohlbefinden der Menschheit. Durch evidenzbasierte Werkzeuge, interaktive Erfahrungen und kuratierte Inhalte helfen wir Einzelpersonen, sich selbst besser zu verstehen und ihre psychische Gesundheit zu verbessern.
 
-kuakua.app ist eine Plattform, die sich der Wissenschaft der Positiven Psychologie widmet.
+### Plattformübersicht
 
-Hier feiern wir Tugenden, fördern Wachstum und setzen uns für die Freiheit ein, das eigene Schicksal zu gestalten. Durch das Teilen inspirierender Worte und Geschichten und durch interaktive Abstimmungen wollen wir in jedem einen unbezwingbaren Geist entfachen.
+| Modul | Anzahl | Beschreibung |
+|--------|-------|-------------|
+| 🎮 **Spiele** | 140+ | Kognitive Spiele, Puzzles, Entspannungsspiele und klassische Browserspiele |
+| 📋 **Tests** | 150+ | Psychologische Selbstbewertungstools und validierte Instrumente |
+| 🧪 **Experimente** | 90+ | Interaktive Implementierungen klassischer kognitiver Paradigmen |
+| 🛠️ **Werkzeuge** | 30+ | Praktische Hilfsmittel für Fokus, Produktivität und Wohlbefinden |
+| 📚 **Dokumentation** | 200+ | Psychologie-Wissensdatenbank und Forschungsdokumentation |
+| ✍️ **Blog** | 200+ | Artikel über Psychologie, Wohlbefinden und persönliches Wachstum |
+| 🌍 **Sprachen** | 32 | Vollständige Internationalisierungsunterstützung einschließlich RTL-Sprachen |
 
-Begleiten Sie uns und lassen Sie Positivität in Ihrem Leben erstrahlen.
+### Technologie-Stack
 
-## Mehr über Positive Psychologie erfahren:
+- **Framework**: Next.js 16.1.6 mit App Router
+- **Sprache**: TypeScript 5.9.3
+- **Styling**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **Internationalisierung**: next-intl (32 Sprachen)
+- **Zustandsverwaltung**: Zustand 5.0.11
+- **Animation**: Framer Motion 12.35.2
+- **Datenbank**: Supabase (PostgreSQL)
+- **Bereitstellung**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Erfahren Sie mehr über Positive Psychologie:
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## Kernmodule
 
-## Geschichte der Positiven Psychologie
+### 🎮 Spiele (`/games`)
 
-Die Positive Psychologie, ein aufstrebendes Feld, widmet sich der Verbesserung der geistigen Gesundheit und des Glücks. Ihr Ziel ist es, Menschen zu helfen, ihre Stärken zu entdecken und zu nutzen, um höhere Zufriedenheit und Freude im Leben zu erreichen.
+Über 140 Spiele in mehreren Kategorien:
 
-Die Entwicklung der Positiven Psychologie begann Ende des 20. Jahrhunderts und wurde 1997 offiziell eingeführt. Dieses Feld erlangte Anerkennung durch die Veröffentlichung von „Positive Psychology: An Introduction“ von Martin Seligman und Mihaly Csikszentmihalyi im Januar 2000.
+- **Kognitives Training**: Reaktionszeit-, Gedächtnis-, Aufmerksamkeits- und Verarbeitungsgeschwindigkeitstests
+- **Klassische Puzzles**: Sudoku, 2048, Tetris, Schach, Solitaire
+- **Google-Klassiker**: Dino-Spiel, Snake, Pac-Man, Minesweeper
+- **Entspannungsspiele**: Perfect Tidy, Ausmalen, Puzzles
+- **Simulation**: Neustart des Lebens, Monopoly, Bierverteilungsspiel
 
-Gefördert von Psychologen wie Martin Seligman und seinen Kollegen stellt die Positive Psychologie eine revolutionäre Verschiebung im Bereich der Psychologie dar und markiert einen neuen Meilenstein in der Geschichte der Menschheit. Sie verbindet die Weisheiten der östlichen und westlichen Kulturen sowie der psychologischen Forschung.
+**Beliebte Spiele:**
+- [Reaktionszeit-Test](https://kuakua.app/games/reaction-time) - Messe deine neuronale Reflexgeschwindigkeit
+- [Schimpansen-Gedächtnistest](https://kuakua.app/games/chimp-test) - Fordere das räumliche Gedächtnis auf Primatenniveau heraus
+- [Visuelles Gedächtnisspiel](https://kuakua.app/games/visual-memory) - Teste das Kurzzeitgedächtnis
+- [Tippgeschwindigkeitstest](https://kuakua.app/games/typing-test) - WPM und Genauigkeitsmessung
+- [2048](https://kuakua.app/games/2048) - Klassisches Zahlenpuzzle
+- [Lebens-Neustart-Simulator](https://kuakua.app/games/life-restart) - Lebenssimulation mit mehreren Enden
 
-Seligman und seine Kollegen argumentieren, dass die Psychologie über das Studium von psychischen Krankheiten und Problemen hinausgehen und Wege zur Verbesserung der geistigen Gesundheit und des Glücks erkunden sollte. Die Positive Psychologie verwendet wissenschaftliche Methoden, um Glück zu untersuchen, und fördert eine positive Ausrichtung im Feld, mit dem Fokus auf die Förderung positiver psychologischer Eigenschaften, Wohlbefinden und harmonische Entwicklung.
+### 📋 Psychologische Tests (`/test`)
 
-Zentral in der Positiven Psychologie ist das Konzept der Eudaimonie, ein Begriff aus der aristotelischen Philosophie, der das höchste menschliche Gut bezeichnet und oft als „Gedeihen“ oder „das gute Leben“ übersetzt wird. Positive Psychologen verwenden oft die Begriffe subjektives Wohlbefinden (SWB) und Glück synonym.
+Eine umfassende Sammlung von über 150 psychologischen Selbstbewertungstools:
 
-Das Feld priorisiert die Verbesserung des Wohlbefindens sowohl auf individueller als auch auf gesellschaftlicher Ebene und untersucht „positive subjektive Erfahrungen, positive individuelle Eigenschaften und positive Institutionen... mit dem Ziel, die Lebensqualität zu verbessern“.
+**Validierte klinische Instrumente:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - Patienten-Gesundheitsfragebogen für Depression
+- [GAD-7](https://kuakua.app/test/gad-7) - Bewertung generalisierter Angststörung
+- [DASS-21](https://kuakua.app/test/dass-21) - Depression, Angst und Stress Skala
+- [PSQI](https://kuakua.app/test/psqi) - Pittsburgh Schlafqualitätsindex
+- [IES-R](https://kuakua.app/test/ies-r) - Impact of Event Scale (Trauma)
 
-Sie glauben, dass verschiedene Faktoren zum Glück und subjektiven Wohlbefinden beitragen, wie soziale Verbindungen mit Ehepartnern, Familie, Freunden, Kollegen und breiteren Netzwerken; die Mitgliedschaft in Vereinen oder sozialen Organisationen; körperliche Betätigung und Meditation.
+**Persönlichkeitsbewertungen:**
+- [Big Five Persönlichkeitstest](https://kuakua.app/test/bigfive-test) - Fünf-Faktoren-Modell
+- [MBTI](https://kuakua.app/test/mbti) - Myers-Briggs-Typenindikator
+- [Enneagramm-Test](https://kuakua.app/test/enneagram-test) - Neun Persönlichkeitstypen
+- [HEXACO](https://kuakua.app/test/hexaco) - Sechs-Faktoren-Persönlichkeitsmodell
+- [DISC-Test](https://kuakua.app/test/disc-test) - Verhaltensbewertung
 
-Spiritualität wird ebenfalls als Faktor angesehen, der das Wohlbefinden steigern kann. Forscher untersuchen weiterhin spirituelle Praktiken und religiöse Hingabe als potenzielle Quellen des Wohlbefindens und integrale Bestandteile der Positiven Psychologie.
+**Spezialisierte Skalen:**
+- [Sprachen der Liebe Test](https://kuakua.app/test/love-language-test) - Chapmans fünf Sprachen
+- [Narzisstisches Persönlichkeitsinventar](https://kuakua.app/test/narcissistic-personality-inventory)
+- [Internetsucht-Bewertung](https://kuakua.app/test/internet-addiction-assessment)
+- [RIASEC Karrieretest](https://kuakua.app/test/riasec) - Hollands Berufsinteressen
 
-Während das finanzielle Einkommen das Glück bis zu einem gewissen Grad steigern kann, kann sich seine Wirkung über eine bestimmte Schwelle hinaus stabilisieren oder sogar verringern. Die Positive Psychologie betont die Förderung der positiven Eigenschaften eines Individuums, die Fähigkeit zum Wachstum und die Freiheit, sein Schicksal zu gestalten.
+> ⚠️ **Haftungsausschluss**: Alle Tests dienen nur Bildungs- und Selbstreflexionszwecken. Sie sind keine Diagnoseinstrumente. Wenn Sie psychische Gesundheitsprobleme haben, konsultieren Sie bitte einen qualifizierten Arzt.
 
-## Was bringt mir Positive Psychologie?
+### 🧪 Kognitive Experimente (`/experiment`)
 
-Förderung des Wohlbefindens und optimaler Funktionen Die Positive Psychologie konzentriert sich darauf, das Wohlbefinden und die optimalen Funktionen von Individuen zu fördern, anstatt nur Symptome zu lindern. Sie ergänzt traditionelle Psychologie, ersetzt sie jedoch nicht. Häufige Themen der Positiven Psychologie umfassen das Genießen des Lebens, Dankbarkeit, Freundlichkeit, die Förderung positiver Beziehungen und das Streben nach Hoffnung und Sinn.
+Über 90 interaktive Implementierungen klassischer kognitiver Paradigmen:
 
-Fokus auf Wohlbefinden Forschung zeigt, dass Wohlbefinden und Psychopathologie mäßig korreliert, aber dennoch unabhängige Konstrukte der psychischen Gesundheit sind. Selbst nach erfolgreicher Behandlung von Psychopathologie können niedrige Wohlbefindenswerte bestehen bleiben und ein erhebliches Risiko für psychisches Leiden darstellen.
+**Aufmerksamkeit & Exekutivfunktion:**
+- [Stroop-Test](https://kuakua.app/experiment/stroop-test) - Kognitive Interferenz
+- [N-Back-Aufgabe](https://kuakua.app/experiment/n-back-task) - Arbeitsgedächtnistraining
+- [Wisconsin Card Sorting Test](https://kuakua.app/experiment/wcst-test) - Kognitive Flexibilität
+- [Go/No-Go-Aufgabe](https://kuakua.app/experiment/go-no-go-task) - Reaktionshemmung
+- [Flanker-Aufgabe](https://kuakua.app/experiment/flanker-task) - Selektive Aufmerksamkeit
 
-Minderung psychischer Symptome Hohe Wohlbefindenswerte können als Puffer gegen psychische Symptome dienen, einschließlich des Rückfalls oder Wiederauftretens von Symptomen, und die Lebensqualität und Langlebigkeit verbessern. Daher können klinische Proben erheblich von positiven psychologischen Interventionen (PPIs) profitieren, die ausdrücklich darauf abzielen, das Wohlbefinden zu verbessern, wie z.B. positive Gefühle, Kognitionen oder Verhaltensweisen.
+**Entscheidungsfindung:**
+- [Iowa Gambling Task](https://kuakua.app/experiment/iowa-gambling-task) - Risikobasierte Entscheidungsfindung
+- [Ultimatumspiel](https://kuakua.app/experiment/ultimatum-game) - Fairness und Verhandlung
+- [Vertrauensspiel](https://kuakua.app/experiment/trust-game) - Soziales Vertrauensverhalten
+- [Verzögerungsrabatt](https://kuakua.app/experiment/delay-discounting) - Zeitpräferenzen
 
-Hilfsfunktion Während die Positive Psychologie keine signifikante Wirkung auf die Linderung von Stress im Zusammenhang mit Glück, Depression oder Angst hat, ist ihre Fähigkeit, psychisches Leiden durch die Förderung des Wohlbefindens indirekt zu lindern, weithin anerkannt.
+**Gedächtnis & Lernen:**
+- [Impliziter Assoziationstest](https://kuakua.app/experiment/implicit-association-test) - Unbewusste Vorurteile
+- [Serienpositionseffekt](https://kuakua.app/experiment/serial-position) - Gedächtnisabrufmuster
+- [Corsi-Block-Aufgabe](https://kuakua.app/experiment/corsi-task) - Visuoräumliches Gedächtnis
 
-Hauptvorteile der Positiven Psychologie Genuss des Lebens: Positive Erfahrungen genießen und schätzen. Dankbarkeit: Die guten Dinge im Leben erkennen und dafür dankbar sein. Freundlichkeit: Mitgefühl und Altruismus gegenüber anderen praktizieren. Förderung positiver Beziehungen: Aufbau und Pflege gesunder und unterstützender Beziehungen. Hoffnung und Sinn verfolgen: Ziele erreichen und einen Sinn im Leben finden. Durch den Fokus auf diese Aspekte hilft die Positive Psychologie Einzelpersonen, ein erfüllteres und widerstandsfähigeres Leben zu führen.
+**Wahrnehmung:**
+- [Visuelle Suchaufgabe](https://kuakua.app/experiment/visual-search-task) - Merkmals- vs. Konjunktionssuche
+- [Veränderungsblindheit](https://kuakua.app/experiment/change-blindness) - Grenzen der visuellen Aufmerksamkeit
+- [McGurk-Effekt](https://kuakua.app/experiment/mcgurk-effect) - Audiovisuelle Integration
 
-## Mehr über psychologische Forschung erfahren:
+### 🛠️ Werkzeuge (`/tools`)
 
-- [Kuakua | Psychologische Theorien & Einsichten](http://kuakua.app/theories-insights)
+Praktische Hilfsmittel für tägliches Wohlbefinden:
 
-## Mehr über psychologische Ressourcen erfahren:
+- [Fokus-Flow-System](https://kuakua.app/tools/focus-flow-system) - Pomodoro-Timer mit Pausenaktivitäten
+- [Punktetafel](https://kuakua.app/tools/scoreboard) - Spielpunkte-Tracker
+- [Wortzähler](https://kuakua.app/tools/word-counter) - Textanalyse-Tool
+- [Entspannung](https://kuakua.app/tools/relax) - Umgebungsklänge und Meditation
+- [Zeit-Tab](https://kuakua.app/tools/time-tab) - Weltuhr und Timer
+- [Zufallsgenerator](https://kuakua.app/tools/random-generator) - Würfel, Münzen und zufällige Auswahlen
 
-- [Kuakua | Entdecke psychologische Websites, Anwendungen & KI-Tools](http://kuakua.app/explore)
+### 📚 Wissensdatenbank (`/docs`)
 
-## Mehr über positive Worte erfahren:
+Umfassende Psychologie-Dokumentation zu:
 
-- [Kuakua | Stimme für positive Worte & Glückssprache ab](http://kuakua.app/vote)
+- **Forschungsmethoden**: Experimentelles Design, Validität, Reliabilität, Statistik
+- **Sozialpsychologie**: Konformität, Vorurteile, Attribution, Gruppendynamik
+- **Kognitive Psychologie**: Gedächtnis, Aufmerksamkeit, Wahrnehmung, Entscheidungsfindung
+- **Positive Psychologie**: Wohlbefinden, Resilienz, Dankbarkeit, Sinn
+- **Klinische Psychologie**: Bewertung, Therapieansätze, psychische Gesundheit
 
-## Mehr über psychologische Kenntnisse erfahren:
+### ✍️ Blog (`/blog`)
 
-- [Kuakua | Psychologische Dokumentation: Alles über Psychologie](http://kuakua.app/docs)
+Artikel, die Psychologie im Alltag erforschen:
+
+- Anwendungen der positiven Psychologie
+- Erkenntnisse der Kognitionswissenschaft
+- Kulturelle Psychologie-Perspektiven
+- Praktische Wohlbefindensstrategien
+- Forschungszusammenfassungen
+
+### 🌍 Entdecken (`/explore`)
+
+Kuratierte Sammlung von Psychologie-Ressourcen:
+
+- Externe Websites und Apps
+- KI-Tools für psychische Gesundheit
+- Forschungsdatenbanken
+- Professionelle Ressourcen
+
+---
+
+## Positive Psychologie
+
+### Was ist Positive Psychologie?
+
+Die positive Psychologie, 2000 formal von Martin Seligman und Mihaly Csikszentmihalyi eingeführt, ist ein wissenschaftliches Feld, das dem Verständnis und der Förderung menschlichen Gedeihens gewidmet ist. Im Gegensatz zum Fokus der traditionellen Psychologie auf Pathologie studiert die positive Psychologie, was das Leben lebenswert macht.
+
+### Kernkonzepte
+
+- **Eudaimonia**: Das höchste menschliche Gut—Gedeihen und sinnvolles Leben
+- **Subjektives Wohlbefinden (SWB)**: Lebenszufriedenheit und emotionale Balance
+- **Charakterstärken**: Tugenden, die Einzelpersonen ermöglichen zu gedeihen
+- **Flow**: Optimale Erfahrung und Engagement
+- **Resilienz**: Die Fähigkeit, sich von Widrigkeiten zu erholen
+
+### Hauptvorteile
+
+Forschung zeigt, dass Interventionen der positiven Psychologie können:
+
+1. **Wohlbefinden verbessern**: Positive Emotionen und Lebenszufriedenheit steigern
+2. **Resilienz aufbauen**: Bewältigungsstrategien für Herausforderungen entwickeln
+3. **Beziehungen verbessern**: Soziale Verbindungen und Empathie fördern
+4. **Leistung steigern**: Fokus, Kreativität und Produktivität verbessern
+5. **Gesundheit fördern**: Physische und mentale Gesundheitsresultate unterstützen
+
+### Praktische Anwendungen
+
+- **Genießen**: Achtsames Genießen positiver Erfahrungen
+- **Dankbarkeit**: Erkennen und Wertschätzen der Segnungen des Lebens
+- **Freundlichkeit**: Mitgefühl und Altruismus praktizieren
+- **Sinn**: Zweck und Bedeutung verfolgen
+- **Wachstum**: Herausforderungen als Chancen annehmen
+
+---
+
+## Empfohlene Inhalte
+
+### Beliebte Spiele
+
+| Spiel | Beschreibung | Link |
+|------|-------------|------|
+| Reaktionszeit | Teste deine Reflexe gegen globale Durchschnitte | [Spielen](https://kuakua.app/games/reaction-time) |
+| Schimpansen-Gedächtnis | Räumliche Abrufherausforderung | [Spielen](https://kuakua.app/games/chimp-test) |
+| Visuelles Gedächtnis | Kurzzeitgedächtnisbewertung | [Spielen](https://kuakua.app/games/visual-memory) |
+| Sequenzgedächtnis | Musterabruf mit adaptiver Schwierigkeit | [Spielen](https://kuakua.app/games/sequence-memory) |
+| Tipptest | WPM und Genauigkeitsmessung | [Spielen](https://kuakua.app/games/typing-test) |
+| 2048 | Zahlen-Zusammenführungs-Puzzle | [Spielen](https://kuakua.app/games/2048) |
+| Sudoku | Klassisches Logikpuzzle | [Spielen](https://kuakua.app/games/sudoku) |
+| Schach | Strategisches Brettspiel mit KI | [Spielen](https://kuakua.app/games/chess) |
+
+### Empfohlene Tests
+
+| Test | Zweck | Link |
+|------|---------|------|
+| Big Five | Persönlichkeitsmerkmale | [Test machen](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | Depressionsscreening | [Test machen](https://kuakua.app/test/phq-9) |
+| GAD-7 | Angstbewertung | [Test machen](https://kuakua.app/test/gad-7) |
+| Sprachen der Liebe | Beziehungspräferenzen | [Test machen](https://kuakua.app/test/love-language-test) |
+| MBTI | Persönlichkeitstyp | [Test machen](https://kuakua.app/test/mbti) |
+| Enneagramm | Persönlichkeitsmuster | [Test machen](https://kuakua.app/test/enneagram-test) |
+
+### Empfohlene Experimente
+
+| Experiment | Kognitive Domäne | Link |
+|------------|-----------------|------|
+| Stroop-Test | Kognitive Interferenz | [Ausprobieren](https://kuakua.app/experiment/stroop-test) |
+| N-Back | Arbeitsgedächtnis | [Ausprobieren](https://kuakua.app/experiment/n-back-task) |
+| WCST | Kognitive Flexibilität | [Ausprobieren](https://kuakua.app/experiment/wcst-test) |
+| IAT | Implizite Assoziationen | [Ausprobieren](https://kuakua.app/experiment/implicit-association-test) |
+| Türme von Hanoi | Planung & Problemlösung | [Ausprobieren](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## Schnelllinks
+
+- 🏠 **Startseite**: [kuakua.app](https://kuakua.app)
+- 🎮 **Spiele**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Tests**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Experimente**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Werkzeuge**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **Dokumentation**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **Entdecken**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **Abstimmen**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **Tägliche Karten**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## Unsere Mission
+
+Kuakua hat zum Ziel, **psychologisch fundierte, ethisch verantwortungsvolle und global zugängliche Werkzeuge und Inhalte** zu erstellen, die Einzelpersonen helfen, sich selbst besser zu verstehen und ihr Wohlbefinden zu verbessern.
+
+Wir glauben, dass:
+- Psychologisches Wissen für jeden zugänglich sein sollte
+- Selbstbewertungstools Selbstbewusstsein und Wachstum fördern können
+- Interaktive Erfahrungen Lernen ansprechend machen
+- Evidenzbasierte Ansätze sinnvolle Ergebnisse liefern
+- Langfristiges Vertrauen wichtiger ist als kurzfristige Metriken
+
+---
+
+## Unterstützung
+
+Wenn du Kuakua hilfreich findest, erwäge, unsere Arbeit zu unterstützen:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*Zuletzt aktualisiert: 2026-03-10*
+*Version: 2.0*

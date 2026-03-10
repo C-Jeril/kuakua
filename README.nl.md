@@ -1,97 +1,189 @@
-# Welkom op kuakua.app
+# Kuakua - Integraal Psychologie en Welzijn Platform
 
-[![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
-[![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
-[![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
-[![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
-[![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
-[![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
-[![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
-[![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
-[![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
-[![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
-[![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
-[![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
-[![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
-[![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
-[![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
-[![Dansk|da](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
-[![Norsk|no](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
-[![Svenska|sv](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
-[![Suomi|fi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
-[![Íslenska|is](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
-[![Nederlands|nl](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
-[![Polski|pl](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
-[![Ελληνικά|el](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
-[![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
-[![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
-[![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![English](https://img.shields.io/badge/lang-en-green.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
+[![Español](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![日本語](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
+[![Deutsch](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
+[![Français](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![Português](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
+[![Русский](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
+[![한국어](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
+[![Italiano](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
+[![العربية](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![ไทย](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
+[![Tiếng Việt](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
+[![Türkçe](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
+[![Bahasa Melayu](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
+[![বাংলা](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
+[![Nederlands](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
+[![Polski](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
+[![Ελληνικά](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
+[![Čeština](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
+[![Magyar](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
+[![Română](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![Svenska](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
+[![Norsk](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
+[![Dansk](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
+[![Suomi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
+[![Íslenska](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
+[![Filipino](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+[![हिन्दी](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Introductie
+## Platform Overzicht
 
-Groeten! Als toegewijde onderzoeker en beoefenaar van positieve psychologie geloof ik vast in de innerlijke positiviteit van de mens en zijn vermogen om te groeien.
+| Module | Inhoud | Beschrijving |
+|--------|--------|--------------|
+| 🎮 **Games** | 140+ games | Puzzels, cognitieve uitdagingen, ontspanningsspellen, Google klassiekers |
+| 📋 **Tests** | 150+ tests | Wetenschappelijk onderbouwde psychologische tests, zelfevaluaties |
+| 🧪 **Experimenten** | 90+ experimenten | Klassieke cognitieve paradigma's, interactieve experimentele taken |
+| 🔧 **Tools** | 30+ tools | Praktische hulpmiddelen voor focus, productiviteit en welzijn |
+| 📚 **Documentatie** | 200+ artikelen | Psychologie kennisbank, theorieën en inzichten |
+| 📝 **Blog** | 200+ artikelen | Artikelen over welzijn, persoonlijke groei, positieve psychologie |
+| 🌍 **Talen** | 32 talen | Volledige internationalisatie ondersteuning |
 
-Door middel van rigoureus psychologisch onderzoek en praktische toepassingen streven we ernaar om 'psychologische energie', geluk en gezondheid aan iedereen over te brengen, en ons te leiden naar een 'positief leven.'
+## Tech Stack
 
-kuakua.app is een platform dat gewijd is aan de wetenschap van de positieve psychologie.
+| Categorie | Technologie | Versie |
+|-----------|-------------|--------|
+| Framework | Next.js (App Router) | 16.1.6 |
+| Taal | TypeScript | 5.9.3 |
+| Styling | Tailwind CSS + DaisyUI | 4.2.1 / 5.5.18 |
+| i18n | next-intl | 4.1.0 |
+| State | Zustand | 5.0.11 |
+| Animatie | Framer Motion | 12.35.2 |
+| Database | Supabase | - |
+| Deployment | Vercel | - |
 
-Hier vieren we deugden, koesteren we groei, en pleiten we voor de vrijheid om je eigen lot te bepalen. Door het delen van opbeurende woorden en verhalen, en door middel van interactieve stemmingen, streven we ernaar een onwankelbare geest in iedereen aan te wakkeren.
+## Hoofdmodules
 
-Doe met ons mee en laat positiviteit stralen in je leven.
+### 🎮 Games (`/games`)
+
+Diverse collectie interactieve games voor entertainment, ontspanning en cognitieve stimulatie.
+
+| Categorie | Voorbeelden |
+|-----------|-------------|
+| Puzzels | 2048, Sudoku, Puzzel, Rubiks kubus |
+| Cognitief | Geheugen, N-Back, Stroop, Reactietijd |
+| Ontspanning | Schilderen, Muziek, Begeleide meditatie |
+| Google Klassiekers | Snake, Pacman, Boter-kaas-eieren, Solitaire |
+
+### 📋 Psychologische Tests (`/test`)
+
+Wetenschappelijk onderbouwde psychologische zelfevaluatietests.
+
+| Type | Beschrijving |
+|------|--------------|
+| Gevalideerde tests | Gevestigde instrumenten met sterke empirische onderbouwing (PHQ-9, GAD-7, Big Five) |
+| Aangepaste tests | Gemodificeerde of verkorte versies geïnspireerd door gevalideerde instrumenten |
+| Verkennende tests | Zelfreflectie-tools geïnspireerd door psychologische mechanismen |
+
+**Let op**: Alle tests bevatten passende disclaimers en zijn bedoeld voor educatieve en zelfreflectieve doeleinden, niet voor klinische diagnose.
+
+### 🧪 Cognitieve Experimenten (`/experiment`)
+
+Interactieve implementaties van klassieke cognitieve paradigma's en experimentele taken.
+
+| Paradigma | Beschrijving |
+|-----------|--------------|
+| Stroop | Kleur-woord interferentie test |
+| N-Back | Werkgeheugen taak |
+| IGT | Iowa Gambling Task |
+| Flanker | Selectieve aandacht test |
+| Go/No-Go | Inhibitiecontrole test |
+
+### 🔧 Tools (`/tools`)
+
+Praktische hulpmiddelen voor dagelijks welzijn en productiviteit.
+
+- **Focus Flow** - Pomodoro techniek met tracking
+- **Scorebord** - Score registratie
+- **Woordteller** - Schrijf tool
+- **Timer** - Tijdbeheer
+
+### 📚 Content (`/docs`, `/blog`, `/explore`)
+
+Uitgebreide kennisbank over psychologie en welzijn.
+
+| Sectie | Inhoud |
+|--------|--------|
+| Documentatie | Psychologische theorieën, concepten, onderzoek |
+| Blog | Artikelen over welzijn, persoonlijke groei |
+| Ontdekken | Gecureerde bronnen, websites, applicaties |
+
+## Positieve Psychologie
+
+Kuakua is gebaseerd op de principes van **positieve psychologie**, een wetenschappelijk vakgebied dat zich richt op de studie van wat het leven de moeite waard maakt.
+
+### Kernconcepten
+
+| Concept | Beschrijving |
+|---------|--------------|
+| **Eudaimonia** | Menselijke bloei, verwezenlijking van potentieel |
+| **Subjectief Welzijn** | Levensvoldoening, positieve emoties |
+| **Karaktersterkten** | Positieve eigenschappen zoals dankbaarheid, hoop, veerkracht |
+| **Flow** | Toestand van optimale betrokkenheid bij activiteiten |
+| **Veerkracht** | Vermogen tot aanpassing bij tegenspoed |
+
+### Voordelen
+
+- 🌟 **Verbetering van welzijn** - Focus op optimaal functioneren
+- 💪 **Ontwikkeling van sterkten** - Cultivatie van positieve eigenschappen
+- 🤝 **Positieve relaties** - Bouwen van betekenisvolle verbindingen
+- 🎯 **Doel en betekenis** - Zoeken naar waardevolle doelen
+- 🧘 **Mindfulness** - Opmerkzaamheid en bewustzijn
+
+## Uitgelichte Content
+
+### Populaire Tests
+
+| Test | Beschrijving |
+|------|--------------|
+| PHQ-9 | Patiënt gezondheidsvragenlijst (depressie) |
+| GAD-7 | Gegeneraliseerde angstschaal |
+| Big Five | Vijffactorenmodel van persoonlijkheid |
+| VIA | Karaktersterkten inventaris |
+| PANAS | Positieve en negatieve affectschaal |
+
+### Uitgelichte Games
+
+| Game | Type |
+|------|------|
+| 2048 | Numerieke puzzel |
+| Memory Match | Geheugen |
+| Stroop Test | Cognitief |
+| Reaction Time | Aandacht |
+| N-Back | Werkgeheugen |
+
+## Snelle Links
+
+| Bron | Link |
+|------|------|
+| 🏠 Home | [kuakua.app](https://kuakua.app) |
+| 🎮 Games | [kuakua.app/games](https://kuakua.app/games) |
+| 📋 Tests | [kuakua.app/test](https://kuakua.app/test) |
+| 🧪 Experimenten | [kuakua.app/experiment](https://kuakua.app/experiment) |
+| 🔧 Tools | [kuakua.app/tools](https://kuakua.app/tools) |
+| 📚 Documentatie | [kuakua.app/docs](https://kuakua.app/docs) |
+| 📝 Blog | [kuakua.app/blog](https://kuakua.app/blog) |
+| 🌍 Ontdekken | [kuakua.app/explore](https://kuakua.app/explore) |
+
+## Onze Missie
+
+Kuakua heeft als doel **psychologisch onderbouwde, ethisch verantwoordelijke en wereldwijd toegankelijke tools en content** te bouwen die mensen helpen zichzelf beter te begrijpen en hun welzijn te verbeteren.
+
+Wij geloven in:
+- ✅ Psychologische validiteit en schadepreventie
+- ✅ Conceptuele en structurele helderheid
+- ✅ Gebruikersbegrip en toegankelijkheid
+- ✅ Technische robuustheid en onderhoudbaarheid
+- ✅ Internationalisering en culturele gevoeligheid
+
+---
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Meer informatie over positieve psychologie:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Geschiedenis van de positieve psychologie
-
-Positieve psychologie, een opkomend vakgebied, is gewijd aan het verbeteren van de geestelijke gezondheid en het geluk. Het doel is om individuen te helpen hun sterke punten te ontdekken en te benutten, en daarmee hogere niveaus van levensvoldoening en vreugde te bereiken.
-
-De ontwikkeling van de positieve psychologie begon eind 20e eeuw en werd formeel geïntroduceerd in 1997. Dit vakgebied kreeg erkenning door de publicatie van 'Positive Psychology: An Introduction' door Martin Seligman en Mihaly Csikszentmihalyi in januari 2000.
-
-Onder leiding van psycholoog Martin Seligman en zijn collega's vertegenwoordigt positieve psychologie een revolutionaire verschuiving in de psychologie en markeert een nieuw mijlpaal in de geschiedenis van de mensheid. Het overbrugt de wijsheid van oosterse en westerse culturen en psychologisch onderzoek.
-
-Seligman en zijn collega's beweren dat psychologie verder moet gaan dan het bestuderen van psychische aandoeningen en problemen om manieren te verkennen om de geestelijke gezondheid en het geluk te verbeteren. Positieve psychologie maakt gebruik van wetenschappelijke methoden om geluk te bestuderen en bevordert een positieve oriëntatie binnen het vakgebied, met de nadruk op het cultiveren van positieve psychologische eigenschappen, welzijn en harmonieuze ontwikkeling.
-
-Centraal in de positieve psychologie staat het concept van eudaimonia, een term uit de Aristotelische filosofie die het hoogste menselijke goed aanduidt, vaak vertaald als 'bloei' of 'het goede leven'. Positieve psychologen gebruiken vaak de termen subjectief welzijn (SWB) en geluk door elkaar.
-
-Het vakgebied richt zich op het verbeteren van zowel het individuele als het maatschappelijke welzijn, door het bestuderen van 'positieve subjectieve ervaringen, positieve individuele eigenschappen en positieve instellingen... gericht op het verbeteren van de kwaliteit van leven.'
-
-Ze geloven dat verschillende factoren bijdragen aan geluk en subjectief welzijn, zoals sociale connecties met echtgenoten, familie, vrienden, collega's en bredere netwerken; lidmaatschap van clubs of sociale organisaties; lichaamsbeweging en meditatiepraktijken.
-
-Spiritualiteit wordt ook beschouwd als een factor die het welzijn kan verbeteren. Onderzoekers blijven spirituele praktijken en religieuze toewijding bestuderen als potentiële bronnen van welzijn en integrale onderdelen van de positieve psychologie.
-
-Hoewel financieel inkomen tot op zekere hoogte het geluk kan vergroten, kunnen de effecten daarvan na een bepaalde drempel afnemen of zelfs afvlakken. Positieve psychologie benadrukt het cultiveren van de positieve eigenschappen van een individu, het vermogen tot groei en de vrijheid om je eigen lot te bepalen.
-
-## Wat doet positieve psychologie voor mij?
-
-Verbetering van welzijn en optimale werking Positieve psychologie richt zich op het verbeteren van het welzijn en de optimale werking van individuen, in plaats van alleen symptomen te verlichten, en vult daarmee aan in plaats van de traditionele psychologie te vervangen. Veelvoorkomende thema's in positieve psychologie zijn genieten van het leven, dankbaarheid, vriendelijkheid, het bevorderen van positieve relaties en het nastreven van hoop en betekenis.
-
-Focus op welzijn Onderzoek toont aan dat welzijn en psychopathologie matig gecorreleerd zijn, maar onafhankelijke constructen van geestelijke gezondheid. Zelfs na succesvolle behandeling van psychopathologie kunnen lage niveaus van welzijn aanhouden, wat een aanzienlijk risicofactor vormt voor psychisch leed.
-
-Vermindering van psychische symptomen Hoge niveaus van welzijn kunnen bescherming bieden tegen psychische symptomen, waaronder het terugkeren of herhalen van symptomen, en kunnen de kwaliteit van leven en levensduur verbeteren. Klinische monsters kunnen dus enorm profiteren van positieve psychologische interventies (PPI's) die expliciet gericht zijn op het verbeteren van welzijn, zoals positieve gevoelens, cognities of gedragingen.
-
-Ondersteunende rol Hoewel positieve psychologie geen significante invloed heeft op het verlichten van stress in verband met geluk, depressie of angst, wordt het vermogen ervan om psychisch leed indirect te verlichten door het verbeteren van welzijn algemeen erkend.
-
-Belangrijkste voordelen van positieve psychologie Het genieten van het leven: Het genieten en waarderen van positieve ervaringen. Dankbaarheid: Het erkennen en dankbaar zijn voor de goede dingen in het leven. Vriendelijkheid: Het beoefenen van compassie en altruïsme tegenover anderen. Het bevorderen van positieve relaties: Het opbouwen en onderhouden van gezonde en ondersteunende relaties. Het nastreven van hoop en betekenis: Het nastreven van doelen en het vinden van een doel in het leven. Door te focussen op deze aspecten helpt positieve psychologie individuen om een vervuld en veerkrachtig leven te leiden.
-
-## Meer informatie over psychologisch onderzoek:
-
-- [Kuakua | Psychologische Theorieën & Inzichten](http://kuakua.app/theories-insights)
-
-## Meer informatie over psychologische bronnen:
-
-- [Kuakua | Ontdek Psychologie Websites, Applicaties & AI Tools](http://kuakua.app/explore)
-
-## Meer informatie over positieve woorden:
-
-- [Kuakua | Stem op positieve woorden & gelukkige taal](http://kuakua.app/vote)
-
-## Meer informatie over psychologische kennis:
-
-- [Kuakua | Psychologische Documentatie: Alles Over Psychologie](http://kuakua.app/docs)
+**Doe mee en laat positiviteit stralen in je leven.** 🌟

@@ -10,8 +10,8 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -29,73 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## はじめに
 
-こんにちは。私は積極心理学の研究者であり実践者として、人間の内在的な前向きさと成長する能力を信じています。
+**Kuakua**は、最新のWebテクノロジーで構築された総合的な心理学・ウェルビーイングプラットフォームです。私たちは心理学の科学を誰にとってもアクセスしやすく、魅力的で、有益なものにすることを目指しています。
 
-厳密な心理学研究と実践的な応用を通じて、私たちは全ての人に「心理的エネルギー」、幸福、健康を伝え、「ポジティブな生活」へと導くことを目指しています。
+ポジティブ心理学に焦点を当てたプラットフォームとして、私たちは人間の内発的な成長能力とウェルビーイングを信じています。エビデンスに基づいたツール、インタラクティブな体験、厳選されたコンテンツを通じて、個人が自分自身をより深く理解し、メンタルヘルスを向上させるお手伝いをします。
 
-kuakua.app は、積極心理学の科学に特化したプラットフォームです。
+### プラットフォーム概要
 
-ここでは、美徳を称え、成長を育み、自分の運命を形作る自由を守ります。励みになる言葉や物語を共有し、インタラクティブな投票を通じて、誰もが持つ不屈の精神を呼び覚まそうとしています。
+| モジュール | 数 | 説明 |
+|--------|-------|-------------|
+| 🎮 **ゲーム** | 140+ | 認知ゲーム、パズル、リラックスゲーム、クラシックブラウザゲーム |
+| 📋 **テスト** | 150+ | 心理セルフアセスメントツールと検証済み尺度 |
+| 🧪 **実験** | 90+ | 古典的認知パラダイムと実験課題のインタラクティブ実装 |
+| 🛠️ **ツール** | 30+ | 集中力、生産性、ウェルビーイングのための実用ツール |
+| 📚 **ドキュメント** | 200+ | 心理学知識ベースと研究ドキュメント |
+| ✍️ **ブログ** | 200+ | 心理学、ウェルビーイング、個人的成長に関する記事 |
+| 🌍 **言語** | 32 | RTL言語を含む完全な国際化サポート |
 
-私たちと一緒に、あなたの生活にポジティブさを広めてください。
+### 技術スタック
 
-## 積極心理学について詳しく知る:
+- **フレームワーク**: Next.js 16.1.6 + App Router
+- **言語**: TypeScript 5.9.3
+- **スタイリング**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **国際化**: next-intl（32言語）
+- **状態管理**: Zustand 5.0.11
+- **アニメーション**: Framer Motion 12.35.2
+- **データベース**: Supabase (PostgreSQL)
+- **デプロイ**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## ポジティブ心理学についてもっと知る:
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## コアモジュール
 
-## 積極心理学の歴史
+### 🎮 ゲーム (`/games`)
 
-積極心理学は、新しい分野であり、精神的健康と幸福を向上させることに専念しています。その目的は、個人が自分の強みを見つけ、それを活用することで、より高いレベルの生活満足と喜びを達成することです。
+140以上のゲームが複数のカテゴリーにわたって提供されています：
 
-積極心理学の発展は 20 世紀後半に始まり、1997 年に正式に導入されました。この分野は、2000 年 1 月にマーティン・セリグマンとミハイ・チクセントミハイによって発表された「ポジティブ心理学: 序論」によって認知されるようになりました。
+- **認知トレーニング**: 反応時間、記憶、注意、情報処理速度テスト
+- **クラシックパズル**: 数独、2048、テトリス、チェス、ソリティア
+- **Googleクラシック**: 恐竜ゲーム、スネーク、パックマン、マインスイーパー
+- **リラックスゲーム**: Perfect Tidy、塗り絵、ジグソーパズル
+- **シミュレーション**: 人生リスタート、モノポリー、ビール流通ゲーム
 
-心理学者マーティン・セリグマンとその同僚たちによって推進された積極心理学は、心理学の分野における革命的な変化を象徴しており、人類社会の歴史における新たなマイルストーンを示しています。それは東洋と西洋の文化と心理学研究の知恵をつなぐものです。
+**人気ゲーム:**
+- [反応時間テスト](https://kuakua.app/games/reaction-time) - 神経反射速度を測定
+- [チンパンジー記憶テスト](https://kuakua.app/games/chimp-test) - 霊長類レベルの空間記憶に挑戦
+- [視覚記憶ゲーム](https://kuakua.app/games/visual-memory) - 短期記憶容量をテスト
+- [タイピング速度テスト](https://kuakua.app/games/typing-test) - WPMと精度測定
+- [2048](https://kuakua.app/games/2048) - クラシック数字パズル
+- [人生リスタートシミュレーター](https://kuakua.app/games/life-restart) - マルチエンディング人生シミュレーション
 
-セリグマンとその同僚たちは、心理学が精神疾患や問題の研究を超えて、精神的健康と幸福を向上させる方法を探求するべきだと主張しています。積極心理学は、幸福を研究するために科学的な方法を採用し、分野内でポジティブな指向を促進し、ポジティブな心理的特性、幸福、調和の取れた発展に焦点を当てています。
+### 📋 心理テスト (`/test`)
 
-積極心理学の中心概念は、アリストテレス哲学に由来するエウダイモニアという用語であり、これはしばしば「繁栄」または「良い人生」と訳される人間の最高の善を意味します。積極心理学者はしばしば、主観的幸福感（SWB）と幸福という用語を互換的に使用します。
+150以上の心理セルフアセスメントツールの総合コレクション：
 
-この分野は、個人と社会の両方の幸福を向上させることを優先しており、「生活の質を向上させることを目的としたポジティブな主観的経験、ポジティブな個人特性、ポジティブな制度」を研究しています。
+**検証済み臨床尺度:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - うつ病スクリーニング患者健康質問票
+- [GAD-7](https://kuakua.app/test/gad-7) - 全般性不安障害評価
+- [DASS-21](https://kuakua.app/test/dass-21) - うつ・不安・ストレス尺度
+- [PSQI](https://kuakua.app/test/psqi) - ピッツバーグ睡眠質問票
+- [IES-R](https://kuakua.app/test/ies-r) - 事件影響尺度（トラウマ）
 
-彼らは、配偶者、家族、友人、同僚、広範なネットワークとの社会的つながり、クラブや社会組織への参加、身体運動や瞑想の実践など、さまざまな要因が幸福と主観的幸福感に寄与していると考えています。
+**性格評価:**
+- [ビッグファイブ性格テスト](https://kuakua.app/test/bigfive-test) - 五因子モデル
+- [MBTI](https://kuakua.app/test/mbti) - マイヤーズ・ブリッグス・タイプ指標
+- [エニアグラムテスト](https://kuakua.app/test/enneagram-test) - 9つの性格タイプ
+- [HEXACO](https://kuakua.app/test/hexaco) - 六因子性格モデル
+- [DISCテスト](https://kuakua.app/test/disc-test) - 行動評価
 
-霊性もまた、幸福感を高める要因と見なされています。研究者たちは、霊的実践や宗教的信仰を、幸福感の潜在的な源泉であり、積極心理学の不可欠な部分として研究し続けています。
+**専門尺度:**
+- [愛の言語テスト](https://kuakua.app/test/love-language-test) - チャップマンの5つの愛の言語
+- [自己愛人格目録](https://kuakua.app/test/narcissistic-personality-inventory)
+- [インターネット依存評価](https://kuakua.app/test/internet-addiction-assessment)
+- [RIASECキャリアテスト](https://kuakua.app/test/riasec) - ホランドの職業興味
 
-経済的収入はある程度まで幸福を増加させることができますが、特定の閾値を超えると、その効果は安定するか、さらには低下することさえあります。積極心理学は、個人のポジティブな資質、成長する能力、そして自分の運命を形作る自由を育むことを強調しています。
+> ⚠️ **免責事項**: すべてのテストは教育・自己反省目的のみです。診断ツールではありません。メンタルヘルスの懸念がある場合は、資格のある医療専門家にご相談ください。
 
-## 積極心理学が私に何をしてくれるのか？
+### 🧪 認知実験 (`/experiment`)
 
-幸福感と最適な機能の向上 積極心理学は、単に症状を緩和するだけでなく、個人の幸福感と最適な機能を向上させることに焦点を当てており、従来の心理学を補完するものです。積極心理学の一般的なテーマには、人生を楽しむこと、感謝、親切、ポジティブな関係の促進、希望と意味の追求が含まれます。
+90以上の古典的認知パラダイムのインタラクティブ実装：
 
-幸福感に焦点を当てる 研究によれば、幸福感と精神病理は中程度に関連しているが、精神的健康の独立した構成要素です。精神病理の治療が成功した後でも、低いレベルの幸福感が続く可能性があり、これは心理的苦痛の大きなリスク要因となります。
+**注意・実行機能:**
+- [ストループテスト](https://kuakua.app/experiment/stroop-test) - 認知干渉
+- [N-Back課題](https://kuakua.app/experiment/n-back-task) - ワーキングメモリトレーニング
+- [ウィスコンシンカード分類テスト](https://kuakua.app/experiment/wcst-test) - 認知柔軟性
+- [Go/No-Go課題](https://kuakua.app/experiment/go-no-go-task) - 反応抑制
+- [フランカー課題](https://kuakua.app/experiment/flanker-task) - 選択的注意
 
-心理的症状の緩和 高いレベルの幸福
+**意思決定:**
+- [アイオワギャンブル課題](https://kuakua.app/experiment/iowa-gambling-task) - リスクベース意思決定
+- [最後通牒ゲーム](https://kuakua.app/experiment/ultimatum-game) - 公平性と交渉
+- [信頼ゲーム](https://kuakua.app/experiment/trust-game) - 社会的信頼行動
+- [遅延割引](https://kuakua.app/experiment/delay-discounting) - 時間選好
 
-感は、症状の再発や再発のリスクを緩和し、生活の質と寿命を向上させることができます。したがって、臨床サンプルは、幸福感を明示的に向上させることを目的とした積極心理学的介入（PPIs）の恩恵を大いに受けることができます。
+**記憶・学習:**
+- [内暗黙連合テスト](https://kuakua.app/experiment/implicit-association-test) - 無意識のバイアス
+- [系列位置効果](https://kuakua.app/experiment/serial-position) - 記憶想起パターン
+- [コルシブロック課題](https://kuakua.app/experiment/corsi-task) - 視空間記憶
 
-補助的な役割 積極心理学は、幸福、抑うつ、または不安に関連するストレスを軽減するための直接的な効果は持っていませんが、幸福感を向上させることによって間接的に心理的苦痛を軽減する能力が広く認識されています。
+**知覚:**
+- [視覚探索課題](https://kuakua.app/experiment/visual-search-task) - 特徴vs結合探索
+- [変化盲視](https://kuakua.app/experiment/change-blindness) - 視覚注意の限界
+- [マガーク効果](https://kuakua.app/experiment/mcgurk-effect) - 視聴覚統合
 
-積極心理学の主な利点 人生を楽しむこと: ポジティブな経験を楽しみ、感謝すること。 感謝: 人生の良いことに感謝すること。 親切: 他者への慈悲と利他主義を実践すること。 ポジティブな関係の促進: 健康で支え合う関係を築き、維持すること。 希望と意味の追求: 目標を達成し、人生の目的を見つけること。これらの側面に焦点を当てることによって、積極心理学は個人がより充実し、レジリエントな人生を送るのを助けます。
+### 🛠️ ツール (`/tools`)
 
-## 心理学研究について詳しく知る:
+日常のウェルビーイングのための実用ツール：
 
-- [Kuakua | 心理学の理論と洞察](http://kuakua.app/theories-insights)
+- [フォーカスフローシステム](https://kuakua.app/tools/focus-flow-system) - ポモドーロタイマーと休憩アクティビティ
+- [スコアボード](https://kuakua.app/tools/scoreboard) - ゲームスコアトラッカー
+- [文字カウンター](https://kuakua.app/tools/word-counter) - テキスト分析ツール
+- [リラックス](https://kuakua.app/tools/relax) - 環境音と瞑想
+- [タイムタブ](https://kuakua.app/tools/time-tab) - 世界時計とタイマー
+- [ランダムジェネレーター](https://kuakua.app/tools/random-generator) - サイコロ、コイン、ランダム選択
 
-## 心理学のリソースについて詳しく知る:
+### 📚 ナレッジベース (`/docs`)
 
-- [Kuakua | 心理学ウェブサイト、アプリケーション、AI ツールを発見する](http://kuakua.app/explore)
+包括的な心理学ドキュメント：
 
-## ポジティブな言葉について詳しく知る:
+- **研究方法**: 実験デザイン、妥当性、信頼性、統計学
+- **社会心理学**: 同調、偏見、帰属、集団力学
+- **認知心理学**: 記憶、注意、知覚、意思決定
+- **ポジティブ心理学**: ウェルビーイング、レジリエンス、感謝、意味
+- **臨床心理学**: 評価、セラピーアプローチ、メンタルヘルス
 
-- [Kuakua | ポジティブな言葉と幸せな言語に投票する](http://kuakua.app/vote)
+### ✍️ ブログ (`/blog`)
 
-## 心理学の知識について詳しく知る:
+日常生活における心理学を探求する記事：
 
-- [Kuakua | 心理学文書: 心理学についてのすべて](http://kuakua.app/docs)
+- ポジティブ心理学の応用
+- 認知科学の洞察
+- 文化心理学の視点
+- 実践的なウェルビーイング戦略
+- 研究概要
+
+### 🌍 探索 (`/explore`)
+
+厳選された心理学リソース集：
+
+- 外部ウェブサイトとアプリ
+- メンタルヘルスAIツール
+- 研究データベース
+- 専門リソース
+
+---
+
+## ポジティブ心理学
+
+### ポジティブ心理学とは？
+
+ポジティブ心理学は、2000年にマーティン・セリグマンとミハイ・チクセントミハイによって正式に導入された、人間のフラリッシュを理解し促進することに専念する科学分野です。伝統的な心理学が病理に焦点を当てるのとは異なり、ポジティブ心理学は何が人生を生きる価値あるものにするかを研究します。
+
+### 核心概念
+
+- **エウダイモニア**: 最高の人間の善—フラリッシュと意味ある生活
+- **主観的ウェルビーイング (SWB)**: 生活満足度と感情バランス
+- **性格の強み**: 個人が成長するのを可能にする美徳
+- **フロー**: 最適体験と没頭
+- **レジリエンス**: 逆境から回復する能力
+
+### 主な利点
+
+研究により、ポジティブ心理介入は以下のことが示されています：
+
+1. **ウェルビーイングの向上**: ポジティブ感情と生活満足度の増加
+2. **レジリエンスの構築**: 困難に対処する戦略の発達
+3. **関係の改善**: 社会的つながりと共感の促進
+4. **パフォーマンスの向上**: 集中力、創造性、生産性の強化
+5. **健康の促進**: 身体的・精神的健康アウトカムのサポート
+
+### 実践的応用
+
+- **味わい**: ポジティブな体験をマインドフルに楽しむ
+- **感謝**: 人生の恵みを認識し感謝する
+- **親切**: 思いやりと利他を実践する
+- **意味**: 目的と意義を追求する
+- **成長**: チャレンジを機会として捉える
+
+---
+
+## 注目コンテンツ
+
+### 人気ゲーム
+
+| ゲーム | 説明 | リンク |
+|------|-------------|------|
+| 反応時間 | 世界平均と反応速度を競う | [プレイ](https://kuakua.app/games/reaction-time) |
+| チンパンジー記憶 | 空間想起チャレンジ | [プレイ](https://kuakua.app/games/chimp-test) |
+| 視覚記憶 | 短期記憶評価 | [プレイ](https://kuakua.app/games/visual-memory) |
+| シーケンス記憶 | 適応的難易度のパターン想起 | [プレイ](https://kuakua.app/games/sequence-memory) |
+| タイピングテスト | WPMと精度測定 | [プレイ](https://kuakua.app/games/typing-test) |
+| 2048 | 数字マージパズル | [プレイ](https://kuakua.app/games/2048) |
+| 数独 | クラシックロジックパズル | [プレイ](https://kuakua.app/games/sudoku) |
+| チェス | AI付き戦略ボードゲーム | [プレイ](https://kuakua.app/games/chess) |
+
+### 注目テスト
+
+| テスト | 目的 | リンク |
+|------|---------|------|
+| ビッグファイブ | 性格特性 | [テストを受ける](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | うつ病スクリーニング | [テストを受ける](https://kuakua.app/test/phq-9) |
+| GAD-7 | 不安評価 | [テストを受ける](https://kuakua.app/test/gad-7) |
+| 愛の言語 | 関係の好み | [テストを受ける](https://kuakua.app/test/love-language-test) |
+| MBTI | 性格タイプ | [テストを受ける](https://kuakua.app/test/mbti) |
+| エニアグラム | 性格パターン | [テストを受ける](https://kuakua.app/test/enneagram-test) |
+
+### 注目実験
+
+| 実験 | 認知領域 | リンク |
+|------------|-----------------|------|
+| ストループテスト | 認知干渉 | [試す](https://kuakua.app/experiment/stroop-test) |
+| N-Back | ワーキングメモリ | [試す](https://kuakua.app/experiment/n-back-task) |
+| WCST | 認知柔軟性 | [試す](https://kuakua.app/experiment/wcst-test) |
+| IAT | 内暗黙連合 | [試す](https://kuakua.app/experiment/implicit-association-test) |
+| ハノイの塔 | 計画・問題解決 | [試す](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## クイックリンク
+
+- 🏠 **ホームページ**: [kuakua.app](https://kuakua.app)
+- 🎮 **ゲーム**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **テスト**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **実験**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **ツール**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **ドキュメント**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **ブログ**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **探索**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **投票**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **デイリーカード**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## 私たちのミッション
+
+Kuakuaは**心理学的に根拠があり、倫理的に責任があり、グローバルにアクセス可能なツールとコンテンツ**を構築し、個人が自分自身をより深く理解し、ウェルビーイングを向上させることを目指しています。
+
+私たちは信じています：
+- 心理学の知識は誰にとってもアクセス可能であるべき
+- セルフアセスメントツールは自己認識と成長を促進できる
+- インタラクティブな体験は学習を魅力的にする
+- エビデンスに基づいたアプローチは有意義な結果をもたらす
+- 長期的な信頼は短期的な指標より重要
+
+---
+
+## サポート
+
+Kuakuaが役立つと感じたら、私たちの活動をサポートしてください：
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*最終更新: 2026-03-10*
+*バージョン: 2.0*

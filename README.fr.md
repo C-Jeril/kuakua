@@ -10,8 +10,8 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -29,69 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## Introduction
 
-Bonjour, en tant que chercheur et praticien dévoué de la psychologie positive, je crois fermement en la positivité intrinsèque et la capacité de croissance de l'humanité.
+**Kuakua** est une plateforme complète de psychologie et de bien-être construite avec des technologies web modernes. Nous nous engageons à rendre la science psychologique accessible, engageante et bénéfique pour tous.
 
-Grâce à une recherche psychologique rigoureuse et à des applications pratiques, nous nous efforçons de transmettre "l'énergie psychologique", le bonheur et la santé à tous, en nous guidant vers une "vie positive".
+En tant que plateforme axée sur la psychologie positive, nous croyons en la capacité intrinsèque de croissance et de bien-être de l'humanité. Grâce à des outils fondés sur des preuves, des expériences interactives et du contenu organisé, nous aidons les individus à mieux se comprendre et à améliorer leur santé mentale.
 
-kuakua.app est une plateforme dédiée à la science de la psychologie positive.
+### Aperçu de la Plateforme
 
-Ici, nous célébrons les vertus, nourrissons la croissance et défendons la liberté de façonner son propre destin. En partageant des mots et des récits inspirants, et à travers des votes interactifs, nous visons à allumer un esprit indomptable en chacun.
+| Module | Quantité | Description |
+|--------|-------|-------------|
+| 🎮 **Jeux** | 140+ | Jeux cognitifs, puzzles, jeux de relaxation et jeux de navigateur classiques |
+| 📋 **Tests** | 150+ | Outils d'auto-évaluation psychologique et instruments validés |
+| 🧪 **Expériences** | 90+ | Implémentations interactives de paradigmes cognitifs classiques |
+| 🛠️ **Outils** | 30+ | Utilitaires pratiques pour la concentration, la productivité et le bien-être |
+| 📚 **Documentation** | 200+ | Base de connaissances en psychologie et documentation de recherche |
+| ✍️ **Blog** | 200+ | Articles sur la psychologie, le bien-être et la croissance personnelle |
+| 🌍 **Langues** | 32 | Support complet d'internationalisation incluant les langues RTL |
 
-Rejoignez-nous et laissez la positivité rayonner dans votre vie.
+### Stack Technologique
+
+- **Framework**: Next.js 16.1.6 avec App Router
+- **Langage**: TypeScript 5.9.3
+- **Style**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **Internationalisation**: next-intl (32 langues)
+- **Gestion d'État**: Zustand 5.0.11
+- **Animation**: Framer Motion 12.35.2
+- **Base de données**: Supabase (PostgreSQL)
+- **Déploiement**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## En savoir plus sur la psychologie positive :
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## Modules Principaux
 
-## Histoire de la psychologie positive
+### 🎮 Jeux (`/games`)
 
-La psychologie positive, un domaine émergent, est dédiée à l'amélioration de la santé mentale et du bonheur. Son objectif est d'aider les individus à découvrir et à exploiter leurs forces, afin d'atteindre des niveaux plus élevés de satisfaction et de joie de vivre.
+Plus de 140 jeux couvrant plusieurs catégories :
 
-Le développement de la psychologie positive a commencé à la fin du XXe siècle et a été formellement introduit en 1997. Ce domaine a gagné en reconnaissance avec la publication de "Positive Psychology: An Introduction" par Martin Seligman et Mihaly Csikszentmihalyi en janvier 2000.
+- **Entraînement Cognitif**: Tests de temps de réaction, mémoire, attention et vitesse de traitement
+- **Puzzles Classiques**: Sudoku, 2048, Tetris, Échecs, Solitaire
+- **Classiques Google**: Jeu du dinosaure, Snake, Pac-Man, Démineur
+- **Jeux de Relaxation**: Perfect Tidy, coloriage, puzzles
+- **Simulation**: Redémarrage de vie, Monopoly, Jeu de distribution de bière
 
-Promue par le psychologue Martin Seligman et ses collègues, la psychologie positive représente un changement révolutionnaire dans le domaine de la psychologie et marque un nouveau jalon dans l'histoire de la société humaine. Elle fait le pont entre la sagesse des cultures orientales et occidentales et la recherche psychologique.
+**Jeux Populaires:**
+- [Test de Temps de Réaction](https://kuakua.app/games/reaction-time) - Mesurez votre vitesse de réflexe neural
+- [Test de Mémoire du Chimpanzé](https://kuakua.app/games/chimp-test) - Défiez la mémoire spatiale au niveau des primates
+- [Jeu de Mémoire Visuelle](https://kuakua.app/games/visual-memory) - Testez la capacité de mémoire à court terme
+- [Test de Vitesse de Frappe](https://kuakua.app/games/typing-test) - Mesure WPM et précision
+- [2048](https://kuakua.app/games/2048) - Puzzle numérique classique
+- [Simulateur de Redémarrage de Vie](https://kuakua.app/games/life-restart) - Simulation de vie avec fins multiples
 
-Seligman et ses collègues soutiennent que la psychologie doit aller au-delà de l'étude des maladies mentales et des problèmes pour explorer les moyens d'améliorer la santé mentale et le bonheur. La psychologie positive utilise des méthodes scientifiques pour étudier le bonheur et promeut une orientation positive dans le domaine, en se concentrant sur le développement des traits psychologiques positifs, du bien-être et du développement harmonieux.
+### 📋 Tests Psychologiques (`/test`)
 
-Au cœur de la psychologie positive se trouve le concept d'eudaimonia, un terme de la philosophie aristotélicienne signifiant le bien suprême de l'homme, souvent traduit par "floraison" ou "vie bonne". Les psychologues positifs utilisent souvent les termes bien-être subjectif (SWB) et bonheur de manière interchangeable.
+Une collection complète de plus de 150 outils d'auto-évaluation psychologique :
 
-Le domaine priorise l'amélioration du bien-être individuel et sociétal, en étudiant "les expériences subjectives positives, les traits individuels positifs et les institutions positives... visant à améliorer la qualité de vie".
+**Instruments Cliniques Validés:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - Questionnaire de Santé du Patient pour la dépression
+- [GAD-7](https://kuakua.app/test/gad-7) - Évaluation du Trouble d'Anxiété Généralisée
+- [DASS-21](https://kuakua.app/test/dass-21) - Échelle de Dépression, Anxiété et Stress
+- [PSQI](https://kuakua.app/test/psqi) - Indice de Qualité du Sommeil de Pittsburgh
+- [IES-R](https://kuakua.app/test/ies-r) - Échelle d'Impact de l'Événement (trauma)
 
-Ils croient que divers facteurs contribuent au bonheur et au bien-être subjectif, tels que les liens sociaux avec les conjoints, la famille, les amis, les collègues et les réseaux plus larges; l'adhésion à des clubs ou organisations sociales; l'exercice physique et les pratiques de méditation.
+**Évaluations de Personnalité:**
+- [Test de Personnalité Big Five](https://kuakua.app/test/bigfive-test) - Modèle à cinq facteurs
+- [MBTI](https://kuakua.app/test/mbti) - Indicateur de Type Myers-Briggs
+- [Test Ennéagramme](https://kuakua.app/test/enneagram-test) - Neuf types de personnalité
+- [HEXACO](https://kuakua.app/test/hexaco) - Modèle de personnalité à six facteurs
+- [Test DISC](https://kuakua.app/test/disc-test) - Évaluation comportementale
 
-La spiritualité est également considérée comme un facteur pouvant améliorer le bien-être. Les chercheurs continuent d'étudier les pratiques spirituelles et la dévotion religieuse comme sources potentielles de bien-être et parties intégrantes de la psychologie positive.
+**Échelles Spécialisées:**
+- [Test des Langages de l'Amour](https://kuakua.app/test/love-language-test) - Les cinq langages de Chapman
+- [Inventaire de Personnalité Narcissique](https://kuakua.app/test/narcissistic-personality-inventory)
+- [Évaluation de l'Addiction à Internet](https://kuakua.app/test/internet-addiction-assessment)
+- [Test de Carrière RIASEC](https://kuakua.app/test/riasec) - Intérêts professionnels de Holland
 
-Bien que le revenu financier puisse accroître le bonheur dans une certaine mesure, au-delà d'un seuil spécifique, son effet peut se stabiliser voire décliner. La psychologie positive met l'accent sur le développement des qualités positives d'un individu, la capacité de croissance et la liberté de façonner son propre destin.
+> ⚠️ **Avertissement**: Tous les tests sont à des fins éducatives et d'auto-réflexion uniquement. Ce ne sont pas des outils de diagnostic. Si vous rencontrez des problèmes de santé mentale, veuillez consulter un professionnel de santé qualifié.
 
-## Que fait la psychologie positive pour moi ?
+### 🧪 Expériences Cognitives (`/experiment`)
 
-Amélioration du bien-être et du fonctionnement optimal La psychologie positive se concentre sur l'amélioration du bien-être et du fonctionnement optimal des individus, plutôt que de simplement soulager les symptômes, en complétant et non en remplaçant la psychologie traditionnelle. Les thèmes courants en psychologie positive incluent la saveur de la vie, la gratitude, la gentillesse, la promotion des relations positives, et la poursuite de l'espoir et du sens.
+Plus de 90 implémentations interactives de paradigmes cognitifs classiques :
 
-Focus sur le bien-être Les recherches montrent que le bien-être et la psychopathologie sont modérément corrélés mais restent des concepts indépendants de la santé mentale. Même après un traitement réussi de la psychopathologie, de faibles niveaux de bien-être peuvent persister, formant un risque substantiel de détresse psychologique.
+**Attention et Fonction Exécutive:**
+- [Test de Stroop](https://kuakua.app/experiment/stroop-test) - Interférence cognitive
+- [Tâche N-Back](https://kuakua.app/experiment/n-back-task) - Entraînement de la mémoire de travail
+- [Test de Classement de Cartes du Wisconsin](https://kuakua.app/experiment/wcst-test) - Flexibilité cognitive
+- [Tâche Go/No-Go](https://kuakua.app/experiment/go-no-go-task) - Inhibition de réponse
+- [Tâche Flanker](https://kuakua.app/experiment/flanker-task) - Attention sélective
 
-Atténuation des symptômes psychologiques Des niveaux élevés de bien-être peuvent atténuer les symptômes psychologiques, y compris la rechute ou la récurrence des symptômes, et améliorer la qualité de vie et la longévité. Par conséquent, les échantillons cliniques peuvent grandement bénéficier des interventions psychologiques positives (PPIs) qui visent explicitement à améliorer le bien-être, tels que les sentiments positifs, les cognitions ou les comportements.
+**Prise de Décision:**
+- [Tâche de Jeu de l'Iowa](https://kuakua.app/experiment/iowa-gambling-task) - Prise de décision basée sur le risque
+- [Jeu de l'Ultimatum](https://kuakua.app/experiment/ultimatum-game) - Équité et négociation
+- [Jeu de Confiance](https://kuakua.app/experiment/trust-game) - Comportement de confiance sociale
+- [Actualisation par Délai](https://kuakua.app/experiment/delay-discounting) - Préférences temporelles
 
-Rôle auxiliaire Bien que la psychologie positive n'ait pas d'effet significatif sur le soulagement du stress lié au bonheur, à la dépression ou à l'anxiété, sa capacité à soulager indirectement la détresse psychologique en améliorant le bien-être est largement reconnue.
+**Mémoire et Apprentissage:**
+- [Test d'Association Implicite](https://kuakua.app/experiment/implicit-association-test) - Biais inconscients
+- [Effet de Position Sérielle](https://kuakua.app/experiment/serial-position) - Patterns de rappel mnésique
+- [Tâche des Blocs de Corsi](https://kuakua.app/experiment/corsi-task) - Mémoire visuospatiale
 
-Principaux avantages de la psychologie positive Savourer la vie : Profiter et apprécier les expériences positives. Gratitude : Reconnaître et être reconnaissant pour les bonnes choses de la vie. Gentillesse : Pratiquer la compassion et l'altruisme envers les autres. Promotion des relations positives : Construire et entretenir des relations saines et de soutien. Poursuite de l'espoir et du sens : S'efforcer d'atteindre des objectifs et trouver un sens à la vie. En se concentrant sur ces aspects, la psychologie positive aide les individus à mener une vie plus épanouissante et résiliente.
+**Perception:**
+- [Tâche de Recherche Visuelle](https://kuakua.app/experiment/visual-search-task) - Recherche de caractéristiques vs. conjonction
+- [Cécité au Changement](https://kuakua.app/experiment/change-blindness) - Limites de l'attention visuelle
+- [Effet McGurk](https://kuakua.app/experiment/mcgurk-effect) - Intégration audiovisuelle
 
-## En savoir plus sur la recherche en psychologie :
+### 🛠️ Outils (`/tools`)
 
-- [Kuakua | Théories et Aperçus en Psychologie](http://kuakua.app/theories-insights)
+Utilitaires pratiques pour le bien-être quotidien :
 
-## En savoir plus sur les ressources en psychologie :
+- [Système de Flux de Concentration](https://kuakua.app/tools/focus-flow-system) - Minuteur Pomodoro avec activités de pause
+- [Tableau de Scores](https://kuakua.app/tools/scoreboard) - Suiveur de scores de jeux
+- [Compteur de Mots](https://kuakua.app/tools/word-counter) - Outil d'analyse de texte
+- [Relaxation](https://kuakua.app/tools/relax) - Sons ambiants et méditation
+- [Onglet Temps](https://kuakua.app/tools/time-tab) - Horloge mondiale et minuteur
+- [Générateur Aléatoire](https://kuakua.app/tools/random-generator) - Dés, pièces et sélections aléatoires
 
-- [Kuakua | Découvrez les Sites Web, Applications & Outils AI en Psychologie](http://kuakua.app/explore)
+### 📚 Base de Connaissances (`/docs`)
 
-## En savoir plus sur les mots positifs :
+Documentation psychologique complète couvrant :
 
-- [Kuakua | Votez pour des mots positifs et un langage heureux](http://kuakua.app/vote)
+- **Méthodes de Recherche**: Conception expérimentale, validité, fiabilité, statistiques
+- **Psychologie Sociale**: Conformité, préjugés, attribution, dynamique de groupe
+- **Psychologie Cognitive**: Mémoire, attention, perception, prise de décision
+- **Psychologie Positive**: Bien-être, résilience, gratitude, sens
+- **Psychologie Clinique**: Évaluation, approches thérapeutiques, santé mentale
 
-## En savoir plus sur les connaissances en psychologie :
+### ✍️ Blog (`/blog`)
 
-- [Kuakua | Documentation en Psychologie : Tout sur la Psychologie](http://kuakua.app/docs)
+Articles explorant la psychologie dans la vie quotidienne :
+
+- Applications de la psychologie positive
+- Perspectives des sciences cognitives
+- Perspectives de psychologie culturelle
+- Stratégies pratiques de bien-être
+- Résumés de recherche
+
+### 🌍 Explorer (`/explore`)
+
+Collection organisée de ressources en psychologie :
+
+- Sites web et applications externes
+- Outils IA pour la santé mentale
+- Bases de données de recherche
+- Ressources professionnelles
+
+---
+
+## Psychologie Positive
+
+### Qu'est-ce que la Psychologie Positive ?
+
+La psychologie positive, formellement introduite par Martin Seligman et Mihaly Csikszentmihalyi en 2000, est un domaine scientifique dédié à la compréhension et à l'amélioration de l'épanouissement humain. Contrairement à l'accent mis par la psychologie traditionnelle sur la pathologie, la psychologie positive étudie ce qui rend la vie digne d'être vécue.
+
+### Concepts Clés
+
+- **Eudaimonia**: Le bien humain le plus élevé—épanouissement et vie significative
+- **Bien-être Subjectif (SWB)**: Satisfaction de vie et équilibre émotionnel
+- **Forces de Caractère**: Vertus qui permettent aux individus de s'épanouir
+- **Flow**: Expérience optimale et engagement
+- **Résilience**: La capacité de se remettre de l'adversité
+
+### Avantages Principaux
+
+La recherche montre que les interventions de psychologie positive peuvent :
+
+1. **Améliorer le Bien-être**: Augmenter les émotions positives et la satisfaction de vie
+2. **Construire la Résilience**: Développer des stratégies d'adaptation face aux défis
+3. **Améliorer les Relations**: Favoriser les connexions sociales et l'empathie
+4. **Améliorer la Performance**: Renforcer la concentration, la créativité et la productivité
+5. **Promouvoir la Santé**: Soutenir les résultats de santé physique et mentale
+
+### Applications Pratiques
+
+- **Savourer**: Profiter consciemment des expériences positives
+- **Gratitude**: Reconnaître et apprécier les bénédictions de la vie
+- **Gentillesse**: Pratiquer la compassion et l'altruisme
+- **Sens**: Poursuivre un but et une signification
+- **Croissance**: Embrasser les défis comme des opportunités
+
+---
+
+## Contenu Vedette
+
+### Jeux Populaires
+
+| Jeu | Description | Lien |
+|------|-------------|------|
+| Temps de Réaction | Testez vos réflexes contre les moyennes mondiales | [Jouer](https://kuakua.app/games/reaction-time) |
+| Mémoire du Chimpanzé | Défi de rappel spatial | [Jouer](https://kuakua.app/games/chimp-test) |
+| Mémoire Visuelle | Évaluation de la mémoire à court terme | [Jouer](https://kuakua.app/games/visual-memory) |
+| Mémoire de Séquence | Rappel de motifs avec difficulté adaptative | [Jouer](https://kuakua.app/games/sequence-memory) |
+| Test de Frappe | Mesure WPM et précision | [Jouer](https://kuakua.app/games/typing-test) |
+| 2048 | Puzzle de fusion numérique | [Jouer](https://kuakua.app/games/2048) |
+| Sudoku | Puzzle logique classique | [Jouer](https://kuakua.app/games/sudoku) |
+| Échecs | Jeu de société stratégique avec IA | [Jouer](https://kuakua.app/games/chess) |
+
+### Tests Vedettes
+
+| Test | Objectif | Lien |
+|------|---------|------|
+| Big Five | Traits de personnalité | [Passer le Test](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | Dépistage de la dépression | [Passer le Test](https://kuakua.app/test/phq-9) |
+| GAD-7 | Évaluation de l'anxiété | [Passer le Test](https://kuakua.app/test/gad-7) |
+| Langages de l'Amour | Préférences relationnelles | [Passer le Test](https://kuakua.app/test/love-language-test) |
+| MBTI | Type de personnalité | [Passer le Test](https://kuakua.app/test/mbti) |
+| Ennéagramme | Patterns de personnalité | [Passer le Test](https://kuakua.app/test/enneagram-test) |
+
+### Expériences Vedettes
+
+| Expérience | Domaine Cognitif | Lien |
+|------------|-----------------|------|
+| Test de Stroop | Interférence cognitive | [Essayer](https://kuakua.app/experiment/stroop-test) |
+| N-Back | Mémoire de travail | [Essayer](https://kuakua.app/experiment/n-back-task) |
+| WCST | Flexibilité cognitive | [Essayer](https://kuakua.app/experiment/wcst-test) |
+| IAT | Associations implicites | [Essayer](https://kuakua.app/experiment/implicit-association-test) |
+| Tours de Hanoï | Planification et résolution de problèmes | [Essayer](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## Liens Rapides
+
+- 🏠 **Accueil**: [kuakua.app](https://kuakua.app)
+- 🎮 **Jeux**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Tests**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Expériences**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Outils**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **Documentation**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **Explorer**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **Voter**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **Cartes Quotidiennes**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## Notre Mission
+
+Kuakua vise à construire des **outils et contenus psychologiquement fondés, éthiquement responsables et globalement accessibles** qui aident les individus à mieux se comprendre et à améliorer leur bien-être.
+
+Nous croyons que :
+- Les connaissances psychologiques devraient être accessibles à tous
+- Les outils d'auto-évaluation peuvent favoriser la conscience de soi et la croissance
+- Les expériences interactives rendent l'apprentissage engageant
+- Les approches fondées sur des preuves produisent des résultats significatifs
+- La confiance à long terme est plus importante que les métriques à court terme
+
+---
+
+## Soutien
+
+Si vous trouvez Kuakua utile, envisagez de soutenir notre travail :
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*Dernière mise à jour : 2026-03-10*
+*Version : 2.0*

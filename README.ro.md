@@ -1,4 +1,4 @@
-# Bine ați venit pe kuakua.app
+# Kuakua - Psihologie și Platformă de Bunăstare
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -29,67 +29,97 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Introducere
+## Prezentare Generală a Platformei
 
-Salutări, ca cercetător și practicant dedicat al psihologiei pozitive, cred cu tărie în pozitivitatea și capacitatea de creștere intrinsecă a umanității.
+| Modul | Conținut | Descriere |
+|--------|-----------|-------------|
+| 🎮 **Jocuri** | 140+ jocuri | Puzzle, provocări cognitive, jocuri de relaxare și clasice |
+| 📋 **Teste** | 150+ teste | Scale psihologice validate și instrumente de autoevaluare |
+| 🧪 **Experimente** | 90+ experimente | Paradigme cognitive clasice și sarcini experimentale |
+| 🛠️ **Instrumente** | 30+ instrumente | Flux de concentrare, tabel de scor, contor de cuvinte și altele |
+| 📚 **Documentație** | 200+ articole | Bază de cunoștințe pentru teorii și cercetare psihologică |
+| ✍️ **Blog** | 200+ postări | Articole despre sănătate mentală și dezvoltare personală |
 
-Prin cercetări psihologice riguroase și aplicații practice, ne străduim să transmitem 'energie psihologică', fericire și sănătate tuturor, ghidându-ne spre o 'viață pozitivă'.
+## Stack Tehnologic
 
-kuakua.app este o platformă dedicată științei psihologiei pozitive.
+| Tehnologie | Versiune | Scop |
+|-----------|---------|---------|
+| **Next.js** | 16.1.6 | Framework React (App Router) |
+| **TypeScript** | 5.9.3 | JavaScript type-safe |
+| **Tailwind CSS** | 4.2.1 | Utility-first styling |
+| **DaisyUI** | 5.5.18 | Bibliotecă de componente |
+| **next-intl** | 4.1.0 | Internaționalizare (32 limbi) |
+| **Zustand** | 5.0.11 | Gestionare stare |
+| **Framer Motion** | 12.35.2 | Bibliotecă de animații |
+| **Supabase** | - | Bază de date (PostgreSQL) |
+| **Vercel** | - | Platformă de implementare |
 
-Aici sărbătorim virtuțile, hrănim creșterea și promovăm libertatea de a-ți modela propriul destin. Prin împărtășirea cuvintelor și narațiunilor înălțătoare și prin vot interactiv, ne propunem să aprindem un spirit de neclintit în fiecare dintre noi.
+## Module Principale
 
-Alăturați-vă nouă și lăsați pozitivitatea să radieze în viața dumneavoastră.
+### 🎮 Jocuri
+Colecție de peste 140 de jocuri interactive, incluzând:
+- **Jocuri puzzle**: Snake, 2048, Tetris, Minesweeper
+- **Provocări cognitive**: Test Stroop, jocuri de memorie, N-back
+- **Jocuri de relaxare**: Jocuri de relaxare și mindfulness
+- **Jocuri clasice**: Pacman, Space Invaders, Breakout
 
-## Aflați mai multe despre psihologia pozitivă:
+### 📋 Teste Psihologice
+Peste 150 de instrumente psihologice de autoevaluare:
+- **Scale validate**: PHQ-9, GAD-7, Big Five, PSS
+- **Evaluare personalitate**: MBTI, Enneagram, VIA Strengths
+- **Măsurare bunăstare**: SWLS, FFMQ, RSES
+- **Evaluări specializate**: PTSD, anxietate, screening depresie
 
-- [http://kuakua.app/](http://kuakua.app/)
+### 🧪 Experimente Cognitive
+Peste 90 de sarcini experimentale interactive:
+- **Atenție**: Efect Stroop, sarcina Flanker
+- **Memorie**: N-back, interval de cifre, memorie vizuală
+- **Luarea deciziilor**: Iowa Gambling Task, evaluare risc
+- **Reacție**: Go/No-Go, timp de reacție la alegere
 
-## Istoria Psihologiei Pozitive
+### 🛠️ Instrumente
+Peste 30 de instrumente practice:
+- **Productivitate**: Flux de concentrare, timer Pomodoro
+- **Analiză**: Tabel de scor, urmărire progres
+- **Scriere**: Contor de cuvinte, șabloane jurnal
+- **Relaxare**: Exerciții de respirație, timer meditație
 
-Psihologia pozitivă, un domeniu emergent, este dedicată îmbunătățirii sănătății mentale și a fericirii. Scopul său este de a ajuta indivizii să descopere și să valorifice punctele lor forte, atingând astfel niveluri mai ridicate de satisfacție și bucurie în viață.
+## Psihologie Pozitivă
 
-Dezvoltarea psihologiei pozitive a început la sfârșitul secolului XX și a fost introdusă oficial în 1997. Acest domeniu a câștigat recunoaștere prin publicarea lucrării 'Positive Psychology: An Introduction' de Martin Seligman și Mihaly Csikszentmihalyi în ianuarie 2000.
+Psihologia pozitivă este un domeniu științific dedicat îmbunătățirii sănătății mentale și a fericirii. Fondată de Martin Seligman și Mihaly Csikszentmihalyi, se concentrează pe punctele forte umane, virtuți și funcționare optimă.
 
-Promovată de psihologul Martin Seligman și colegii săi, psihologia pozitivă reprezintă o schimbare revoluționară în domeniul psihologiei și marchează un nou reper în istoria societății umane. Ea unește înțelepciunea culturilor estice și vestice și cercetările psihologice.
+### Concepte Cheie
+- **Eudaimonia**: Înflorire și auto-realizare
+- **Modelul PERMA**: Emoții pozitive, angajament, relații, sens, realizări
+- **Bunăstare subiectivă**: Satisfacție de viață și bucurie
+- **Puncte forte de caracter**: 24 de puncte forte în clasificarea VIA
 
-Seligman și colegii săi susțin că psihologia ar trebui să depășească studiul bolilor și problemelor mentale pentru a explora modalități de îmbunătățire a sănătății mentale și a fericirii. Psihologia pozitivă folosește metode științifice pentru a studia fericirea și promovează o orientare pozitivă în domeniu, concentrându-se pe cultivarea trăsăturilor psihologice pozitive, a bunăstării și a dezvoltării armonioase.
+## Conținut Selectat
 
-Conceptul central al psihologiei pozitive este eudaimonia, un termen din filosofia aristotelică care semnifică binele suprem uman, adesea tradus ca 'înflorire' sau 'viața bună'. Psihologii pozitivi folosesc adesea termenii bunăstare subiectivă (SWB) și fericire interschimbabil.
+| Categorie | Conținut | Descriere |
+|--------|-----------|-------------|
+| 📖 **Teorii** | 50+ teorii | Teorii și cercetare psihologică |
+| 🔬 **Cercetare** | 100+ studii | Cercetare psihologică actuală |
+| 🌟 **Practică** | 80+ exerciții | Exerciții practice de bunăstare |
+| 💡 **Perspective** | 120+ articole | Perspective pentru dezvoltare personală |
 
-Domeniul prioritizează îmbunătățirea atât a bunăstării individuale, cât și a celei sociale, studiind 'experiențele subiective pozitive, trăsăturile individuale pozitive și instituțiile pozitive... destinate îmbunătățirii calității vieții.'
+## Link-uri Rapide
 
-Ei cred că diverși factori contribuie la fericire și bunăstare subiectivă, cum ar fi conexiunile sociale cu soții, familia, prietenii, colegii și rețelele mai largi; apartenența la cluburi sau organizații sociale; exercițiile fizice și practicile de meditație.
+- 🌐 **Website**: [kuakua.app](https://kuakua.app)
+- 📚 **Documentație**: [kuakua.app/docs](https://kuakua.app/docs)
+- 🎮 **Jocuri**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Teste**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Experimente**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Instrumente**: [kuakua.app/tools](https://kuakua.app/tools)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🔍 **Explorare**: [kuakua.app/explore](https://kuakua.app/explore)
 
-Spiritualitatea este, de asemenea, considerată un factor care poate îmbunătăți bunăstarea. Cercetătorii continuă să studieze practicile spirituale și devotamentul religios ca surse potențiale de bunăstare și părți integrante ale psihologiei pozitive.
+## Misiunea Noastră
 
-Deși venitul financiar poate crește fericirea până la un anumit punct, dincolo de un anumit prag, efectul său poate stagna sau chiar scădea. Psihologia pozitivă pune accent pe cultivarea calităților pozitive ale individului, capacitatea de creștere și libertatea de a-și modela destinul.
+Kuakua se angajează să creeze instrumente și conținut psihologic fundamentate, etic responsabile și global accesibile care ajută indivizii să înțeleagă mai bine pe ei înșiși și bunăstarea lor.
 
-## Ce face psihologia pozitivă pentru mine?
-
-Îmbunătățirea Bunăstării și a Funcționării Optime Psihologia pozitivă se concentrează pe îmbunătățirea bunăstării și a funcționării optime ale indivizilor, nu doar pe atenuarea simptomelor, completând mai degrabă decât înlocuind psihologia tradițională. Temele comune în psihologia pozitivă includ savurarea vieții, recunoștința, bunătatea, promovarea relațiilor pozitive și urmărirea speranței și a sensului.
-
-Concentrare pe Bunăstare Cercetările arată că bunăstarea și psihopatologia sunt moderat corelate, dar construcții independente ale sănătății mentale. Chiar și după tratamentul de succes al psihopatologiei, niveluri scăzute de bunăstare pot persista, formând un factor de risc substanțial pentru suferința psihologică.
-
-Atenuarea Simptomelor Psihologice Nivelurile ridicate de bunăstare pot proteja împotriva simptomelor psihologice, inclusiv a recăderii sau reapariției simptomelor, și pot îmbunătăți calitatea vieții și longevitatea. Prin urmare, eșantioanele clinice pot beneficia considerabil de pe urma intervențiilor psihologice pozitive (PPI) care vizează explicit îmbunătățirea bunăstării, cum ar fi sentimentele, cognițiile sau comportamentele pozitive.
-
-Rol Auxiliar Deși psihologia pozitivă nu are un efect semnificativ asupra ameliorării stresului legat de fericire, depresie sau anxietate, capacitatea sa de a atenua indirect suferința psihologică prin îmbunătățirea bunăstării este larg recunoscută.
-
-Beneficiile Cheie ale Psihologiei Pozitive Savurarea Vieții: Bucurarea și aprecierea experiențelor pozitive. Recunoștință: Recunoașterea și mulțumirea pentru lucrurile bune din viață. Bunătate: Practicarea compasiunii și altruismului față de ceilalți. Promovarea Relațiilor Pozitive: Construirea și menținerea relațiilor sănătoase și de susținere. Urmărirea Speranței și a Sensului: Străduirea pentru obiective și găsirea unui sens în viață. Concentrarea pe aceste aspecte ajută psihologia pozitivă pe indivizi să ducă vieți mai împlinite și reziliente.
-
-## Aflați mai multe despre cercetarea psihologică:
-
-- [Kuakua | Teorii și perspective psihologice](http://kuakua.app/theories-insights)
-
-## Aflați mai multe despre resursele psihologice:
-
-- [Kuakua | Descoperiți site-uri web, aplicații și instrumente AI de psihologie](http://kuakua.app/explore)
-
-## Aflați mai multe despre cuvintele pozitive:
-
-- [Kuakua | Votați pentru cuvinte pozitive și limbajul fericirii](http://kuakua.app/vote)
-
-## Aflați mai multe despre cunoștințele psihologice:
-
-- [Kuakua | Documentația psihologică: Totul despre psihologie](http://kuakua.app/docs)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)

@@ -29,6 +29,9 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## 介绍
 
@@ -36,165 +39,263 @@
 
 通过严格的心理学研究和实践应用，我们努力将“心理能量”、幸福感和健康带给所有人，引导我们走向“积极的人生”。
 
-kuakua.app 是一个专注于积极心理学的科学平台。
+**Kuakua** 是一个基于现代 Web 技术构建的综合心理学与身心健康平台。我们致力于让心理学知识变得触手可及、引人入胜，并惠及每一个人。
+
+作为一个专注于积极心理学的平台，我们坚信人类内在具有成长和追求幸福的能力。通过循证工具、互动体验和精选内容，我们帮助个人更好地了解自己，改善心理健康。
 
 在这里，我们赞美美德，培养成长，并提倡塑造自己命运的自由。通过分享振奋人心的言辞和故事，并通过互动投票，我们旨在激发每个人内心不可战胜的精神。
 
 加入我们，让积极的能量在您的生活中散发光芒。
 
+### 平台概览
+
+| 模块 | 数量 | 描述 |
+|------|------|------|
+| 🎮 **游戏** | 140+ | 认知游戏、益智游戏、放松游戏和经典浏览器游戏 |
+| 📋 **测试** | 150+ | 心理自评工具和标准化量表 |
+| 🧪 **实验** | 90+ | 经典认知范式和实验任务的互动实现 |
+| 🛠️ **工具** | 30+ | 专注力、生产力和身心健康实用工具 |
+| 📚 **文档** | 200+ | 心理学知识库和研究文献 |
+| ✍️ **博客** | 200+ | 心理学、身心健康和个人成长文章 |
+| 🌍 **语言** | 32 | 完整的国际化支持，包括 RTL 语言 |
+
+### 技术栈
+
+- **框架**: Next.js 16.1.6 + App Router
+- **语言**: TypeScript 5.9.3
+- **样式**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **国际化**: next-intl（32 种语言）
+- **状态管理**: Zustand 5.0.11
+- **动画**: Framer Motion 12.35.2
+- **数据库**: Supabase (PostgreSQL)
+- **部署**: Vercel
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## 了解更多关于积极心理学的信息：
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## 积极心理学的历史
-
-积极心理学作为一个新兴领域，致力于提升心理健康和幸福感。其目标是帮助个人发现并利用自己的优势，从而实现更高的生活满意度和幸福感。
-
-积极心理学的发展始于 20 世纪后期，并于 1997 年正式提出。该领域通过马丁·塞利格曼和米哈伊·契克森特米哈伊在 2000 年 1 月发表的《积极心理学：导论》一书而获得认可。
-
-在心理学家马丁·塞利格曼及其同事的推动下，积极心理学代表了心理学领域的一次革命性转变，并标志着人类社会历史上的一个新里程碑。它融合了东西方文化的智慧和心理学研究。
-
-塞利格曼及其同事认为，心理学不应仅仅研究心理疾病和问题，还应探索提升心理健康和幸福感的方法。积极心理学采用科学方法研究幸福，并在该领域内推广一种积极的取向，专注于培养积极的心理特质、福祉和和谐发展。
-
-积极心理学的核心概念是“幸福感”，这是一个源自亚里士多德哲学的术语，表示最高的人类善，通常被译为“繁荣”或“美好生活”。积极心理学家通常将主观幸福感（SWB）和幸福这两个术语互换使用。
-
-该领域优先考虑增强个人和社会的福祉，研究“积极的主观体验、积极的个性特质和积极的机构……旨在提高生活质量”。
-
-他们认为，幸福和主观幸福感的各种因素包括与配偶、家庭、朋友、同事及更广泛的网络的社会联系；加入俱乐部或社交组织；身体锻炼和冥想练习。
-
-灵性也被视为能增强幸福感的一个因素。研究人员继续研究灵性实践和宗教信仰，作为潜在的幸福感来源，并将其视为积极心理学的组成部分。
-
-尽管经济收入在一定程度上可以提高幸福感，但超过某一特定门槛后，其影响可能会趋平甚至下降。积极心理学强调培养个人的积极品质、成长的能力以及塑造自己命运的自由。
-
-## 积极心理学能为我做些什么？
-
-提升福祉和最佳功能 积极心理学关注提升个人的福祉和最佳功能，而不仅仅是缓解症状，补充而不是替代传统心理学。积极心理学的常见主题包括享受生活、感恩、善良、促进积极关系以及追求希望和意义。
-
-关注福祉 研究表明，福祉和精神病理学之间存在中等相关性，但它们是心理健康的独立构念。即使在精神病理学得到成功治疗后，低水平的福祉仍可能持续，构成心理困扰的重大风险因素。
-
-缓解心理症状 高水平的福祉可以缓冲心理症状，包括症状的复发或再现，并提高生活质量和寿命。因此，临床样本可以极大地受益于明确旨在提升福祉的积极心理干预（PPIs），如积极的情感、认知或行为。
-
-辅助作用 虽然积极心理学在缓解与幸福、抑郁或焦虑相关的压力方面没有显著效果，但通过提升福祉间接缓解心理困扰的能力得到了广泛认可。
-
-积极心理学的主要益处 享受生活：享受并珍惜积极的体验。感恩：认识并感激生活中的美好事物。善良：对他人实践同情和利他主义。促进积极关系：建立和维持健康和支持的关系。追求希望和意义：努力实现目标并找到生活的意义。通过关注这些方面，积极心理学帮助个人过上更充实、更有韧性的生活。
-
-## 了解更多关于心理学实验研究的信息：
-
-- [Kuakua | 心理学实验](http://kuakua.app/experiment)
-
-## 了解更多关于心理学问卷测验的信息：
-
-- [Kuakua | 心理学问卷测验](http://kuakua.app/test)
-
-## 了解更多关于心理学游戏的信息：
-
-- [Kuakua | 心理学游戏](http://kuakua.app/games)
-
-## 了解更多关于心理学资源的信息：
-
-- [Kuakua | 发现心理学网站、应用程序和 AI 工具](http://kuakua.app/explore)
-
-## 了解更多关于积极词汇的信息：
-
-- [Kuakua | 投票选出积极词汇和幸福语言](http://kuakua.app/vote)
-
-## 了解更多关于心理学知识的信息：
-
-- [Kuakua | 心理学文档：关于心理学的一切](http://kuakua.app/docs)
-
- ## 了解更多关于心理学研究的信息：
-
-- [Kuakua | 心理学理论与见解](http://kuakua.app/theories-insights)
-
-  
 ---
 
-## 其他页面
+## 核心模块
 
+### 🎮 游戏 (`/games`)
 
-### 1. 反应时间测试 / Reaction Time Test
+超过 140 款游戏，涵盖多个类别：
 
-  在 5 次点击中测量你的神经反射速度，并和全球用户排名比拼。反应时被公认是评估专注力与神经传导效率的黄金指标。
-  [https://kuakua.app/games/reaction-time](https://kuakua.app/games/reaction-time)
+- **认知训练**: 反应时、记忆、注意力和信息处理速度测试
+- **经典益智**: 数独、2048、俄罗斯方块、国际象棋、纸牌
+- **Google 经典**: 恐龙游戏、贪吃蛇、吃豆人、扫雷
+- **放松游戏**: Perfect Tidy、涂色、拼图
+- **模拟游戏**: 人生重启、大富翁、啤酒配送游戏
 
-### 2. 黑猩猩记忆测试 / Chimp Memory Test
+**热门游戏:**
+- [反应时测试](https://kuakua.app/games/reaction-time) - 测量你的神经反应速度
+- [黑猩猩记忆测试](https://kuakua.app/games/chimp-test) - 挑战灵长类级别的空间记忆
+- [视觉记忆游戏](https://kuakua.app/games/visual-memory) - 测试短时记忆容量
+- [打字速度测试](https://kuakua.app/games/typing-test) - WPM 和准确率测量
+- [2048](https://kuakua.app/games/2048) - 经典数字合并游戏
+- [人生重启模拟器](https://kuakua.app/games/life-restart) - 多结局人生模拟
 
-  挑战灵长类级别的瞬时记忆，把 1-9 的数字顺序点完再刷新记忆极限！
-  [https://kuakua.app/games/chimp-test](https://kuakua.app/games/chimp-test)
+### 📋 心理测试 (`/test`)
 
-### 3. 打字速度测试 / Typing Speed Test
+超过 150 个心理自评工具的综合集合，包括：
 
-  一分钟极限打字，实时计算 WPM 与准确率，适合练手速也适合朋友 PK。
-  [https://kuakua.app/games/typing-test](https://kuakua.app/games/typing-test)
+**标准化临床量表:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - 患者健康问卷（抑郁筛查）
+- [GAD-7](https://kuakua.app/test/gad-7) - 广泛性焦虑障碍评估
+- [DASS-21](https://kuakua.app/test/dass-21) - 抑郁、焦虑和压力量表
+- [PSQI](https://kuakua.app/test/psqi) - 匹兹堡睡眠质量指数
+- [IES-R](https://kuakua.app/test/ies-r) - 事件影响量表（创伤）
 
-### 4. 数学速算挑战 / Math Speed Test
+**人格评估:**
+- [大五人格测试](https://kuakua.app/test/bigfive-test) - 五因素模型
+- [MBTI](https://kuakua.app/test/mbti) - 迈尔斯-布里格斯类型指标
+- [九型人格测试](https://kuakua.app/test/enneagram-test) - 九种人格类型
+- [HEXACO](https://kuakua.app/test/hexaco) - 六因素人格模型
+- [DISC 测试](https://kuakua.app/test/disc-test) - 行为风格评估
 
-  心算 + 时间压力双重刺激，考验工作记忆与计算策略。
-  [https://kuakua.app/games/quick-mental-math](https://kuakua.app/games/quick-mental-math)
+**专项量表:**
+- [爱的五种语言测试](https://kuakua.app/test/love-language-test) - 查普曼五种爱语
+- [自恋人格问卷](https://kuakua.app/test/narcissistic-personality-inventory)
+- [网络成瘾评估](https://kuakua.app/test/internet-addiction-assessment)
+- [RIASEC 职业测试](https://kuakua.app/test/riasec) - 霍兰德职业兴趣
 
-### 5. 视觉记忆游戏 / Visual Memory Game
+> ⚠️ **免责声明**: 所有测试仅供教育和自我反思目的，不是诊断工具。如果您正在经历心理健康问题，请咨询合格的专业医疗人员。
 
-  方块闪烁→记住位置→点击回忆，关卡逐渐扩张，检验短时记忆上限 (7±2)。
-  [https://kuakua.app/games/visual-memory](https://kuakua.app/games/visual-memory)
+### 🧪 认知实验 (`/experiment`)
 
-### 6. 序列记忆测试 / Sequence Memory Test
+超过 90 个经典认知范式的互动实现：
 
-  挑战模式记忆与顺序回放，难度随正确率自适应。
-  [https://kuakua.app/games/sequence-memory](https://kuakua.app/games/sequence-memory)
+**注意与执行功能:**
+- [Stroop 测试](https://kuakua.app/experiment/stroop-test) - 认知干扰
+- [N-Back 任务](https://kuakua.app/experiment/n-back-task) - 工作记忆训练
+- [威斯康星卡片分类测验](https://kuakua.app/experiment/wcst-test) - 认知灵活性
+- [Go/No-Go 任务](https://kuakua.app/experiment/go-no-go-task) - 反应抑制
+- [Flanker 任务](https://kuakua.app/experiment/flanker-task) - 选择性注意
 
-### 7. 爱的五种语言测试 / Five Love Languages Quiz
+**决策制定:**
+- [爱荷华赌博任务](https://kuakua.app/experiment/iowa-gambling-task) - 风险决策
+- [最后通牒博弈](https://kuakua.app/experiment/ultimatum-game) - 公平感与谈判
+- [信任博弈](https://kuakua.app/experiment/trust-game) - 社会信任行为
+- [延迟折扣](https://kuakua.app/experiment/delay-discounting) - 时间偏好
 
-  15 道题发现你的主要「爱语」，学习如何用对方的语言表达关怀。
-  [https://kuakua.app/tests/love-language-test](https://kuakua.app/test/love-language-test)
+**记忆与学习:**
+- [内隐联想测验](https://kuakua.app/experiment/implicit-association-test) - 无意识偏见
+- [系列位置效应](https://kuakua.app/experiment/serial-position) - 记忆回忆模式
+- [Corsi 方块任务](https://kuakua.app/experiment/corsi-task) - 视空间记忆
 
-### 8. 自恋人格问卷 / Narcissistic Personality Inventory
+**知觉:**
+- [视觉搜索任务](https://kuakua.app/experiment/visual-search-task) - 特征与联合搜索
+- [变化盲视](https://kuakua.app/experiment/change-blindness) - 视觉注意限制
+- [麦格克效应](https://kuakua.app/experiment/mcgurk-effect) - 视听整合
 
-  40 题 NPI 自评，区分健康自信与潜在病理自恋。
-  [https://kuakua.app/test/narcissistic-personality-inventory](https://kuakua.app/test/narcissistic-personality-inventory)
+### 🛠️ 工具 (`/tools`)
 
-### 9. 网络成瘾评估 / Internet Addiction Test
-  基于 Young 教授 IAT 量表，20 题快速了解自己是否过度依赖网络。
-  [https://kuakua.app/test/internet-addiction-assessment](https://kuakua.app/test/internet-addiction-assessment)
+日常身心健康实用工具：
 
-### 10. 隐性联想测验 / Implicit Association Test
-  快速分类任务揭示潜在偏见，源自哈佛大学隐性联想项目 Project Implicit。
-  [https://kuakua.app/experiment/implicit-association](https://kuakua.app/experiment/implicit-association-test)
+- [专注流系统](https://kuakua.app/tools/focus-flow-system) - 番茄钟计时器与休息活动
+- [记分板](https://kuakua.app/tools/scoreboard) - 游戏分数追踪器
+- [字数统计](https://kuakua.app/tools/word-counter) - 文本分析工具
+- [放松](https://kuakua.app/tools/relax) - 环境音与冥想
+- [时间标签](https://kuakua.app/tools/time-tab) - 世界时钟与计时器
+- [随机生成器](https://kuakua.app/tools/random-generator) - 骰子、硬币和随机选择
 
-### 11. N-Back 工作记忆任务
-  经典双 N-Back 训练，研究表明有助提升流体智力。
-  [https://kuakua.app/experiment/n-back-task](https://kuakua.app/experiment/n-back-task)
+### 📚 知识库 (`/docs`)
 
-### 12. 威斯康星卡片分类测验 / Wisconsin Card Sorting Task
-  通过颜色、形状、数量三规则的随机切换，评估认知灵活性与前额叶功能。
-  [https://kuakua.app/experiment/wcst-test](https://kuakua.app/experiment/wcst-test)
+全面的心理学文档，涵盖：
 
-### 13. 负启动实验 / Negative Priming Experiment
-  先抑制后回应的范式，体验注意抑制产生的反应迟缓。
-  [https://kuakua.app/experiment/negative-priming](https://kuakua.app/experiment/negative-priming)
+- **研究方法**: 实验设计、效度、信度、统计学
+- **社会心理学**: 从众、偏见、归因、群体动力学
+- **认知心理学**: 记忆、注意、知觉、决策
+- **积极心理学**: 幸福感、韧性、感恩、意义
+- **临床心理学**: 评估、治疗方法、心理健康
 
-### 14. 视觉搜索任务 / Visual Search Task
-  在干扰项中找目标，体验“特征 VS 结合”搜索差异。
-  [https://kuakua.app/experiment/visual-search-task](https://kuakua.app/experiment/visual-search-task)
+### ✍️ 博客 (`/blog`)
 
-### 15. 汉诺塔益智 / Tower of Hanoi
-  经典规划难题，考查执行功能与问题分解策略。
-  [https://kuakua.app/experiment/hanoi-tower](https://kuakua.app/experiment/hanoi-tower)
+探索日常生活中的心理学文章：
 
-### 16. 啤酒配送模拟 / Beer Distribution Game
-  扮演供应链四角色，对抗“牛鞭效应”，理解库存信息延迟的成本。
-  [https://kuakua.app/games/beerdistributiongame](https://kuakua.app/games/beerdistributiongame)
+- 积极心理学应用
+- 认知科学洞察
+- 文化心理学视角
+- 实用身心健康策略
+- 研究综述
 
-### 17. 人生重启模拟器 / Life Restart Simulator
+### 🌍 探索 (`/explore`)
 
-  五分钟重活一生，从天赋抽卡到多结局收集，体味选择与随机事件交织。
-  [https://kuakua.app/games/life-restart](https://kuakua.app/games/life-restart)
+精选心理学资源合集：
 
-### 18. 正能量词汇投票 / Positive Vocabulary Vote
-  给喜欢的积极词语点赞，参与构建全球幸福词典，研究显示学习正向词汇能提升主观幸福感。
-  [https://kuakua.app/vote](https://kuakua.app/vote)
+- 外部网站和应用
+- 心理健康 AI 工具
+- 研究数据库
+- 专业资源
 
-### 19. 每日赞卡 / Daily Positive Cards
-  随机抽取一句肯定语或感恩提示，形成每日积极启动仪式。
-  [https://kuakua.app/drawcard](https://kuakua.app/drawcard)
+---
+
+## 积极心理学
+
+### 什么是积极心理学？
+
+积极心理学由马丁·塞利格曼和米哈伊·契克森特米哈伊于 2000 年正式提出，是一个致力于理解和促进人类蓬勃发展的科学领域。与传统心理学关注病理不同，积极心理学研究什么让生活值得过。
+
+### 核心概念
+
+- **幸福感 (Eudaimonia)**: 最高的人类善——蓬勃发展与有意义的生活
+- **主观幸福感 (SWB)**: 生活满意度和情绪平衡
+- **性格优势**: 使个人茁壮成长的美德
+- **心流**: 最佳体验和投入状态
+- **韧性**: 从逆境中恢复的能力
+
+### 关键益处
+
+研究表明，积极心理干预可以：
+
+1. **提升幸福感**: 增加积极情绪和生活满意度
+2. **建立韧性**: 发展应对挑战的策略
+3. **改善关系**: 促进社会联系和共情
+4. **提升表现**: 增强专注力、创造力和生产力
+5. **促进健康**: 支持身心健康结果
+
+### 实践应用
+
+- **品味**: 正念地享受积极体验
+- **感恩**: 认识和感激生活中的祝福
+- **善良**: 实践同情和利他
+- **意义**: 追求目标和意义
+- **成长**: 将挑战视为机会
+
+---
+
+## 精选内容
+
+### 热门游戏
+
+| 游戏 | 描述 | 链接 |
+|------|------|------|
+| 反应时测试 | 测试你的反应速度，与全球平均值比较 | [开始](https://kuakua.app/games/reaction-time) |
+| 黑猩猩记忆 | 空间回忆挑战 | [开始](https://kuakua.app/games/chimp-test) |
+| 视觉记忆 | 短时记忆评估 | [开始](https://kuakua.app/games/visual-memory) |
+| 序列记忆 | 自适应难度的模式回忆 | [开始](https://kuakua.app/games/sequence-memory) |
+| 打字测试 | WPM 和准确率测量 | [开始](https://kuakua.app/games/typing-test) |
+| 2048 | 数字合并益智游戏 | [开始](https://kuakua.app/games/2048) |
+| 数独 | 经典逻辑益智游戏 | [开始](https://kuakua.app/games/sudoku) |
+| 国际象棋 | 带 AI 的策略棋盘游戏 | [开始](https://kuakua.app/games/chess) |
+
+### 精选测试
+
+| 测试 | 用途 | 链接 |
+|------|------|------|
+| 大五人格 | 人格特质 | [开始测试](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | 抑郁筛查 | [开始测试](https://kuakua.app/test/phq-9) |
+| GAD-7 | 焦虑评估 | [开始测试](https://kuakua.app/test/gad-7) |
+| 爱的语言 | 关系偏好 | [开始测试](https://kuakua.app/test/love-language-test) |
+| MBTI | 人格类型 | [开始测试](https://kuakua.app/test/mbti) |
+| 九型人格 | 人格模式 | [开始测试](https://kuakua.app/test/enneagram-test) |
+
+### 精选实验
+
+| 实验 | 认知领域 | 链接 |
+|------|----------|------|
+| Stroop 测试 | 认知干扰 | [体验](https://kuakua.app/experiment/stroop-test) |
+| N-Back | 工作记忆 | [体验](https://kuakua.app/experiment/n-back-task) |
+| WCST | 认知灵活性 | [体验](https://kuakua.app/experiment/wcst-test) |
+| IAT | 内隐联想 | [体验](https://kuakua.app/experiment/implicit-association-test) |
+| 汉诺塔 | 规划与问题解决 | [体验](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## 快速链接
+
+- 🏠 **首页**: [kuakua.app](https://kuakua.app)
+- 🎮 **游戏**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **测试**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **实验**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **工具**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **文档**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **博客**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **探索**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **投票**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **每日卡片**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## 我们的使命
+
+Kuakua 致力于构建**心理学基础扎实、伦理负责、全球可及的工具和内容**，帮助个人更好地了解自己并改善身心健康。
+
+我们相信：
+- 心理学知识应该对每个人开放
+- 自我评估工具可以促进自我觉察和成长
+- 互动体验使学习变得引人入胜
+- 循证方法产生有意义的结果
+- 长期信任比短期指标更重要
+
+---
+
+## 支持
+
+如果你觉得 Kuakua 有帮助，请考虑支持我们的工作：
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*最后更新: 2026-03-10*
+*版本: 2.0*

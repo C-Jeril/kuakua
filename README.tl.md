@@ -1,4 +1,4 @@
-# Maligayang Pagdating sa kuakua.app
+# Kuakua - Sikolohiya at Platform ng Kagalingan
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -29,71 +29,97 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Panimula
+## Pangkalahatang-ideya ng Platform
 
-Pagbati, bilang isang dedikadong mananaliksik at praktisyoner ng positibong sikolohiya, matatag akong naniniwala sa intrinsic na positibo at kakayahan ng tao na lumago.
+| Modul | Nilalaman | Paglalarawan |
+|--------|-----------|-------------|
+| 🎮 **Mga Laro** | 140+ laro | Puzzle, mga hamong cognitive, mga larong pang-relaksasyon at mga klasiko |
+| 📋 **Mga Pagsusulit** | 150+ pagsusulit | Mga validated na psychological scales at mga self-assessment tool |
+| 🧪 **Mga Eksperimento** | 90+ eksperimento | Mga klasikong cognitive paradigm at mga eksperimental na gawain |
+| 🛠️ **Mga Tool** | 30+ tool | Focus flow, scoreboard, word counter at iba pa |
+| 📚 **Dokumentasyon** | 200+ artikulo | Knowledge base para sa psychological theories at pananaliksik |
+| ✍️ **Blog** | 200+ post | Mga artikulo tungkol sa mental health at personal development |
 
-Sa pamamagitan ng masusing pananaliksik sa sikolohiya at praktikal na aplikasyon, pinagsusumikapan naming iparating ang 'enerhiyang sikolohikal,' kaligayahan, at kalusugan sa lahat, ginagabayan tayo patungo sa 'positibong buhay.'
+## Technology Stack
 
-Ang kuakua.app ay isang platform na nakatuon sa agham ng positibong sikolohiya.
+| Teknolohiya | Bersyon | Layunin |
+|-----------|---------|---------|
+| **Next.js** | 16.1.6 | React framework (App Router) |
+| **TypeScript** | 5.9.3 | Type-safe JavaScript |
+| **Tailwind CSS** | 4.2.1 | Utility-first styling |
+| **DaisyUI** | 5.5.18 | Component library |
+| **next-intl** | 4.1.0 | Internationalization (32 wika) |
+| **Zustand** | 5.0.11 | State management |
+| **Framer Motion** | 12.35.2 | Animation library |
+| **Supabase** | - | Database (PostgreSQL) |
+| **Vercel** | - | Deployment platform |
 
-Dito, ipinagdiriwang namin ang mga kabutihan, pinapangalagaan ang paglago, at tinatangkilik ang kalayaan upang hubugin ang sariling kapalaran. Sa pamamagitan ng pagbabahagi ng mga nakakaangat na salita at kwento, at sa pamamagitan ng interaktibong pagboto, layunin naming pukawin ang hindi matitinag na espiritu sa loob ng bawat isa.
+## Pangunahing Mga Modul
 
-Sumali sa amin at hayaang magningning ang positibismo sa iyong buhay.
+### 🎮 Mga Laro
+Koleksyon ng higit sa 140 interactive na laro, kabilang ang:
+- **Puzzle games**: Snake, 2048, Tetris, Minesweeper
+- **Mga hamong cognitive**: Stroop test, memory games, N-back
+- **Mga larong pang-relaksasyon**: Relaxation at mindfulness games
+- **Mga klasikong laro**: Pacman, Space Invaders, Breakout
 
-## Matuto nang higit pa tungkol sa positibong sikolohiya:
+### 📋 Mga Psychological Test
+Higit sa 150 psychological self-assessment tool:
+- **Mga validated scale**: PHQ-9, GAD-7, Big Five, PSS
+- **Personality assessment**: MBTI, Enneagram, VIA Strengths
+- **Well-being measurement**: SWLS, FFMQ, RSES
+- **Specialized assessments**: PTSD, anxiety, depression screening
+
+### 🧪 Mga Cognitive Experiment
+Higit sa 90 interactive na eksperimental na gawain:
+- **Pansin**: Stroop effect, Flanker task
+- **Memorya**: N-back, digit span, visual memory
+- **Pagpapasya**: Iowa Gambling Task, risk assessment
+- **Reaksyon**: Go/No-Go, choice reaction time
+
+### 🛠️ Mga Tool
+Higit sa 30 praktikal na tool:
+- **Produktibidad**: Focus flow, Pomodoro timer
+- **Pagsusuri**: Scoreboard, progress tracking
+- **Pagsusulat**: Word counter, journal templates
+- **Relaksasyon**: Breathing exercises, meditation timer
+
+## Positibong Sikolohiya
+
+Ang positibong sikolohiya ay isang siyentipikong disiplina na nakatuon sa pagpapabuti ng mental health at kaligayahan. Itinatag nina Martin Seligman at Mihaly Csikszentmihalyi, ito ay nakatuon sa mga lakas ng tao, birtud at optimal na pagganap.
+
+### Mga Pangunahing Konsepto
+- **Eudaimonia**: Pamumulaklak at self-actualization
+- **PERMA model**: Positibong emosyon, engagement, relasyon, kahulugan, tagumpay
+- **Subjective well-being**: Kasiyahan sa buhay at galak
+- **Mga lakas ng karakter**: 24 na lakas sa VIA classification
+
+## Napiling Nilalaman
+
+| Kategorya | Nilalaman | Paglalarawan |
+|--------|-----------|-------------|
+| 📖 **Mga Teorya** | 50+ teorya | Mga teorya at pananaliksik sa sikolohiya |
+| 🔬 **Pananaliksik** | 100+ pag-aaral | Kasalukuyang pananaliksik sa sikolohiya |
+| 🌟 **Praktika** | 80+ pagsasanay | Praktikal na mga pagsasanay sa kagalingan |
+| 💡 **Mga Pananaw** | 120+ artikulo | Mga pananaw para sa personal development |
+
+## Mga Quick Link
+
+- 🌐 **Website**: [kuakua.app](https://kuakua.app)
+- 📚 **Dokumentasyon**: [kuakua.app/docs](https://kuakua.app/docs)
+- 🎮 **Mga Laro**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Mga Pagsusulit**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Mga Eksperimento**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Mga Tool**: [kuakua.app/tools](https://kuakua.app/tools)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🔍 **Tuklasin**: [kuakua.app/explore](https://kuakua.app/explore)
+
+## Aming Misyon
+
+Ang Kuakua ay nakatuon sa paglikha ng psychologically grounded, ethically responsible, at globally accessible na mga tool at nilalaman na tumutulong sa mga indibidwal na mas maunawaan ang kanilang sarili at kanilang kagalingan.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
-
-## Alamin ang higit pa tungkol sa positibong sikolohiya:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Kasaysayan ng Positibong Sikolohiya
-
-Ang positibong sikolohiya, isang bagong umuusbong na larangan, ay nakatuon sa pagpapahusay ng kalusugang pangkaisipan at kaligayahan. Layunin nitong tulungan ang mga indibidwal na tuklasin at gamitin ang kanilang lakas, sa gayo'y makamit ang mas mataas na antas ng kasiyahan sa buhay at kaligayahan.
-
-Ang pag-unlad ng positibong sikolohiya ay nagsimula sa huling bahagi ng ika-20 siglo at opisyal na ipinakilala noong 1997. Ang larangang ito ay nakakuha ng pagkilala sa pamamagitan ng publikasyon ng 'Positive Psychology: An Introduction' nina Martin Seligman at Mihaly Csikszentmihalyi noong Enero 2000.
-
-Isinusulong ng psychologist na si Martin Seligman at ng kanyang mga kasamahan, ang positibong sikolohiya ay kumakatawan sa isang rebolusyonaryong pagbabago sa larangan ng sikolohiya at nagmamarka ng isang bagong milestone sa kasaysayan ng lipunan ng tao. Ito ay nagsasama ng karunungan ng kulturang Silangan at Kanluran at ng pananaliksik sa sikolohiya.
-
-Ipinapahayag nina Seligman at ng kanyang mga kasamahan na ang sikolohiya ay dapat lumampas sa pag-aaral ng mga sakit pangkaisipan at problema upang tuklasin ang mga paraan upang mapahusay ang kalusugang pangkaisipan at kaligayahan. Gumagamit ang positibong sikolohiya ng mga pamamaraang siyentipiko upang pag-aralan ang kaligayahan at isinusulong ang isang positibong oryentasyon sa larangan, na nakatuon sa pagpapaunlad ng mga positibong katangian ng sikolohiya, kagalingan, at pagkakaisa ng pag-unlad.
-
-Ang sentro ng positibong sikolohiya ay ang konsepto ng eudaimonia, isang terminong mula sa pilosopiyang Aristotelian na nangangahulugang pinakamataas na kabutihan ng tao, na madalas isinalin bilang 'kasaganaan' o 'ang mabuting buhay.' Kadalasan ginagamit ng mga positibong psychologist ang mga terminong subjective well-being (SWB) at kaligayahan na may parehong kahulugan.
-
-Ang larangang ito ay nagbibigay-priyoridad sa pagpapahusay ng parehong indibidwal at panlipunang kagalingan, na pinag-aaralan ang 'positibong mga karanasang subjective, positibong katangian ng indibidwal, at positibong mga institusyon... na naglalayong pagbutihin ang kalidad ng buhay.'
-
-Naniniwala sila na ang iba't ibang mga kadahilanan ay nag-aambag sa kaligayahan at subjective na kagalingan, tulad ng mga koneksyon sa lipunan sa mga asawa, pamilya, kaibigan, kasamahan, at mas malawak na mga network; pagiging kasapi sa mga klub o organisasyong panlipunan; pisikal na ehersisyo at mga kasanayan sa meditasyon.
-
-Ang espiritwalidad ay itinuturing din bilang isang kadahilanan na maaaring mapahusay ang kagalingan. Patuloy na pinag-aaralan ng mga mananaliksik ang mga kasanayang espiritwal at debosyon sa relihiyon bilang mga potensyal na mapagkukunan ng kagalingan at mahalagang bahagi ng positibong sikolohiya.
-
-Habang ang pinansyal na kita ay maaaring magpataas ng kaligayahan hanggang sa isang tiyak na antas, lampas sa isang tiyak na threshold, ang epekto nito ay maaaring magpatag o kahit bumaba. Binibigyang-diin ng positibong sikolohiya ang pagpapaunlad ng mga positibong katangian ng indibidwal, kakayahan para sa paglago, at kalayaan upang hubugin ang sariling kapalaran.
-
-## Ano ang magagawa ng positibong sikolohiya para sa akin?
-
-Pagpapahusay ng Kagalingan at Optimal na Pagganap Nakatuon ang positibong sikolohiya sa pagpapahusay ng kagalingan ng mga indibidwal at optimal na pagganap sa halip na pag-alis lamang ng mga sintomas, na umaakma sa halip na pumalit sa tradisyonal na sikolohiya. Karaniwang mga tema sa positibong sikolohiya ay ang pagtangkilik sa buhay, pasasalamat, kabaitan, pagpapromote ng positibong mga relasyon, at pagtugis ng pag-asa at kahulugan.
-
-Pagtuon sa Kagalingan Ipinapakita ng pananaliksik na ang kagalingan at sikopatolohiya ay may moderatong pagkakaugnay subalit mga independiyenteng konstruksiyon ng kalusugan ng isip. Kahit na matapos ang matagumpay na paggamot sa sikopatolohiya, maaaring manatili ang mababang antas ng kagalingan, na bumubuo ng isang malaking panganib na salik para sa pagkabalisa.
-
-Pagbawas ng mga Sintomas sa Pangkaisipan Ang mataas na antas ng kagalingan ay maaaring magbigay proteksyon laban sa mga sintomas sa pangkaisipan, kabilang ang pag-ulit o pagbabalik ng mga sintomas, at pagpapahusay ng kalidad ng buhay at haba ng buhay. Samakatuwid, ang mga klinikal na sampol ay maaaring makinabang nang malaki mula sa mga positibong interbensiyon sa sikolohiya (PPIs) na tahasang naglalayong pahusayin ang kagalingan, tulad ng positibong damdamin, kognisyon, o pag-uugali.
-
-Pang-auxiliary na Papel Habang ang positibong sikolohiya ay walang malaking epekto sa pag-alis ng stress na may kaugnayan sa kaligayahan, depresyon, o pagkabalisa, ang kakayahan nito na hindi direktang mag-alis ng pagkabalisa sa pag-iisip sa pamamagitan ng pagpapahusay ng kagalingan ay malawak na kinikilala.
-
-Mga Pangunahing Benepisyo ng Positibong Sikolohiya Pagtangkilik sa Buhay: Pag-eenjoy at pagpapahalaga sa mga positibong karanasan. Pasasalamat: Pagkilala at pasasalamat sa mga magagandang bagay sa buhay. Kabaitan: Pagsasanay ng habag at altruismo patungo sa iba. Pagpapromote ng Positibong Mga Relasyon: Pagbuo at pagpapanatili ng malusog at suportadong mga relasyon. Pagtugis ng Pag-asa at Kahulugan: Pagtataguyod ng mga layunin at paghahanap ng kahulugan sa buhay. Sa pamamagitan ng pagtutok sa mga aspetong ito, ang positibong sikolohiya ay tumutulong sa mga indibidwal na magkaroon ng mas makabuluhan at matibay na buhay.
-
-## Matuto nang higit pa tungkol sa pananaliksik sa sikolohiya:
-
-- [Kuakua | Teorya at Mga Pananaw ng Sikolohiya](http://kuakua.app/theories-insights)
-
-## Matuto nang higit pa tungkol sa mga mapagkukunan ng sikolohiya:
-
-- [Kuakua | Tuklasin ang Mga Website, Aplikasyon, at AI Tools ng Sikolohiya](http://kuakua.app/explore)
-
-## Matuto nang higit pa tungkol sa mga positibong salita:
-
-- [Kuakua | Bumoto para sa mga positibong salita at masayang wika](http://kuakua.app/vote)
-
-## Matuto nang higit pa tungkol sa kaalaman sa sikolohiya:
-
-- [Kuakua | Dokumentasyon ng Sikolohiya: Lahat Tungkol sa Sikolohiya](http://kuakua.app/docs)

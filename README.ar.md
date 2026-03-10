@@ -1,95 +1,189 @@
-# مرحبًا بكم في kuakua.app
+# Kuakua - منصة شاملة لعلم النفس والرفاهية
 
-[![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
-[![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
-[![Español|es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
-[![العربية|ar](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
-[![বাংলা|bn](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
-[![Português|pt](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
-[![Русский|ru](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
-[![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
-[![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
-[![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
-[![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
-[![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
-[![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
-[![Italiano|it](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
-[![Bahasa Melayu|ms](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
-[![Filipino|tl](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
-[![Dansk|da](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
-[![Norsk|no](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
-[![Svenska|sv](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
-[![Suomi|fi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
-[![Íslenska|is](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
-[![Nederlands|nl](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
-[![Polski|pl](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
-[![Ελληνικά|el](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
-[![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
-[![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
-[![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![English](https://img.shields.io/badge/lang-en-green.svg)](README.md)
+[![简体中文](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
+[![Español](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![日本語](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
+[![Deutsch](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
+[![Français](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![Português](https://img.shields.io/badge/lang-pt-brightgreen.svg)](README.pt.md)
+[![Русский](https://img.shields.io/badge/lang-ru-darkblue.svg)](README.ru.md)
+[![한국어](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
+[![Italiano](https://img.shields.io/badge/lang-it-darkorange.svg)](README.it.md)
+[![العربية](https://img.shields.io/badge/lang-ar-lightgrey.svg)](README.ar.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![ไทย](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
+[![Tiếng Việt](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
+[![Türkçe](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
+[![Bahasa Melayu](https://img.shields.io/badge/lang-ms-teal.svg)](README.ms.md)
+[![বাংলা](https://img.shields.io/badge/lang-bn-blue.svg)](README.bn.md)
+[![Nederlands](https://img.shields.io/badge/lang-nl-orange.svg)](README.nl.md)
+[![Polski](https://img.shields.io/badge/lang-pl-purple.svg)](README.pl.md)
+[![Ελληνικά](https://img.shields.io/badge/lang-el-lightblue.svg)](README.el.md)
+[![Čeština](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
+[![Magyar](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
+[![Română](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![Svenska](https://img.shields.io/badge/lang-sv-darkgreen.svg)](README.sv.md)
+[![Norsk](https://img.shields.io/badge/lang-no-lightblue.svg)](README.no.md)
+[![Dansk](https://img.shields.io/badge/lang-da-darkblue.svg)](README.da.md)
+[![Suomi](https://img.shields.io/badge/lang-fi-blue.svg)](README.fi.md)
+[![Íslenska](https://img.shields.io/badge/lang-is-darkred.svg)](README.is.md)
+[![Filipino](https://img.shields.io/badge/lang-tl-pink.svg)](README.tl.md)
+[![हिन्दी](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## مقدمة
+## نظرة عامة على المنصة
 
-تحية طيبة، بصفتي باحثًا وممارسًا متخصصًا في علم النفس الإيجابي، أؤمن بشدة بإيجابية الإنسانية الجوهرية وقدرتها على النمو.
+| الوحدة | المحتوى | الوصف |
+|--------|---------|-------|
+| 🎮 **ألعاب** | 140+ لعبة | ألغاز، تحديات معرفية، ألعاب استرخاء، كلاسيكيات Google |
+| 📋 **اختبارات** | 150+ اختبار | اختبارات نفسية مبنية على العلم، تقييمات ذاتية |
+| 🧪 **تجارب** | 90+ تجربة | نماذج معرفية كلاسيكية، مهام تجريبية تفاعلية |
+| 🔧 **أدوات** | 30+ أداة | أدوات عملية للتركيز والإنتاجية والرفاهية |
+| 📚 **توثيق** | 200+ مقال | قاعدة معرفية في علم النفس، نظريات ورؤى |
+| 📝 **مدونة** | 200+ مقال | مقالات عن الرفاهية، التطوير الذاتي، علم النفس الإيجابي |
+| 🌍 **لغات** | 32 لغة | دعم كامل للتدويل |
 
-من خلال البحث النفسي الدقيق والتطبيقات العملية، نسعى إلى نقل "الطاقة النفسية"، السعادة والصحة للجميع، وقيادتنا نحو "الحياة الإيجابية".
+## التقنيات المستخدمة
 
-kuakua.app هو منصة مخصصة لعلم النفس الإيجابي.
+| الفئة | التقنية | الإصدار |
+|-------|---------|---------|
+| الإطار | Next.js (App Router) | 16.1.6 |
+| اللغة | TypeScript | 5.9.3 |
+| التنسيق | Tailwind CSS + DaisyUI | 4.2.1 / 5.5.18 |
+| التدويل | next-intl | 4.1.0 |
+| الحالة | Zustand | 5.0.11 |
+| الحركة | Framer Motion | 12.35.2 |
+| قاعدة البيانات | Supabase | - |
+| النشر | Vercel | - |
 
-هنا، نحتفل بالفضائل، ونغذي النمو، وندعم حرية تشكيل المصير الشخصي. من خلال مشاركة الكلمات والقصص المحفزة، ومن خلال التصويت التفاعلي، نهدف إلى إشعال روح لا تقهر داخل كل شخص.
+## الوحدات الرئيسية
 
-انضم إلينا ودع الإيجابية تشع في حياتك.
+### 🎮 ألعاب (`/games`)
 
-## تعرف على المزيد حول علم النفس الإيجابي:
+مجموعة متنوعة من الألعاب التفاعلية للترفيه والاسترخاء والتحفيز المعرفي.
+
+| الفئة | أمثلة |
+|-------|-------|
+| ألغاز | 2048، سودوكو، تركيب الصور، مكعب روبيك |
+| معرفية | الذاكرة، N-Back، ستروب، وقت الاستجابة |
+| استرخاء | الرسم، الموسيقى، التأمل الموجه |
+| كلاسيكيات Google | الثعبان، باكمان، تيك تاك تو، سوليتير |
+
+### 📋 اختبارات نفسية (`/test`)
+
+اختبارات تقييم ذاتي نفسية مبنية على العلم.
+
+| النوع | الوصف |
+|-------|-------|
+| اختبارات معتمدة | أدوات راسخة بدعم تجريبي قوي (PHQ-9، GAD-7، Big Five) |
+| اختبارات معدلة | نسخ معدلة أو مختصرة مستوحاة من أدوات معتمدة |
+| اختبارات استكشافية | أدوات تأمل ذاتي مستوحاة من آليات نفسية |
+
+**ملاحظة**: جميع الاختبارات تتضمن إخلاء مسؤولية مناسب وهي مخصصة لأغراض تعليمية وتأمل ذاتي، وليس للتشخيص السريري.
+
+### 🧪 تجارب معرفية (`/experiment`)
+
+تطبيقات تفاعلية للنماذج المعرفية الكلاسيكية والمهام التجريبية.
+
+| النموذج | الوصف |
+|---------|-------|
+| ستروب | اختبار تداخل اللون-الكلمة |
+| N-Back | مهمة الذاكرة العاملة |
+| IGT | مهمة المقامرة في أيوا |
+| Flanker | اختبار الانتباه الانتقائي |
+| Go/No-Go | اختبار التحكم التثبيطي |
+
+### 🔧 أدوات (`/tools`)
+
+أدوات عملية للرفاهية اليومية والإنتاجية.
+
+- **Focus Flow** - تقنية بومودورو مع التتبع
+- **لوحة النتائج** - تسجيل النتائج
+- **عداد الكلمات** - أداة كتابة
+- **مؤقت** - إدارة الوقت
+
+### 📚 محتوى (`/docs`، `/blog`، `/explore`)
+
+قاعدة معرفية شاملة عن علم النفس والرفاهية.
+
+| القسم | المحتوى |
+|-------|---------|
+| التوثيق | نظريات نفسية، مفاهيم، أبحاث |
+| المدونة | مقالات عن الرفاهية، التطوير الذاتي |
+| استكشف | موارد منسقة، مواقع، تطبيقات |
+
+## علم النفس الإيجابي
+
+كواكوا مبني على مبادئ **علم النفس الإيجابي**، وهو مجال علمي مكرس لدراسة ما يجعل الحياة جديرة بالعيش.
+
+### المفاهيم الرئيسية
+
+| المفهوم | الوصف |
+|---------|-------|
+| **اليوديمونيا** | الازدهار البشري، تحقيق الإمكانات |
+| **الرفاهية الذاتية** | الرضا عن الحياة، المشاعر الإيجابية |
+| **نقاط القوة الشخصية** | سمات إيجابية مثل الامتنان، الأمل، المرونة |
+| **التدفق** | حالة المشاركة المثلى في الأنشطة |
+| **المرونة** | القدرة على التكيف في مواجهة النكسات |
+
+### الفوائد
+
+- 🌟 **تحسين الرفاهية** - التركيز على الأداء الأمثل
+- 💪 **تطوير نقاط القوة** - تنمية السمات الإيجابية
+- 🤝 **علاقات إيجابية** - بناء روابط ذات معنى
+- 🎯 **الهدف والمعنى** - البحث عن أهداف قيمة
+- 🧘 **اليقظة** - الوعي والانتباه
+
+## محتوى مميز
+
+### اختبارات شائعة
+
+| الاختبار | الوصف |
+|----------|-------|
+| PHQ-9 | استبيان صحة المريض (الاكتئاب) |
+| GAD-7 | مقياس القلق المعمم |
+| Big Five | نموذج العوامل الخمسة للشخصية |
+| VIA | مخزون نقاط القوة الشخصية |
+| PANAS | مقياس العاطفة الإيجابية والسلبية |
+
+### ألعاب مميزة
+
+| اللعبة | النوع |
+|--------|-------|
+| 2048 | لغز أرقام |
+| Memory Match | ذاكرة |
+| Stroop Test | معرفي |
+| Reaction Time | انتباه |
+| N-Back | ذاكرة عاملة |
+
+## روابط سريعة
+
+| المورد | الرابط |
+|--------|--------|
+| 🏠 الرئيسية | [kuakua.app](https://kuakua.app) |
+| 🎮 ألعاب | [kuakua.app/games](https://kuakua.app/games) |
+| 📋 اختبارات | [kuakua.app/test](https://kuakua.app/test) |
+| 🧪 تجارب | [kuakua.app/experiment](https://kuakua.app/experiment) |
+| 🔧 أدوات | [kuakua.app/tools](https://kuakua.app/tools) |
+| 📚 توثيق | [kuakua.app/docs](https://kuakua.app/docs) |
+| 📝 مدونة | [kuakua.app/blog](https://kuakua.app/blog) |
+| 🌍 استكشف | [kuakua.app/explore](https://kuakua.app/explore) |
+
+## مهمتنا
+
+تهدف كواكوا إلى بناء **أدوات ومحتوى مبنية على علم النفس، مسؤولة أخلاقياً، ومتاحة عالمياً** تساعد الناس على فهم أنفسهم بشكل أفضل وتحسين رفاهيتهم.
+
+نؤمن بـ:
+- ✅ الصحة النفسية ومنع الضرر
+- ✅ الوضوح المفاهيمي والهيكلي
+- ✅ فهم المستخدم وإمكانية الوصول
+- ✅ المتانة التقنية وسهولة الصيانة
+- ✅ التدويل والحساسية الثقافية
+
+---
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## بیشتر درباره روان‌شناسی مثبت بدانید:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## تاريخ علم النفس الإيجابي
-
-علم النفس الإيجابي، وهو مجال ناشئ، مكرس لتحسين الصحة العقلية والسعادة. هدفه هو مساعدة الأفراد على اكتشاف واستغلال نقاط قوتهم، وبالتالي تحقيق مستويات أعلى من الرضا والسعادة في الحياة.
-
-بدأ تطوير علم النفس الإيجابي في أواخر القرن العشرين وتم تقديمه رسميًا في عام 1997. اكتسب هذا المجال اعترافًا من خلال نشر "علم النفس الإيجابي: مقدمة" من قبل مارتن سيليجمان وميهالي سيكزينتميهالي في يناير 2000.
-
-يشكل علم النفس الإيجابي، الذي تم الترويج له من قبل عالم النفس مارتن سيليجمان وزملائه، تحولا ثوريًا في مجال علم النفس ويشكل علامة فارقة جديدة في تاريخ المجتمع البشري. يجمع بين حكمة الثقافات الشرقية والغربية والبحث النفسي.
-
-يجادل سيليجمان وزملاؤه بأن علم النفس يجب أن يتجاوز دراسة الأمراض العقلية والمشاكل لاستكشاف طرق لتحسين الصحة العقلية والسعادة. يستخدم علم النفس الإيجابي الأساليب العلمية لدراسة السعادة ويعزز التوجه الإيجابي في هذا المجال، مع التركيز على تنمية السمات النفسية الإيجابية، والرفاهية، والتنمية المتناغمة.
-
-المحور المركزي لعلم النفس الإيجابي هو مفهوم "اليوضيمونيا"، وهو مصطلح من الفلسفة الأرسطية يشير إلى الخير البشري الأعلى، وغالبًا ما يُترجم إلى "الازدهار" أو "الحياة الجيدة". يستخدم علماء النفس الإيجابي غالبًا مصطلحات الرفاهية الذاتية (SWB) والسعادة بشكل متبادل.
-
-يركز هذا المجال على تحسين رفاهية الفرد والمجتمع على حد سواء، ودراسة "التجارب الذاتية الإيجابية، والسمات الفردية الإيجابية، والمؤسسات الإيجابية ... التي تهدف إلى تحسين جودة الحياة".
-
-يعتقدون أن هناك عوامل مختلفة تساهم في السعادة والرفاهية الذاتية، مثل الروابط الاجتماعية مع الزوج/الزوجة، الأسرة، الأصدقاء، الزملاء والشبكات الأوسع؛ العضوية في الأندية أو المنظمات الاجتماعية؛ التمارين البدنية وممارسات التأمل.
-
-تُعتبر الروحانية أيضًا عاملًا يمكن أن يعزز الرفاهية. يستمر الباحثون في دراسة الممارسات الروحية والتدين كمصادر محتملة للرفاهية وجزء أساسي من علم النفس الإيجابي.
-
-في حين يمكن أن يزيد الدخل المالي من السعادة إلى حد معين، فإنه يتجاوز عتبة محددة، قد يتراجع تأثيره أو حتى ينخفض. يركز علم النفس الإيجابي على تنمية الصفات الإيجابية للفرد، والقدرة على النمو، وحرية تشكيل مصيره.
-
-## ماذا يفعل علم النفس الإيجابي لي؟
-
-تحسين الرفاهية والأداء الأمثل يركز علم النفس الإيجابي على تحسين رفاهية الأفراد وأدائهم الأمثل بدلاً من مجرد تخفيف الأعراض، مما يكمل بدلاً من استبدال علم النفس التقليدي. تشمل المواضيع الشائعة في علم النفس الإيجابي الاستمتاع بالحياة، الامتنان، اللطف، تعزيز العلاقات الإيجابية، والسعي للأمل والمعنى.
-
-التركيز على الرفاهية تظهر الأبحاث أن الرفاهية والمرض النفسي مرتبطان بشكل معتدل ولكن هما بنيتان مستقلتان للصحة العقلية. حتى بعد علاج ناجح للأمراض النفسية، قد تستمر مستويات منخفضة من الرفاهية، مما يشكل عامل خطر كبير للضيق النفسي.
-
-تخفيف الأعراض النفسية يمكن أن تعمل المستويات العالية من الرفاهية كحاجز ضد الأعراض النفسية، بما في ذلك الانتكاس أو عودة الأعراض، وتحسين جودة الحياة وطول العمر. لذلك، يمكن للعينات السريرية الاستفادة بشكل كبير من التدخلات النفسية الإيجابية (PPIs) التي تهدف بشكل واضح إلى تحسين الرفاهية، مثل المشاعر الإيجابية، الإدراكات، أو السلوكيات.
-
-الدور المساعد في حين أن علم النفس الإيجابي ليس له تأثير كبير في تخفيف التوتر المرتبط بالسعادة، الاكتئاب، أو القلق، فإن قدرته على تخفيف الضيق النفسي بشكل غير مباشر من خلال تحسين الرفاهية معترف بها على نطاق واسع.
-
-الفوائد الرئيسية لعلم النفس الإيجابي الاستمتاع بالحياة: الاستمتاع وتقدير التجارب الإيجابية. الامتنان: التعرف على الأشياء الجيدة في الحياة والشكر لها. اللطف: ممارسة التعاطف والإيثار تجاه الآخرين. تعزيز العلاقات الإيجابية: بناء وصيانة علاقات صحية وداعمة. السعي للأمل والمعنى: السعي لتحقيق الأهداف والعثور على غاية في الحياة. من خلال التركيز على هذه الجوانب، يساعد علم النفس الإيجابي الأفراد على عيش حياة أكثر إشباعًا ومرونة.
-
-## تعرف على المزيد حول موارد علم النفس:
-
-- [http://kuakua.app/](http://kuakua.app/explore)
-
-## تعرف على المزيد حول الكلمات الإيجابية:
-
-- [http://kuakua.app/](http://kuakua.app/vote)
-
-## تعرف على المزيد حول معارف علم النفس:
-
-- [http://kuakua.app/](http://kuakua.app/docs)
+**انضم إلينا ودع الإيجابية تشع في حياتك.** 🌟

@@ -10,8 +10,8 @@
 [![日本語|ja](https://img.shields.io/badge/lang-ja-orange.svg)](README.ja.md)
 [![Deutsch|de](https://img.shields.io/badge/lang-de-black.svg)](README.de.md)
 [![Tiếng Việt|vi](https://img.shields.io/badge/lang-vi-darkgreen.svg)](README.vi.md)
-[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
-[![فارسی|fa](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
+[![Français|fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/lang-fa-purple.svg)](README.fa.md)
 [![Türkçe|tr](https://img.shields.io/badge/lang-tr-darkred.svg)](README.tr.md)
 [![한국어|ko](https://img.shields.io/badge/lang-ko-cyan.svg)](README.ko.md)
 [![ไทย|th](https://img.shields.io/badge/lang-th-gold.svg)](README.th.md)
@@ -29,69 +29,265 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
 ## Introdução
 
-Saudações, como pesquisador e praticante dedicado da psicologia positiva, acredito firmemente na positividade intrínseca da humanidade e na sua capacidade de crescimento.
+**Kuakua** é uma plataforma abrangente de psicologia e bem-estar construída com tecnologias web modernas. Estamos dedicados a tornar a ciência psicológica acessível, envolvente e benéfica para todos.
 
-Através de pesquisas psicológicas rigorosas e aplicações práticas, nos esforçamos para transmitir "energia psicológica", felicidade e saúde a todos, guiando-nos em direção a uma "vida positiva".
+Como uma plataforma focada em psicologia positiva, acreditamos na capacidade intrínseca de crescimento e bem-estar da humanidade. Através de ferramentas baseadas em evidências, experiências interativas e conteúdo curado, ajudamos indivíduos a compreenderem-se melhor e melhorarem a sua saúde mental.
 
-kuakua.app é uma plataforma dedicada à ciência da psicologia positiva.
+### Visão Geral da Plataforma
 
-Aqui, celebramos as virtudes, nutrimos o crescimento e defendemos a liberdade de moldar o próprio destino. Compartilhando palavras e narrativas inspiradoras, e através de votos interativos, buscamos acender um espírito indomável em todos.
+| Módulo | Quantidade | Descrição |
+|--------|-------|-------------|
+| 🎮 **Jogos** | 140+ | Jogos cognitivos, puzzles, jogos de relaxamento e jogos clássicos de navegador |
+| 📋 **Testes** | 150+ | Ferramentas de autoavaliação psicológica e instrumentos validados |
+| 🧪 **Experimentos** | 90+ | Implementações interativas de paradigmas cognitivos clássicos |
+| 🛠️ **Ferramentas** | 30+ | Utilitários práticos para foco, produtividade e bem-estar |
+| 📚 **Documentos** | 200+ | Base de conhecimento de psicologia e documentação de investigação |
+| ✍️ **Blog** | 200+ | Artigos sobre psicologia, bem-estar e crescimento pessoal |
+| 🌍 **Idiomas** | 32 | Suporte completo de internacionalização incluindo idiomas RTL |
 
-Junte-se a nós e deixe que a positividade radie em sua vida.
+### Stack Tecnológico
+
+- **Framework**: Next.js 16.1.6 com App Router
+- **Linguagem**: TypeScript 5.9.3
+- **Estilo**: Tailwind CSS 4.2.1 + DaisyUI 5.5.18
+- **Internacionalização**: next-intl (32 idiomas)
+- **Gestão de Estado**: Zustand 5.0.11
+- **Animação**: Framer Motion 12.35.2
+- **Base de Dados**: Supabase (PostgreSQL)
+- **Implementação**: Vercel
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
 
-## Saiba mais sobre psicologia positiva:
+---
 
-- [http://kuakua.app/](http://kuakua.app/)
+## Módulos Principais
 
-## História da Psicologia Positiva
+### 🎮 Jogos (`/games`)
 
-A psicologia positiva, um campo emergente, é dedicada a melhorar a saúde mental e a felicidade. Seu objetivo é ajudar as pessoas a descobrir e aproveitar suas forças, alcançando assim níveis mais altos de satisfação e alegria na vida.
+Mais de 140 jogos abrangendo múltiplas categorias:
 
-O desenvolvimento da psicologia positiva começou no final do século XX e foi formalmente introduzido em 1997. Este campo ganhou reconhecimento com a publicação de "Positive Psychology: An Introduction" por Martin Seligman e Mihaly Csikszentmihalyi em janeiro de 2000.
+- **Treino Cognitivo**: Testes de tempo de reação, memória, atenção e velocidade de processamento
+- **Puzzles Clássicos**: Sudoku, 2048, Tetris, Xadrez, Solitário
+- **Clássicos Google**: Jogo do dinossauro, Snake, Pac-Man, Campo Minado
+- **Jogos de Relaxamento**: Perfect Tidy, colorir, puzzles
+- **Simulação**: Reinício de vida, Monopoly, Jogo de distribuição de cerveja
 
-Promovida pelo psicólogo Martin Seligman e seus colegas, a psicologia positiva representa uma mudança revolucionária no campo da psicologia e marca um novo marco na história da sociedade humana. Ela faz a ponte entre a sabedoria das culturas orientais e ocidentais e a pesquisa psicológica.
+**Jogos Populares:**
+- [Teste de Tempo de Reação](https://kuakua.app/games/reaction-time) - Meça a sua velocidade de reflexo neural
+- [Teste de Memória do Chimpanzé](https://kuakua.app/games/chimp-test) - Desafie a memória espacial ao nível dos primatas
+- [Jogo de Memória Visual](https://kuakua.app/games/visual-memory) - Teste a capacidade de memória de curto prazo
+- [Teste de Velocidade de Digitação](https://kuakua.app/games/typing-test) - Medição de PPM e precisão
+- [2048](https://kuakua.app/games/2048) - Puzzle numérico clássico
+- [Simulador de Reinício de Vida](https://kuakua.app/games/life-restart) - Simulação de vida com múltiplos finais
 
-Seligman e seus colegas argumentam que a psicologia deve ir além do estudo das doenças mentais e problemas para explorar maneiras de melhorar a saúde mental e a felicidade. A psicologia positiva emprega métodos científicos para estudar a felicidade e promove uma orientação positiva no campo, concentrando-se em cultivar características psicológicas positivas, bem-estar e desenvolvimento harmonioso.
+### 📋 Testes Psicológicos (`/test`)
 
-No centro da psicologia positiva está o conceito de eudaimonia, um termo da filosofia aristotélica que significa o maior bem humano, muitas vezes traduzido como "florescimento" ou "a boa vida". Os psicólogos positivos frequentemente usam os termos bem-estar subjetivo (SWB) e felicidade de forma intercambiável.
+Uma coleção abrangente de mais de 150 ferramentas de autoavaliação psicológica:
 
-O campo prioriza a melhoria do bem-estar individual e societal, estudando "experiências subjetivas positivas, características individuais positivas e instituições positivas... visando melhorar a qualidade de vida".
+**Instrumentos Clínicos Validados:**
+- [PHQ-9](https://kuakua.app/test/phq-9) - Questionário de Saúde do Paciente para depressão
+- [GAD-7](https://kuakua.app/test/gad-7) - Avaliação de Perturbação de Ansiedade Generalizada
+- [DASS-21](https://kuakua.app/test/dass-21) - Escala de Depressão, Ansiedade e Stress
+- [PSQI](https://kuakua.app/test/psqi) - Índice de Qualidade do Sono de Pittsburgh
+- [IES-R](https://kuakua.app/test/ies-r) - Escala de Impacto do Evento (trauma)
 
-Eles acreditam que vários fatores contribuem para a felicidade e o bem-estar subjetivo, como conexões sociais com cônjuges, família, amigos, colegas e redes mais amplas; filiação a clubes ou organizações sociais; exercício físico e práticas de meditação.
+**Avaliações de Personalidade:**
+- [Teste de Personalidade Big Five](https://kuakua.app/test/bigfive-test) - Modelo de cinco fatores
+- [MBTI](https://kuakua.app/test/mbti) - Indicador de Tipo Myers-Briggs
+- [Teste Eneagrama](https://kuakua.app/test/enneagram-test) - Nove tipos de personalidade
+- [HEXACO](https://kuakua.app/test/hexaco) - Modelo de personalidade de seis fatores
+- [Teste DISC](https://kuakua.app/test/disc-test) - Avaliação comportamental
 
-A espiritualidade também é considerada um fator que pode melhorar o bem-estar. Os pesquisadores continuam a estudar práticas espirituais e devoção religiosa como fontes potenciais de bem-estar e partes integrantes da psicologia positiva.
+**Escalas Especializadas:**
+- [Teste das Linguagens do Amor](https://kuakua.app/test/love-language-test) - As cinco linguagens de Chapman
+- [Inventário de Personalidade Narcisista](https://kuakua.app/test/narcissistic-personality-inventory)
+- [Avaliação de Vício em Internet](https://kuakua.app/test/internet-addiction-assessment)
+- [Teste de Carreira RIASEC](https://kuakua.app/test/riasec) - Interesses profissionais de Holland
 
-Embora a renda financeira possa aumentar a felicidade até certo ponto, além de um limite específico, seu efeito pode estabilizar ou até declinar. A psicologia positiva enfatiza o cultivo das qualidades positivas de um indivíduo, a capacidade de crescimento e a liberdade de moldar o próprio destino.
+> ⚠️ **Aviso Legal**: Todos os testes são apenas para fins educativos e de autorreflexão. Não são ferramentas de diagnóstico. Se está a experienciar problemas de saúde mental, por favor consulte um profissional de saúde qualificado.
 
-## O que a psicologia positiva faz por mim?
+### 🧪 Experimentos Cognitivos (`/experiment`)
 
-Melhoria do Bem-Estar e Funcionamento Ótimo A psicologia positiva se concentra na melhoria do bem-estar e do funcionamento ótimo dos indivíduos, em vez de meramente aliviar os sintomas, complementando e não substituindo a psicologia tradicional. Temas comuns na psicologia positiva incluem saborear a vida, gratidão, bondade, promoção de relacionamentos positivos e busca de esperança e sentido.
+Mais de 90 implementações interativas de paradigmas cognitivos clássicos:
 
-Foco no Bem-Estar Pesquisas mostram que o bem-estar e a psicopatologia são moderadamente correlacionados, mas ainda assim são conceitos independentes de saúde mental. Mesmo após o tratamento bem-sucedido da psicopatologia, baixos níveis de bem-estar podem persistir, formando um risco substancial de sofrimento psicológico.
+**Atenção e Função Executiva:**
+- [Teste de Stroop](https://kuakua.app/experiment/stroop-test) - Interferência cognitiva
+- [Tarefa N-Back](https://kuakua.app/experiment/n-back-task) - Treino de memória de trabalho
+- [Teste de Classificação de Cartas de Wisconsin](https://kuakua.app/experiment/wcst-test) - Flexibilidade cognitiva
+- [Tarefa Go/No-Go](https://kuakua.app/experiment/go-no-go-task) - Inibição de resposta
+- [Tarefa Flanker](https://kuakua.app/experiment/flanker-task) - Atenção seletiva
 
-Atenuação dos Sintomas Psicológicos Altos níveis de bem-estar podem atenuar os sintomas psicológicos, incluindo a recaída ou recorrência dos sintomas, e melhorar a qualidade de vida e a longevidade. Portanto, as amostras clínicas podem se beneficiar muito das intervenções psicológicas positivas (PPIs) que visam explicitamente melhorar o bem-estar, como sentimentos, cognições ou comportamentos positivos.
+**Tomada de Decisão:**
+- [Tarefa de Jogo de Iowa](https://kuakua.app/experiment/iowa-gambling-task) - Tomada de decisão baseada em risco
+- [Jogo do Ultimato](https://kuakua.app/experiment/ultimatum-game) - Equidade e negociação
+- [Jogo da Confiança](https://kuakua.app/experiment/trust-game) - Comportamento de confiança social
+- [Desconto por Atraso](https://kuakua.app/experiment/delay-discounting) - Preferências temporais
 
-Papel Auxiliar Embora a psicologia positiva não tenha um efeito significativo no alívio do estresse relacionado à felicidade, depressão ou ansiedade, sua capacidade de aliviar indiretamente o sofrimento psicológico melhorando o bem-estar é amplamente reconhecida.
+**Memória e Aprendizagem:**
+- [Teste de Associação Implícita](https://kuakua.app/experiment/implicit-association-test) - Vieses inconscientes
+- [Efeito de Posição Serial](https://kuakua.app/experiment/serial-position) - Padrões de recuperação de memória
+- [Tarefa de Blocos de Corsi](https://kuakua.app/experiment/corsi-task) - Memória visoespacial
 
-Principais Benefícios da Psicologia Positiva Saborear a Vida: Desfrutar e apreciar as experiências positivas. Gratidão: Reconhecer e ser grato pelas coisas boas da vida. Bondade: Praticar a compaixão e o altruísmo em relação aos outros. Promoção de Relacionamentos Positivos: Construir e manter relacionamentos saudáveis e de apoio. Busca de Esperança e Sentido: Buscar metas e encontrar um propósito na vida. Ao se concentrar nesses aspectos, a psicologia positiva ajuda os indivíduos a levar uma vida mais plena e resiliente.
+**Perceção:**
+- [Tarefa de Busca Visual](https://kuakua.app/experiment/visual-search-task) - Busca de características vs. conjunção
+- [Cegueira à Mudança](https://kuakua.app/experiment/change-blindness) - Limites da atenção visual
+- [Efeito McGurk](https://kuakua.app/experiment/mcgurk-effect) - Integração audiovisual
 
-## Saiba mais sobre a pesquisa em psicologia:
+### 🛠️ Ferramentas (`/tools`)
 
-- [Kuakua | Teorias e Insights de Psicologia](http://kuakua.app/theories-insights)
+Utilitários práticos para o bem-estar diário:
 
-## Saiba mais sobre recursos de psicologia:
+- [Sistema de Fluxo de Foco](https://kuakua.app/tools/focus-flow-system) - Temporizador Pomodoro com atividades de pausa
+- [Marcador](https://kuakua.app/tools/scoreboard) - Rastreador de pontuação de jogos
+- [Contador de Palavras](https://kuakua.app/tools/word-counter) - Ferramenta de análise de texto
+- [Relaxamento](https://kuakua.app/tools/relax) - Sons ambiente e meditação
+- [Separador de Tempo](https://kuakua.app/tools/time-tab) - Relógio mundial e temporizador
+- [Gerador Aleatório](https://kuakua.app/tools/random-generator) - Dados, moedas e seleções aleatórias
 
-- [Kuakua | Descubra Sites de Psicologia, Aplicativos & Ferramentas de IA](http://kuakua.app/explore)
+### 📚 Base de Conhecimento (`/docs`)
 
-## Saiba mais sobre palavras positivas:
+Documentação psicológica abrangente cobrindo:
 
-- [Kuakua | Vote em palavras positivas e linguagem feliz](http://kuakua.app/vote)
+- **Métodos de Investigação**: Design experimental, validade, fiabilidade, estatística
+- **Psicologia Social**: Conformidade, preconceito, atribuição, dinâmica de grupo
+- **Psicologia Cognitiva**: Memória, atenção, perceção, tomada de decisão
+- **Psicologia Positiva**: Bem-estar, resiliência, gratidão, significado
+- **Psicologia Clínica**: Avaliação, abordagens terapêuticas, saúde mental
 
-## Saiba mais sobre conhecimentos de psicologia:
+### ✍️ Blog (`/blog`)
 
-- [Kuakua | Documentação em Psicologia: Tudo sobre Psicologia](http://kuakua.app/docs)
+Artigos explorando a psicologia na vida quotidiana:
+
+- Aplicações de psicologia positiva
+- Perspetivas de ciência cognitiva
+- Perspetivas de psicologia cultural
+- Estratégias práticas de bem-estar
+- Resumos de investigação
+
+### 🌍 Explorar (`/explore`)
+
+Coleção curada de recursos de psicologia:
+
+- Websites e aplicações externas
+- Ferramentas de IA para saúde mental
+- Bases de dados de investigação
+- Recursos profissionais
+
+---
+
+## Psicologia Positiva
+
+### O que é Psicologia Positiva?
+
+A psicologia positiva, formalmente introduzida por Martin Seligman e Mihaly Csikszentmihalyi em 2000, é um campo científico dedicado a compreender e melhorar o florescimento humano. Ao contrário do foco da psicologia tradicional na patologia, a psicologia positiva estuda o que torna a vida digna de ser vivida.
+
+### Conceitos Centrais
+
+- **Eudaimonia**: O bem humano mais elevado—florescimento e vida significativa
+- **Bem-estar Subjetivo (SWB)**: Satisfação com a vida e equilíbrio emocional
+- **Pontos Fortes de Caráter**: Virtudes que permitem aos indivíduos florescer
+- **Flow**: Experiência ótima e envolvimento
+- **Resiliência**: A capacidade de recuperar da adversidade
+
+### Benefícios Principais
+
+A investigação mostra que as intervenções de psicologia positiva podem:
+
+1. **Melhorar o Bem-estar**: Aumentar emoções positivas e satisfação com a vida
+2. **Construir Resiliência**: Desenvolver estratégias de enfrentamento para desafios
+3. **Melhorar Relações**: Fomentar conexões sociais e empatia
+4. **Aumentar o Desempenho**: Melhorar foco, criatividade e produtividade
+5. **Promover a Saúde**: Apoiar resultados de saúde física e mental
+
+### Aplicações Práticas
+
+- **Saborear**: Desfrutar conscientemente de experiências positivas
+- **Gratidão**: Reconhecer e apreciar as bênçãos da vida
+- **Bondade**: Praticar compaixão e altruísmo
+- **Significado**: Perseguir propósito e significado
+- **Crescimento**: Abraçar desafios como oportunidades
+
+---
+
+## Conteúdo em Destaque
+
+### Jogos Populares
+
+| Jogo | Descrição | Link |
+|------|-------------|------|
+| Tempo de Reação | Teste os seus reflexos contra médias globais | [Jogar](https://kuakua.app/games/reaction-time) |
+| Memória do Chimpanzé | Desafio de recuperação espacial | [Jogar](https://kuakua.app/games/chimp-test) |
+| Memória Visual | Avaliação de memória de curto prazo | [Jogar](https://kuakua.app/games/visual-memory) |
+| Memória de Sequência | Recuperação de padrões com dificuldade adaptativa | [Jogar](https://kuakua.app/games/sequence-memory) |
+| Teste de Digitação | Medição de PPM e precisão | [Jogar](https://kuakua.app/games/typing-test) |
+| 2048 | Puzzle de fusão numérica | [Jogar](https://kuakua.app/games/2048) |
+| Sudoku | Puzzle lógico clássico | [Jogar](https://kuakua.app/games/sudoku) |
+| Xadrez | Jogo de tabuleiro estratégico com IA | [Jogar](https://kuakua.app/games/chess) |
+
+### Testes em Destaque
+
+| Teste | Propósito | Link |
+|------|---------|------|
+| Big Five | Traços de personalidade | [Fazer Teste](https://kuakua.app/test/bigfive-test) |
+| PHQ-9 | Rastreio de depressão | [Fazer Teste](https://kuakua.app/test/phq-9) |
+| GAD-7 | Avaliação de ansiedade | [Fazer Teste](https://kuakua.app/test/gad-7) |
+| Linguagens do Amor | Preferências de relacionamento | [Fazer Teste](https://kuakua.app/test/love-language-test) |
+| MBTI | Tipo de personalidade | [Fazer Teste](https://kuakua.app/test/mbti) |
+| Eneagrama | Padrões de personalidade | [Fazer Teste](https://kuakua.app/test/enneagram-test) |
+
+### Experimentos em Destaque
+
+| Experimento | Domínio Cognitivo | Link |
+|------------|-----------------|------|
+| Teste de Stroop | Interferência cognitiva | [Experimentar](https://kuakua.app/experiment/stroop-test) |
+| N-Back | Memória de trabalho | [Experimentar](https://kuakua.app/experiment/n-back-task) |
+| WCST | Flexibilidade cognitiva | [Experimentar](https://kuakua.app/experiment/wcst-test) |
+| IAT | Associações implícitas | [Experimentar](https://kuakua.app/experiment/implicit-association-test) |
+| Torres de Hanói | Planeamento e resolução de problemas | [Experimentar](https://kuakua.app/experiment/hanoi-tower) |
+
+---
+
+## Links Rápidos
+
+- 🏠 **Página Inicial**: [kuakua.app](https://kuakua.app)
+- 🎮 **Jogos**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Testes**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Experimentos**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Ferramentas**: [kuakua.app/tools](https://kuakua.app/tools)
+- 📚 **Documentos**: [kuakua.app/docs](https://kuakua.app/docs)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🌍 **Explorar**: [kuakua.app/explore](https://kuakua.app/explore)
+- 🗳️ **Votar**: [kuakua.app/vote](https://kuakua.app/vote)
+- 🎴 **Cartas Diárias**: [kuakua.app/drawcard](https://kuakua.app/drawcard)
+
+---
+
+## A Nossa Missão
+
+Kuakua visa construir **ferramentas e conteúdo psicologicamente fundamentados, eticamente responsáveis e globalmente acessíveis** que ajudem os indivíduos a compreenderem-se melhor e a melhorar o seu bem-estar.
+
+Acreditamos que:
+- O conhecimento psicológico deve ser acessível a todos
+- As ferramentas de autoavaliação podem promover a autoconsciência e o crescimento
+- As experiências interativas tornam a aprendizagem envolvente
+- As abordagens baseadas em evidências produzem resultados significativos
+- A confiança a longo prazo é mais importante do que as métricas a curto prazo
+
+---
+
+## Apoio
+
+Se considera o Kuakua útil, considere apoiar o nosso trabalho:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
+
+---
+
+*Última atualização: 2026-03-10*
+*Versão: 2.0*

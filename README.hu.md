@@ -1,4 +1,4 @@
-# Vítejte na kuakua.app
+# Kuakua - Pszichológia és Jóllét Platform
 
 [![English|en](https://img.shields.io/badge/lang-en-green.svg)](README.md)
 [![简体中文|zh](https://img.shields.io/badge/lang-zh-red.svg)](README.zh.md)
@@ -29,69 +29,97 @@
 [![Čeština|cs](https://img.shields.io/badge/lang-cs-darkblue.svg)](README.cs.md)
 [![Magyar|hu](https://img.shields.io/badge/lang-hu-red.svg)](README.hu.md)
 [![Română|ro](https://img.shields.io/badge/lang-ro-green.svg)](README.ro.md)
+[![हिन्दी|hi](https://img.shields.io/badge/lang-hi-orange.svg)](README.hi.md)
+[![Bahasa Indonesia|id](https://img.shields.io/badge/lang-id-red.svg)](README.id.md)
+[![繁體中文|zh-TW](https://img.shields.io/badge/lang-zh--TW-blue.svg)](README.zh-TW.md)
 
-## Úvod
+## Platform Áttekintése
 
-Zdravím vás, jako oddaný výzkumník a praktik pozitivní psychologie pevně věřím v přirozenou pozitivitu lidstva a schopnost růstu.
+| Modul | Tartalom | Leírás |
+|--------|-----------|-------------|
+| 🎮 **Játékok** | 140+ játék | Puzzle, kognitív kihívások, relaxációs játékok és klasszikusok |
+| 📋 **Tesztek** | 150+ teszt | Validált pszichológiai skálák és önértékelő eszközök |
+| 🧪 **Kísérletek** | 90+ kísérlet | Klasszikus kognitív paradigmák és kísérleti feladatok |
+| 🛠️ **Eszközök** | 30+ eszköz | Fókuszáramlás, ponttábla, szószámláló és egyebek |
+| 📚 **Dokumentáció** | 200+ cikk | Tudásbázis pszichológiai elméletekhez és kutatáshoz |
+| ✍️ **Blog** | 200+ bejegyzés | Cikkek a mentális egészségről és személyes fejlődésről |
 
-Prostřednictvím rigorózního psychologického výzkumu a praktických aplikací se snažíme předat všem 'psychologickou energii', štěstí a zdraví, čímž nás vedeme k 'pozitivnímu životu.'
+## Technológiai Stack
 
-kuakua.app je platforma věnovaná vědě o pozitivní psychologii.
+| Technológia | Verzió | Cél |
+|-----------|---------|---------|
+| **Next.js** | 16.1.6 | React keretrendszer (App Router) |
+| **TypeScript** | 5.9.3 | Type-safe JavaScript |
+| **Tailwind CSS** | 4.2.1 | Utility-first stílus |
+| **DaisyUI** | 5.5.18 | Komponens könyvtár |
+| **next-intl** | 4.1.0 | Nemzetköziesítés (32 nyelv) |
+| **Zustand** | 5.0.11 | Áapotkezelés |
+| **Framer Motion** | 12.35.2 | Animációs könyvtár |
+| **Supabase** | - | Adatbázis (PostgreSQL) |
+| **Vercel** | - | Telepítési platform |
 
-Zde oslavujeme ctnosti, podporujeme růst a zastáváme svobodu formovat svůj osud. Sdílením povzbudivých slov a příběhů a prostřednictvím interaktivního hlasování se snažíme rozsvítit nezlomného ducha v každém.
+## Fő Modulok
 
-Připojte se k nám a nechte pozitivitu zářit ve vašem životě.
+### 🎮 Játékok
+Több mint 140 interaktív játék gyűjteménye, beleértve:
+- **Puzzle játékok**: Snake, 2048, Tetris, Minesweeper
+- **Kognitív kihívások**: Stroop teszt, memóriajátékok, N-back
+- **Relaxációs játékok**: Relaxációs és mindfulness játékok
+- **Klasszikus játékok**: Pacman, Space Invaders, Breakout
+
+### 📋 Pszichológiai Tesztek
+Több mint 150 pszichológiai önértékelő eszköz:
+- **Validált skálák**: PHQ-9, GAD-7, Big Five, PSS
+- **Személyiségértékelés**: MBTI, Enneagram, VIA Strengths
+- **Jóllét mérése**: SWLS, FFMQ, RSES
+- **Specializált értékelések**: PTSD, szorongás, depresszió szűrés
+
+### 🧪 Kognitív Kísérletek
+Több mint 90 interaktív kísérleti feladat:
+- **Figyelem**: Stroop hatás, Flanker feladat
+- **Memória**: N-back, számterjedelem, vizuális memória
+- **Döntéshozatal**: Iowa Gambling Task, kockázatértékelés
+- **Reakció**: Go/No-Go, választási reakcióidő
+
+### 🛠️ Eszközök
+Több mint 30 gyakorlati eszköz:
+- **Produktivitás**: Fókuszáramlás, Pomodoro időzítő
+- **Elemzés**: Ponttábla, előrehaladás követése
+- **Írás**: Szószámláló, naplósablonok
+- **Relaxáció**: Légzőgyakorlatok, meditáció időzítő
+
+## Pozitív Pszichológia
+
+A pozitív pszichológia egy tudományos terület, amely a mentális egészség és a boldogság javításának szentelt. Martin Seligman és Mihaly Csikszentmihalyi által alapított, az emberi erősségekre, erényekre és optimális működésre összpontosít.
+
+### Kulcsfogalmak
+- **Eudaimonia**: Virágzás és önkiteljesítés
+- **PERMA modell**: Pozitív érzelmek, elkötelezettség, kapcsolatok, értelem, teljesítmények
+- **Szubjektív jóllét**: Életpszichológia és öröm
+- **Karaktererősségek**: 24 erősség a VIA osztályozásban
+
+## Kiemelt Tartalom
+
+| Kategória | Tartalom | Leírás |
+|--------|-----------|-------------|
+| 📖 **Elméletek** | 50+ elmélet | Pszichológiai elméletek és kutatás |
+| 🔬 **Kutatás** | 100+ tanulmány | Jelenlegi pszichológiai kutatás |
+| 🌟 **Gyakorlat** | 80+ gyakorlat | Gyakorlati jólléti gyakorlatok |
+| 💡 **Betekintés** | 120+ cikk | Betekintés a személyes fejlődésbe |
+
+## Gyors Linkek
+
+- 🌐 **Weboldal**: [kuakua.app](https://kuakua.app)
+- 📚 **Dokumentáció**: [kuakua.app/docs](https://kuakua.app/docs)
+- 🎮 **Játékok**: [kuakua.app/games](https://kuakua.app/games)
+- 📋 **Tesztek**: [kuakua.app/test](https://kuakua.app/test)
+- 🧪 **Kísérletek**: [kuakua.app/experiment](https://kuakua.app/experiment)
+- 🛠️ **Eszközök**: [kuakua.app/tools](https://kuakua.app/tools)
+- ✍️ **Blog**: [kuakua.app/blog](https://kuakua.app/blog)
+- 🔍 **Felfedezés**: [kuakua.app/explore](https://kuakua.app/explore)
+
+## Küldetésünk
+
+A Kuakua elkötelezett pszichológiailag megalapozott, etikailag felelős és globálisan hozzáférhető eszközök és tartalom létrehozása mellett, amelyek segítenek az egyéneknek jobban megérteni önmagukat és jóllétüket.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X8XB8D5)
-
-## Více o pozitivní psychologii:
-
-- [http://kuakua.app/](http://kuakua.app/)
-
-## Historie pozitivní psychologie
-
-Pozitivní psychologie, vznikající pole, je věnována zlepšení duševního zdraví a štěstí. Jejím cílem je pomoci jednotlivcům objevit a využít své síly, čímž dosáhnou vyšších úrovní životní spokojenosti a radosti.
-
-Vývoj pozitivní psychologie začal na konci 20. století a oficiálně byl představen v roce 1997. Toto pole získalo uznání díky publikaci "Positive Psychology: An Introduction" od Martina Seligmana a Mihaly Csikszentmihalyiho v lednu 2000.
-
-Podporována psychologem Martinem Seligmanem a jeho kolegy, pozitivní psychologie představuje revoluční změnu v oboru psychologie a znamená nový milník v historii lidské společnosti. Spojuje moudrost východních a západních kultur a psychologického výzkumu.
-
-Seligman a jeho kolegové tvrdí, že psychologie by měla jít nad rámec studia duševních nemocí a problémů, aby zkoumala způsoby zlepšení duševního zdraví a štěstí. Pozitivní psychologie používá vědecké metody k studiu štěstí a podporuje pozitivní orientaci v oboru, zaměřuje se na kultivaci pozitivních psychologických vlastností, blahobytu a harmonického rozvoje.
-
-Ústředním pojmem pozitivní psychologie je eudaimonia, termín z aristotelské filozofie, který znamená nejvyšší lidské dobro, často překládán jako "rozkvět" nebo "dobrý život." Pozitivní psychologové často používají termíny subjektivní blahobyt (SWB) a štěstí zaměnitelně.
-
-Toto pole dává přednost zlepšení blahobytu jak jednotlivců, tak společnosti, zkoumá "pozitivní subjektivní zážitky, pozitivní individuální vlastnosti a pozitivní instituce... s cílem zlepšit kvalitu života."
-
-Věří, že různé faktory přispívají ke štěstí a subjektivnímu blahobytu, jako jsou sociální vazby s manžely, rodinou, přáteli, kolegy a širšími sítěmi; členství v klubech nebo sociálních organizacích; fyzické cvičení a meditace.
-
-Spiritualita je také považována za faktor, který může zvýšit blahobyt. Výzkumníci pokračují ve studiu duchovních praktik a náboženské oddanosti jako potenciálních zdrojů blahobytu a neodmyslitelných částí pozitivní psychologie.
-
-Zatímco finanční příjem může do určité míry zvýšit štěstí, po určitém prahu může jeho účinek stagnovat nebo dokonce klesat. Pozitivní psychologie zdůrazňuje kultivaci pozitivních vlastností jednotlivce, schopnost růstu a svobodu formovat svůj osud.
-
-## Co pro mě dělá pozitivní psychologie?
-
-Zlepšení blahobytu a optimální funkce Pozitivní psychologie se zaměřuje na zlepšení blahobytu a optimální funkce jednotlivců, namísto pouhého zmírnění symptomů, doplňuje spíše než nahrazuje tradiční psychologii. Mezi běžná témata pozitivní psychologie patří vychutnávání života, vděčnost, laskavost, podpora pozitivních vztahů a sledování naděje a smyslu.
-
-Zaměření na blahobyt Výzkum ukazuje, že blahobyt a psychopatologie jsou mírně korelovány, ale nezávislé konstrukty duševního zdraví. I po úspěšné léčbě psychopatologie mohou přetrvávat nízké úrovně blahobytu, což představuje významný rizikový faktor pro psychickou nepohodu.
-
-Zmírnění psychických symptomů Vysoké úrovně blahobytu mohou chránit před psychickými symptomy, včetně relapsu nebo opakování symptomů, a zlepšit kvalitu života a dlouhověkost. Proto mohou klinické vzorky značně těžit z pozitivních psychologických intervencí (PPI), které výslovně usilují o zlepšení blahobytu, jako jsou pozitivní pocity, myšlenky nebo chování.
-
-Podpůrná role I když pozitivní psychologie nemá významný vliv na zmírnění stresu spojeného se štěstím, depresí nebo úzkostí, její schopnost zmírnit psychickou zátěž prostřednictvím zlepšení blahobytu je široce uznávána.
-
-Klíčové výhody pozitivní psychologie Vychutnávání života: Užívání a ocenění pozitivních zkušeností. Vděčnost: Uznání a vděčnost za dobré věci v životě. Laskavost: Praktikování soucitu a altruismu vůči ostatním. Podpora pozitivních vztahů: Budování a udržování zdravých a podpůrných vztahů. Sledování naděje a smyslu: Sledování cílů a hledání smyslu v životě. Zaměřením na tyto aspekty pomáhá pozitivní psychologie jednotlivcům vést plnější a odolnější životy.
-
-## Více o psychologickém výzkumu:
-
-- [Kuakua | Teorie a přehledy psychologie](http://kuakua.app/theories-insights)
-
-## Více o psychologických zdrojích:
-
-- [Kuakua | Objevte webové stránky, aplikace a nástroje AI pro psychologii](http://kuakua.app/explore)
-
-## Více o pozitivních slovech:
-
-- [Kuakua | Hlasujte pro pozitivní slova a šťastný jazyk](http://kuakua.app/vote)
-
-## Více o psychologických znalostech:
-
-- [Kuakua | Psychologická dokumentace: Vše o psychologii](http://kuakua.app/docs)
